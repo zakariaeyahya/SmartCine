@@ -1,0 +1,106 @@
+.recommendations-section {
+  background: var(--secondary);
+  border-radius: 16px;
+  padding: 1.5rem;
+  position: sticky;
+  top: 2rem;
+  max-height: calc(100vh - 4rem);
+  overflow-y: auto;
+}
+
+.recommendations-section::-webkit-scrollbar {
+  width: 6px;
+}
+
+.recommendations-section::-webkit-scrollbar-track {
+  background: var(--primary);
+  border-radius: 3px;
+}
+
+.recommendations-section::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  border-radius: 3px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: var(--text-muted);
+}
+
+.empty-icon,
+.no-reco-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.selected-film-info {
+  background: var(--primary);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--accent);
+}
+
+.selected-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.selected-label {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+}
+
+.selected-title {
+  color: var(--accent);
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+
+.selected-header .clear-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0.25rem;
+  transition: color 0.3s;
+}
+
+.selected-header .clear-btn:hover {
+  color: var(--accent);
+}
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reco-count {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.no-recommendations {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 1024px) {
+  .recommendations-section {
+    position: static;
+    max-height: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .recommendations-section {
+    padding: 1rem;
+  }
+}
