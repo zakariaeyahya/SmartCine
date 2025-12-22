@@ -1,0 +1,559 @@
+﻿concept de base
+🧠 Cours introductif – Web sémantique & Système de recommandation
+1️⃣ Pourquoi le Web sémantique pour la recommandation ?
+Problème classique
+Les bases de données classiques :
+* stockent des données
+* mais ne comprennent pas leur sens
+Exemple :
+Film = Inception
+Acteur = Leonardo DiCaprio
+
+
+➡ Une base SQL ne sait pas que deux films sont liés par un acteur commun sans logique explicite.
+Solution : Web sémantique
+Le Web sémantique permet de :
+* représenter les données avec du sens
+* exprimer des relations explicites
+* interroger les connaissances intelligemment
+👉 C’est exactement ce dont on a besoin pour un système de recommandation.
+________________
+
+
+2️⃣ Concepts fondamentaux à connaître
+🔹 2.1 RDF – Resource Description Framework
+RDF est le format de base du Web sémantique.
+Il représente les données sous forme de triplets :
+Sujet — Prédicat — Objet
+
+
+Exemple :
+Inception — hasActor — LeonardoDiCaprio
+
+
+👉 Tout dans le projet sera stocké sous cette forme.
+________________
+
+
+🔹 2.2 URI – Identifiants uniques
+Chaque élément est identifié par une URI (adresse unique).
+Exemple :
+http://example.org/film#Inception
+
+
+Pourquoi ?
+* éviter les ambiguïtés
+* permettre le partage et l’interopérabilité
+________________
+
+
+🔹 2.3 Namespace
+Pour simplifier les URI, on utilise des namespaces.
+Exemple :
+ns = Namespace("http://example.org/film#")
+
+
+Ensuite :
+ns:Inception
+ns:hasActor
+
+
+👉 Utilisé partout : RDF, SPARQL, Protégé.
+________________
+
+
+3️⃣ OWL – Ontologies
+🔹 3.1 Qu’est-ce qu’une ontologie ?
+Une ontologie est :
+une description formelle des concepts d’un domaine et de leurs relations
+Dans notre projet :
+* concepts : Film, Acteur, Genre
+* relations : hasActor, hasGenre, directedBy
+________________
+
+
+🔹 3.2 Éléments d’une ontologie OWL
+Élément
+	Rôle
+	Exemple
+	Classe
+	Concept
+	Film
+	Individu
+	Instance réelle
+	Inception
+	Propriété objet
+	Lien entre individus
+	hasActor
+	Propriété de données
+	Valeur littérale
+	releaseYear
+	________________
+
+
+4️⃣ Protégé – Éditeur d’ontologies
+🔧 Qu’est-ce que Protégé ?
+Protégé est :
+* un éditeur graphique d’ontologies OWL
+* utilisé pour créer :
+   * classes
+   * propriétés
+   * individus
+👉 Il sert à concevoir l’ontologie, pas à faire l’interface web.
+________________
+
+
+🔹 Rôle de Protégé dans le projet
+Protégé permet de :
+* modéliser le domaine cinéma
+* visualiser les relations
+* exporter l’ontologie en .owl ou .ttl
+📦 Output :
+films.owl / films.ttl
+
+
+________________
+
+
+5️⃣ Knowledge Graph
+🔹 Définition
+Un Knowledge Graph est :
+* un ensemble de données RDF
+* structuré par une ontologie
+* stocké dans un triplestore
+👉 Notre ontologie + individus = Knowledge Graph.
+________________
+
+
+6️⃣ Apache Jena Fuseki
+🔧 Qu’est-ce que Fuseki ?
+Apache Jena Fuseki est :
+* un serveur SPARQL
+* un triplestore RDF
+Il permet :
+* de stocker l’ontologie
+* d’exécuter des requêtes SPARQL
+* d’être interrogé via le web
+________________
+
+
+🔹 Rôle dans le projet
+Fuseki est :
+* la base de données sémantique
+* le cœur du système de recommandation
+URL typique :
+http://localhost:3030/films
+
+
+________________
+
+
+7️⃣ SPARQL – Langage de requêtes
+🔹 À quoi sert SPARQL ?
+SPARQL est au Web sémantique ce que :
+* SQL est aux bases relationnelles
+Il permet de :
+* rechercher des films
+* trouver des relations
+* générer des recommandations
+________________
+
+
+🔹 Types de requêtes utiles
+Type
+	Rôle
+	SELECT
+	Interroger
+	INSERT DATA
+	Ajouter des données
+	CONSTRUCT
+	Générer de nouvelles relations
+	Exemple :
+SELECT ?film WHERE {
+  ?film :hasGenre :ScienceFiction .
+}
+
+
+________________
+
+
+8️⃣ Logique de recommandation sémantique
+Principe
+On ne code pas la recommandation avec des if, mais avec :
+* des requêtes SPARQL
+* des relations sémantiques
+Exemples de critères :
+* même acteur
+* même genre
+* même réalisateur
+👉 SPARQL = moteur de recommandation.
+________________
+
+
+9️⃣ Interface Web
+🔹 Rôle
+L’interface web :
+* permet à l’utilisateur de sélectionner un film
+* envoie une requête SPARQL à Fuseki
+* affiche les recommandations
+________________
+
+
+🔧 Technologies utilisées
+Couche
+	Outils
+	Frontend
+	HTML, CSS, JavaScript
+	Backend (optionnel)
+	Flask / Spring
+	Données
+	Fuseki (SPARQL endpoint)
+	________________
+
+
+🔟 Vue globale du projet (à montrer en cours)
+CSV
+ ↓
+Ontologie (Protégé)
+ ↓
+Knowledge Graph (OWL/TTL)
+ ↓
+Fuseki (SPARQL)
+ ↓
+Requêtes de recommandation
+ ↓
+Interface Web
+
+
+
+
+etap1
+Projet : Système sémantique de recommandation de films🟢  salah 
+Étape 1 : Préparation, nettoyage et exploration des données
+🎯 Objectif
+Créer une base de données propre, cohérente et compréhensible, qui servira de référence métier pour toute la suite du projet.
+________________
+
+
+🔧 Ce qu’on fait concrètement
+1. Choisir un dataset de films
+(TMDB, Netflix, Kaggle ou données simplifiées)
+2. Identifier les informations utiles au domaine cinéma :
+   * Film
+   * Acteurs
+   * Réalisateur
+   * Genre
+   * Année
+   * Durée
+   3. Nettoyer et explorer les données :
+   * Uniformiser les noms (acteurs, genres)
+   * Séparer les listes d’acteurs
+   * Supprimer les valeurs inutiles ou manquantes
+   * Vérifier la cohérence des données
+________________
+
+
+📄 Exemple de résultat
+Film,Acteurs,Réalisateur,Genre,Année,Durée
+Inception,"Leonardo DiCaprio; Joseph Gordon-Levitt",Christopher Nolan,Science-Fiction,2010,148
+Titanic,"Leonardo DiCaprio; Kate Winslet",James Cameron,Romance,1997,195
+
+
+________________
+
+
+🛠 Outils
+   * Excel / Google Sheets
+   * Python (pandas) pour nettoyage automatique
+________________
+
+
+📦 Output
+➡️ films_clean.csv
+________________
+
+
+🔗 Dépendances
+🚫 Ne dépend de rien
+✅ Sert de base conceptuelle pour l’ontologie
+etap2
+🟢 Étape 2 : Modélisation ET peuplement de l’ontologie imane/aya
+👉 C’est ici qu’on combine conception + ajout des individus, comme tu l’as demandé.
+________________
+
+
+🎯 Objectif
+Créer une ontologie complète, contenant :
+   * la structure conceptuelle
+   * les films réels et leurs relations
+________________
+
+
+🔧 Ce qu’on fait concrètement (dans Protégé)
+1️⃣ Modélisation (conception)
+   * Création des classes :
+   * Film
+   * Acteur
+   * Réalisateur
+   * Genre
+   * Création des propriétés :
+   * hasActor
+   * directedBy
+   * hasGenre
+   * releaseYear
+   * duration
+________________
+
+
+2️⃣ Peuplement (ajout des individus)
+   * Création des films, acteurs, réalisateurs et genres
+   * Ajout des relations entre eux
+Exemple :
+Film_Inception
+  hasActor → LeonardoDiCaprio
+  directedBy → ChristopherNolan
+  hasGenre → ScienceFiction
+  releaseYear → 2010
+  duration → 148
+
+
+________________
+
+
+🔧 Méthodes possibles pour le peuplement
+   * Manuel dans Protégé (petit dataset)
+   * Automatisé via script (CSV → RDF)
+   * SPARQL Update (manuel ou automatique)
+👉 Le choix est justifié dans le rapport
+________________
+
+
+🛠 Outils
+   * Protégé
+   * (Optionnel) Python + RDFLib / Java + RDF4J
+________________
+
+
+📦 Output
+➡️ Ontologie complète et peuplée
+➡️ Export en films.owl ou films.ttl
+________________
+
+
+🔗 Dépendances
+⬅️ S’appuie sur films_clean.csv (Étape 1)
+➡️ Indispensable pour Fuseki et SPARQL
+
+
+etap3
+🟢 Étape 3 : Déploiement du Knowledge Graph & logique de recommandation nora
+👉 Ici, on met l’ontologie en production et on implémente l’intelligence du système.
+________________
+
+
+🎯 Objectif
+   * Rendre le Knowledge Graph accessible via SPARQL
+   * Implémenter la logique de recommandation
+________________
+
+
+🔧 Ce qu’on fait concrètement
+1️⃣ Déploiement du Knowledge Graph
+   * Lancer Apache Jena Fuseki
+   * Créer un dataset (ex. films)
+   * Importer films.owl / films.ttl
+   * Vérifier avec des requêtes simples
+________________
+
+
+2️⃣ Logique de recommandation
+   * Définir les critères :
+   * même acteur
+   * même genre
+   * même réalisateur
+   * Écrire les requêtes SPARQL correspondantes
+Exemple :
+SELECT ?film WHERE {
+  :Film_Inception :hasActor ?actor .
+  ?film :hasActor ?actor .
+  FILTER(?film != :Film_Inception)
+}
+
+
+👉 SPARQL joue le rôle du moteur de recommandation
+________________
+
+
+🛠 Outils
+   * Apache Jena Fuseki
+   * SPARQL
+________________
+
+
+📦 Output
+➡️ Endpoint SPARQL actif
+➡️ Requêtes de recommandation fonctionnelles
+________________
+
+
+🔗 Dépendances
+🟢 Étape 3 : Déploiement du Knowledge Graph & logique de recommandation⬅️ Ontologie peuplée (Étape 2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Peuplement de l’ontologie (ajout des individus)
+🎯 Objectif
+Ajouter les films réels, acteurs, genres et relations.
+🔧 Méthodes possibles (choix justifié dans le rapport)
+✅ Option 1 – Manuel (Protégé)
+   * Créer Film_Inception, LeonardoDiCaprio, etc.
+   * Relier via hasActor, directedBy, hasGenre
+   * Ajouter releaseYear, duration
+👉 Adapté aux petits datasets (5–10 films)
+________________
+
+
+✅ Option 2 – Automatisé (script)
+   * Lire films_clean.csv
+   * Générer les individus et relations en RDF
+   * Exporter un OWL/TTL peuplé
+🛠 Outils possibles :
+   * Python + RDFLib
+   * Java + RDF4J
+________________
+
+
+✅ Option 3 – SPARQL Update (professionnelle)
+   * Charger l’ontologie dans Fuseki
+   * Ajouter les individus avec INSERT DATA
+INSERT DATA {
+  :Film_Inception a :Film ;
+    :hasActor :LeonardoDiCaprio ;
+    :directedBy :ChristopherNolan ;
+    :hasGenre :ScienceFiction ;
+    :releaseYear 2010 ;
+    :duration 148 .
+}
+
+
+✅ Option 4 — SPARQL Update AUTOMATIQUE (recommandé si CSV)
+👉 Tu écris un script (Python ou Java) qui :
+   * lit le CSV
+
+   * génère automatiquement des requêtes INSERT
+
+   * les envoie à Fuseki
+
+Schéma :
+CSV → Script → SPARQL INSERT → Fuseki
+
+
+Exemple logique (pseudo-code) :
+for film in csv:
+    generate INSERT DATA {...}
+    send to Fuseki
+
+
+✔️ Automatique
+✔️ Propre
+✔️ Professionnel
+❌ Un peu plus technique
+
+
+
+
+📦 Output
+➡️ Ontologie peuplée, prête à être interrogée
+🔗 Dépendance
+⬅️ Ontologie exportée (Étape 3)
+➡️ Indispensable pour SPARQL et recommandations
+
+
+etap4
+________________
+
+
+🟢 Étape 4 : Interface Web zakaria
+________________
+
+
+🎯 Objectif
+Permettre à un utilisateur final d’utiliser le système de recommandation.
+________________
+
+
+🔧 Ce qu’on fait concrètement
+      1. Afficher la liste des films
+      2. Permettre la sélection d’un film
+      3. Envoyer des requêtes SPARQL à Fuseki
+      4. Afficher les films recommandés
+________________
+
+
+🛠 Outils
+      * Frontend : HTML, CSS, JavaScript
+      * Backend (optionnel) : Flask / Spring
+      * Communication HTTP avec Fuseki
+________________
+
+
+📦 Output
+➡️ Application web fonctionnelle
+________________
+
+
+🔗 Dépendances
+⬅️ Requêtes SPARQL prêtes (Étape 3)
+
+
+etap5
+ Étape 5 : Présentation et rapport final
+________________
+
+
+🎯 Objectif
+Présenter clairement le travail réalisé et démontrer le système.
+________________
+
+
+🔧 Ce qu’on fait
+      * Diagramme de l’ontologie
+      * Description des choix de modélisation
+      * Exemples de requêtes SPARQL
+      * Démonstration de l’interface web
+________________
+
+
+📦 Output
+➡️ Rapport + slides + démonstration
