@@ -1,62 +1,196 @@
 .film-list-section {
-  background: var(--secondary);
-  border-radius: 16px;
-  padding: 1.5rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Section Header */
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 1.75rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.title-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .section-title {
   font-size: 1.5rem;
-  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary);
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  flex-wrap: wrap;
+}
+
+.section-title::before {
+  content: '';
+  width: 4px;
+  height: 24px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
 }
 
 .film-count {
-  font-size: 1rem;
-  color: var(--text-muted);
-  font-weight: normal;
+  display: flex;
+  align-items: baseline;
+  gap: 0.35rem;
+  padding: 0.5rem 1rem;
+  background: rgba(229, 9, 20, 0.1);
+  border-radius: var(--radius-xl);
+  border: 1px solid rgba(229, 9, 20, 0.2);
 }
 
+.count-number {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+}
+
+.count-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.section-meta {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.meta-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.875rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-md);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.meta-badge svg {
+  color: var(--accent-gold);
+}
+
+/* Film Grid */
 .film-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1.5rem;
 }
 
-.error-message {
-  text-align: center;
-  padding: 2rem;
-  background: rgba(233, 69, 96, 0.1);
-  border-radius: 12px;
-  border: 1px solid var(--accent);
+.film-grid-item {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;
 }
 
-.error-text {
-  color: var(--accent);
-  font-size: 1.1rem;
+/* Error State */
+.error-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  background: rgba(229, 9, 20, 0.05);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(229, 9, 20, 0.1);
+}
+
+.error-icon {
+  margin-bottom: 1.5rem;
+  color: var(--accent-primary);
+}
+
+.error-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
-.error-hint {
-  color: var(--text-muted);
-  font-size: 0.9rem;
+.error-text {
+  color: var(--accent-primary);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
 }
 
-.no-results {
-  text-align: center;
-  padding: 3rem;
+.error-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-md);
+  font-size: 0.85rem;
   color: var(--text-muted);
-  font-size: 1.1rem;
+}
+
+.error-hint code {
+  padding: 0.2rem 0.5rem;
+  background: var(--bg-hover);
+  border-radius: 4px;
+  font-family: 'Monaco', 'Menlo', monospace;
+  color: var(--accent-gold);
+}
+
+/* Empty State */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.empty-icon {
+  margin-bottom: 1.5rem;
+  color: var(--text-muted);
+  opacity: 0.5;
+}
+
+.empty-state h3 {
+  font-size: 1.25rem;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.empty-state p {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .film-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  }
 }
 
 @media (max-width: 768px) {
   .film-list-section {
-    padding: 1rem;
+    padding: 1.25rem;
+  }
+
+  .section-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .section-title {
+    font-size: 1.25rem;
   }
 
   .film-grid {
     grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .error-hint {
+    flex-direction: column;
+    text-align: center;
   }
 }

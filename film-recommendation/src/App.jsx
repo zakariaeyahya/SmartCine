@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import SearchBar from './components/SearchBar/SearchBar';
 import FilmList from './components/FilmList/FilmList';
 import Recommendations from './components/Recommendations/Recommendations';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Recommendations />
           </div>
         </main>
+        <Footer />
       </div>
     </FilmProvider>
   );

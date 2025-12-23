@@ -1,4 +1,4 @@
-# Système Sémantique de Recommandation de Films
+# SmartCine - Système Sémantique de Recommandation de Films
 
 Système de recommandation de films basé sur le Web sémantique utilisant RDF, OWL et SPARQL.
 

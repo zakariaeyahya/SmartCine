@@ -1,106 +1,287 @@
-.recommendations-section {
-  background: var(--secondary);
-  border-radius: 16px;
+.recommendations-panel {
+  background: var(--bg-secondary);
+  border-radius: var(--radius-lg);
   padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   position: sticky;
   top: 2rem;
   max-height: calc(100vh - 4rem);
   overflow-y: auto;
+  transition: all var(--transition-normal);
 }
 
-.recommendations-section::-webkit-scrollbar {
+.recommendations-panel.active {
+  border-color: rgba(229, 9, 20, 0.2);
+  box-shadow: 0 0 30px rgba(229, 9, 20, 0.1);
+}
+
+/* Custom Scrollbar */
+.recommendations-panel::-webkit-scrollbar {
   width: 6px;
 }
 
-.recommendations-section::-webkit-scrollbar-track {
-  background: var(--primary);
+.recommendations-panel::-webkit-scrollbar-track {
+  background: var(--bg-primary);
   border-radius: 3px;
 }
 
-.recommendations-section::-webkit-scrollbar-thumb {
-  background: var(--accent);
+.recommendations-panel::-webkit-scrollbar-thumb {
+  background: var(--bg-hover);
   border-radius: 3px;
 }
 
-.empty-state {
-  text-align: center;
-  padding: 3rem 1rem;
-  color: var(--text-muted);
+.recommendations-panel::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
 }
 
-.empty-icon,
-.no-reco-icon {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-}
-
-.selected-film-info {
-  background: var(--primary);
-  padding: 1rem;
-  border-radius: 8px;
+/* Panel Header */
+.panel-header {
   margin-bottom: 1.5rem;
-  border-left: 4px solid var(--accent);
 }
 
-.selected-header {
+.panel-title {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
 }
 
-.selected-label {
-  font-size: 0.85rem;
+.panel-title svg {
+  color: var(--accent-gold);
+}
+
+/* Empty State */
+.empty-panel {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.empty-illustration {
+  margin-bottom: 1.5rem;
   color: var(--text-muted);
-  margin-bottom: 0.25rem;
+  opacity: 0.3;
+}
+
+.empty-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-bottom: 0.75rem;
+}
+
+.empty-text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.criteria-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.criteria-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+
+.criteria-icon {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.criteria-icon.actor {
+  background: var(--accent-blue);
+}
+
+.criteria-icon.genre {
+  background: var(--accent-gold);
+}
+
+.criteria-icon.director {
+  background: var(--accent-primary);
+}
+
+/* Selected Film Card */
+.selected-film-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(229, 9, 20, 0.15) 0%, rgba(184, 29, 36, 0.05) 100%);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(229, 9, 20, 0.2);
+}
+
+.selected-badge-top {
+  position: absolute;
+  top: -10px;
+  left: 1rem;
+  padding: 0.25rem 0.75rem;
+  background: var(--accent-primary);
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: var(--radius-sm);
+}
+
+.selected-content {
+  padding-right: 2rem;
 }
 
 .selected-title {
-  color: var(--accent);
   font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
   line-height: 1.3;
 }
 
-.selected-header .clear-btn {
-  background: transparent;
+.selected-meta {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.selected-year,
+.selected-genre {
+  padding: 0.2rem 0.5rem;
+  font-size: 0.75rem;
+  border-radius: var(--radius-sm);
+}
+
+.selected-year {
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+}
+
+.selected-genre {
+  background: rgba(245, 197, 24, 0.15);
+  color: var(--accent-gold);
+}
+
+.close-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
   border: none;
+  border-radius: 50%;
   color: var(--text-muted);
-  font-size: 1.2rem;
   cursor: pointer;
-  padding: 0.25rem;
-  transition: color 0.3s;
+  transition: all var(--transition-fast);
 }
 
-.selected-header .clear-btn:hover {
-  color: var(--accent);
+.close-btn:hover {
+  background: rgba(229, 9, 20, 0.2);
+  color: var(--accent-primary);
 }
 
+/* Results Header */
+.results-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.results-count {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.results-count strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.powered-by {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.7rem;
+  color: var(--accent-gold);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Recommendations List */
 .recommendations-list {
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
 
-.reco-count {
-  font-size: 0.9rem;
+.recommendation-item {
+  animation: slideIn 0.4s ease forwards;
+  opacity: 0;
+}
+
+/* Loading State */
+.loading-state {
+  padding: 2rem 0;
+}
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.no-results-icon {
+  margin-bottom: 1rem;
   color: var(--text-muted);
+  opacity: 0.4;
+}
+
+.no-results h4 {
+  font-size: 1rem;
+  color: var(--text-primary);
   margin-bottom: 0.5rem;
 }
 
-.no-recommendations {
-  text-align: center;
-  padding: 2rem;
+.no-results p {
+  font-size: 0.85rem;
   color: var(--text-muted);
+  line-height: 1.5;
 }
 
+/* Responsive */
 @media (max-width: 1024px) {
-  .recommendations-section {
+  .recommendations-panel {
     position: static;
     max-height: none;
   }
 }
 
 @media (max-width: 768px) {
-  .recommendations-section {
-    padding: 1rem;
+  .recommendations-panel {
+    padding: 1.25rem;
+  }
+
+  .panel-title {
+    font-size: 1.1rem;
   }
 }
