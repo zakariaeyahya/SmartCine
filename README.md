@@ -2,6 +2,13 @@
 
 Système de recommandation de films basé sur le Web sémantique utilisant RDF, OWL et SPARQL.
 
+**Status : ✅ Projet Terminé**
+
+## Démonstration
+
+- **Frontend React** : http://localhost:3000
+- **Fuseki SPARQL** : http://localhost:3030
+
 ## Architecture
 
 ```
@@ -74,21 +81,16 @@ python clean_data.py
 python create_ontology.py
 ```
 
-### 5. Installer Fuseki
+### 5. Lancer Fuseki
 
-1. Télécharger depuis [Apache Jena Downloads](https://jena.apache.org/download/)
-2. Extraire l'archive
-3. Lancer le serveur :
+Fuseki est installé dans `C:\Users\HP\apache-jena-fuseki-5.6.0`
 
-```bash
-# Windows
-fuseki-server.bat --update --file=films.ttl /films
-
-# Linux/Mac
-./fuseki-server --update --file=films.ttl /films
+```powershell
+cd C:\Users\HP\apache-jena-fuseki-5.6.0
+.\fuseki-server.bat --update --file="D:\bureau\BD_AI1\ci3\semantique\projet\films.ttl" /films
 ```
 
-4. Accéder à http://localhost:3030
+Accéder à http://localhost:3030
 
 ### 6. Lancer le frontend React
 
