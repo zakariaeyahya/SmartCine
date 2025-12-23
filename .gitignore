@@ -52,3 +52,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+frontend_react_architecture.md
+.claude/settings.local.json
