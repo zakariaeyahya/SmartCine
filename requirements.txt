@@ -1,0 +1,19 @@
+# Projet Système Sémantique de Recommandation de Films
+# Python 3.8+
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Semantic Web / RDF
+rdflib>=7.0.0
+
+# Dataset download
+kagglehub>=0.2.0
+
+# HTTP requests (pour tests SPARQL)
+requests>=2.31.0
+
+# Optional: Jupyter support
+jupyter>=1.0.0
+ipykernel>=6.0.0

@@ -1,0 +1,3112 @@
+@prefix ns: <http://example.org/film#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns:Film_20th_Century_Women a ns:Film ;
+    ns:directedBy ns:Realisateur_Mike_Mills ;
+    ns:duration 119 ;
+    ns:hasActor ns:Acteur_Annette_Bening,
+        ns:Acteur_Billy_Crudup,
+        ns:Acteur_Elle_Fanning,
+        ns:Acteur_Greta_Gerwig,
+        ns:Acteur_Lucas_Jade_Zumann ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 2016 ;
+    ns:titre "20th Century Women"^^xsd:string .
+
+ns:Film_4_Months_3_Weeks_and_2_Days a ns:Film ;
+    ns:directedBy ns:Realisateur_Cristian_Mungiu ;
+    ns:duration 113 ;
+    ns:hasActor ns:Acteur_Alexandru_Potocean,
+        ns:Acteur_Anamaria_Marinca,
+        ns:Acteur_Laura_Vasiliu,
+        ns:Acteur_Luminița_Gheorghiu,
+        ns:Acteur_Vlad_Ivanov ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 2007 ;
+    ns:titre "4 Months, 3 Weeks and 2 Days"^^xsd:string .
+
+ns:Film_A_Dangerous_Method a ns:Film ;
+    ns:directedBy ns:Realisateur_David_Cronenberg ;
+    ns:duration 99 ;
+    ns:hasActor ns:Acteur_Keira_Knightley,
+        ns:Acteur_Michael_Fassbender,
+        ns:Acteur_Sarah_Gadon,
+        ns:Acteur_Viggo_Mortensen,
+        ns:Acteur_Vincent_Cassel ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2011 ;
+    ns:titre "A Dangerous Method"^^xsd:string .
+
+ns:Film_A_Dogs_Purpose a ns:Film ;
+    ns:directedBy ns:Realisateur_Lasse_Hallström ;
+    ns:duration 100 ;
+    ns:hasActor ns:Acteur_Britt_Robertson,
+        ns:Acteur_Dennis_Quaid,
+        ns:Acteur_Josh_Gad,
+        ns:Acteur_Juliet_Rylance,
+        ns:Acteur_KJ_Apa ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_Family,
+        ns:Genre_Fantasy ;
+    ns:releaseYear 2017 ;
+    ns:titre "A Dog's Purpose"^^xsd:string .
+
+ns:Film_All_Eyez_on_Me a ns:Film ;
+    ns:directedBy ns:Realisateur_Benny_Boom ;
+    ns:duration 139 ;
+    ns:hasActor ns:Acteur_Danai_Gurira,
+        ns:Acteur_Demetrius_Shipp_Jr,
+        ns:Acteur_Dominic_L_Santana,
+        ns:Acteur_Jamal_Woolard,
+        ns:Acteur_Kat_Graham ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Music ;
+    ns:releaseYear 2017 ;
+    ns:titre "All Eyez on Me"^^xsd:string .
+
+ns:Film_All_the_Boys_Love_Mandy_Lane a ns:Film ;
+    ns:directedBy ns:Realisateur_Jonathan_Levine ;
+    ns:duration 90 ;
+    ns:hasActor ns:Acteur_Amber_Heard,
+        ns:Acteur_Anson_Mount,
+        ns:Acteur_Edwin_Hodge,
+        ns:Acteur_Michael_Welch,
+        ns:Acteur_Whitney_Able ;
+    ns:hasGenre ns:Genre_Horror,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2008 ;
+    ns:titre "All the Boys Love Mandy Lane"^^xsd:string .
+
+ns:Film_Alvin_and_the_Chipmunks_The_Squeakquel a ns:Film ;
+    ns:directedBy ns:Realisateur_Betty_Thomas ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_David_Cross,
+        ns:Acteur_Jason_Lee,
+        ns:Acteur_Justin_Long,
+        ns:Acteur_Matthew_Gray_Gubler,
+        ns:Acteur_Zachary_Levi ;
+    ns:hasGenre ns:Genre_Animation,
+        ns:Genre_Comedy,
+        ns:Genre_Family,
+        ns:Genre_Fantasy,
+        ns:Genre_Music ;
+    ns:releaseYear 2009 ;
+    ns:titre "Alvin and the Chipmunks: The Squeakquel"^^xsd:string .
+
+ns:Film_American_Mary a ns:Film ;
+    ns:directedBy ns:Realisateur_Jen_Soska ;
+    ns:duration 98 ;
+    ns:hasActor ns:Acteur_Antonio_Cupo,
+        ns:Acteur_Julia_Maxwell,
+        ns:Acteur_Katharine_Isabelle,
+        ns:Acteur_Paula_Lindberg,
+        ns:Acteur_Tristan_Risk ;
+    ns:hasGenre ns:Genre_Horror,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2012 ;
+    ns:titre "American Mary"^^xsd:string .
+
+ns:Film_An_Affair_to_Remember a ns:Film ;
+    ns:directedBy ns:Realisateur_Leo_McCarey ;
+    ns:duration 111 ;
+    ns:hasActor ns:Acteur_Cary_Grant,
+        ns:Acteur_Cathleen_Nesbitt,
+        ns:Acteur_Deborah_Kerr,
+        ns:Acteur_Neva_Patterson,
+        ns:Acteur_Richard_Denning ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Romance ;
+    ns:releaseYear 1957 ;
+    ns:titre "An Affair to Remember"^^xsd:string .
+
+ns:Film_Analyze_That a ns:Film ;
+    ns:directedBy ns:Realisateur_Harold_Ramis ;
+    ns:duration 96 ;
+    ns:hasActor ns:Acteur_Billy_Crystal,
+        ns:Acteur_Cathy_Moriarty,
+        ns:Acteur_Joe_Viterelli,
+        ns:Acteur_Lisa_Kudrow,
+        ns:Acteur_Robert_De_Niro ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Crime ;
+    ns:releaseYear 2002 ;
+    ns:titre "Analyze That"^^xsd:string .
+
+ns:Film_Armored a ns:Film ;
+    ns:directedBy ns:Realisateur_Nimród_Antal ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Amaury_Nolasco,
+        ns:Acteur_Columbus_Short,
+        ns:Acteur_Laurence_Fishburne,
+        ns:Acteur_Matt_Dillon,
+        ns:Acteur_Skeet_Ulrich ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2009 ;
+    ns:titre "Armored"^^xsd:string .
+
+ns:Film_Attack_the_Block a ns:Film ;
+    ns:directedBy ns:Realisateur_Joe_Cornish ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Flaminia_Cinque,
+        ns:Acteur_Jodie_Whittaker,
+        ns:Acteur_John_Boyega,
+        ns:Acteur_Luke_Treadaway,
+        ns:Acteur_Nick_Frost ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 2011 ;
+    ns:titre "Attack the Block"^^xsd:string .
+
+ns:Film_Backdraft a ns:Film ;
+    ns:directedBy ns:Realisateur_Ron_Howard ;
+    ns:duration 137 ;
+    ns:hasActor ns:Acteur_Donald_Sutherland,
+        ns:Acteur_Jennifer_Jason_Leigh,
+        ns:Acteur_Kurt_Russell,
+        ns:Acteur_Robert_De_Niro,
+        ns:Acteur_William_Baldwin ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1991 ;
+    ns:titre "Backdraft"^^xsd:string .
+
+ns:Film_Beowulf a ns:Film ;
+    ns:directedBy ns:Realisateur_Robert_Zemeckis ;
+    ns:duration 115 ;
+    ns:hasActor ns:Acteur_Angelina_Jolie,
+        ns:Acteur_Anthony_Hopkins,
+        ns:Acteur_John_Malkovich,
+        ns:Acteur_Ray_Winstone,
+        ns:Acteur_Robin_Wright ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Animation ;
+    ns:releaseYear 2007 ;
+    ns:titre "Beowulf"^^xsd:string .
+
+ns:Film_Black_Sea a ns:Film ;
+    ns:directedBy ns:Realisateur_Kevin_Macdonald ;
+    ns:duration 115 ;
+    ns:hasActor ns:Acteur_Daniel_Ryan,
+        ns:Acteur_Jodie_Whittaker,
+        ns:Acteur_Jude_Law,
+        ns:Acteur_Karl_Davies,
+        ns:Acteur_Scoot_McNairy ;
+    ns:hasGenre ns:Genre_Adventure ;
+    ns:releaseYear 2014 ;
+    ns:titre "Black Sea"^^xsd:string .
+
+ns:Film_Blade_Runner a ns:Film ;
+    ns:directedBy ns:Realisateur_Ridley_Scott ;
+    ns:duration 117 ;
+    ns:hasActor ns:Acteur_Edward_James_Olmos,
+        ns:Acteur_Harrison_Ford,
+        ns:Acteur_M_Emmet_Walsh,
+        ns:Acteur_Rutger_Hauer,
+        ns:Acteur_Sean_Young ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Science_Fiction,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1982 ;
+    ns:titre "Blade Runner"^^xsd:string .
+
+ns:Film_Body_Double a ns:Film ;
+    ns:directedBy ns:Realisateur_Brian_De_Palma ;
+    ns:duration 114 ;
+    ns:hasActor ns:Acteur_Craig_Wasson,
+        ns:Acteur_Deborah_Shelton,
+        ns:Acteur_Gregg_Henry,
+        ns:Acteur_Guy_Boyd,
+        ns:Acteur_Melanie_Griffith ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Horror,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1984 ;
+    ns:titre "Body Double"^^xsd:string .
+
+ns:Film_Brazil a ns:Film ;
+    ns:directedBy ns:Realisateur_Terry_Gilliam ;
+    ns:duration 132 ;
+    ns:hasActor ns:Acteur_Bob_Hoskins,
+        ns:Acteur_Ian_Holm,
+        ns:Acteur_Jonathan_Pryce,
+        ns:Acteur_Katherine_Helmond,
+        ns:Acteur_Robert_De_Niro ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 1985 ;
+    ns:titre "Brazil"^^xsd:string .
+
+ns:Film_Charlie_Wilsons_War a ns:Film ;
+    ns:directedBy ns:Realisateur_Mike_Nichols ;
+    ns:duration 102 ;
+    ns:hasActor ns:Acteur_Amy_Adams,
+        ns:Acteur_Julia_Roberts,
+        ns:Acteur_Om_Puri,
+        ns:Acteur_Philip_Seymour_Hoffman,
+        ns:Acteur_Tom_Hanks ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_History ;
+    ns:releaseYear 2007 ;
+    ns:titre "Charlie Wilson's War"^^xsd:string .
+
+ns:Film_Cliffhanger a ns:Film ;
+    ns:directedBy ns:Realisateur_Renny_Harlin ;
+    ns:duration 112 ;
+    ns:hasActor ns:Acteur_Janine_Turner,
+        ns:Acteur_John_Lithgow,
+        ns:Acteur_Michael_Rooker,
+        ns:Acteur_Rex_Linn,
+        ns:Acteur_Sylvester_Stallone ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1993 ;
+    ns:titre "Cliffhanger"^^xsd:string .
+
+ns:Film_Clueless a ns:Film ;
+    ns:directedBy ns:Realisateur_Amy_Heckerling ;
+    ns:duration 97 ;
+    ns:hasActor ns:Acteur_Alicia_Silverstone,
+        ns:Acteur_Brittany_Murphy,
+        ns:Acteur_Donald_Faison,
+        ns:Acteur_Paul_Rudd,
+        ns:Acteur_Stacey_Dash ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_Romance ;
+    ns:releaseYear 1995 ;
+    ns:titre "Clueless"^^xsd:string .
+
+ns:Film_Cries_and_Whispers a ns:Film ;
+    ns:directedBy ns:Realisateur_Ingmar_Bergman ;
+    ns:duration 91 ;
+    ns:hasActor ns:Acteur_Erland_Josephson,
+        ns:Acteur_Harriet_Andersson,
+        ns:Acteur_Ingrid_Thulin,
+        ns:Acteur_Kari_Sylwan,
+        ns:Acteur_Liv_Ullmann ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 1972 ;
+    ns:titre "Cries and Whispers"^^xsd:string .
+
+ns:Film_Dinosaur a ns:Film ;
+    ns:directedBy ns:Realisateur_Ralph_Zondag ;
+    ns:duration 82 ;
+    ns:hasActor ns:Acteur_Alfre_Woodard,
+        ns:Acteur_D_B_Sweeney,
+        ns:Acteur_Hayden_Panettiere,
+        ns:Acteur_Max_Casella,
+        ns:Acteur_Ossie_Davis ;
+    ns:hasGenre ns:Genre_Animation,
+        ns:Genre_Family ;
+    ns:releaseYear 2000 ;
+    ns:titre "Dinosaur"^^xsd:string .
+
+ns:Film_Dogville a ns:Film ;
+    ns:directedBy ns:Realisateur_Lars_von_Trier ;
+    ns:duration 178 ;
+    ns:hasActor ns:Acteur_Harriet_Andersson,
+        ns:Acteur_Jean-Marc_Barr,
+        ns:Acteur_Lauren_Bacall,
+        ns:Acteur_Nicole_Kidman,
+        ns:Acteur_Paul_Bettany ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2003 ;
+    ns:titre "Dogville"^^xsd:string .
+
+ns:Film_Dream_House a ns:Film ;
+    ns:directedBy ns:Realisateur_Jim_Sheridan ;
+    ns:duration 84 ;
+    ns:hasActor ns:Acteur_Daniel_Craig,
+        ns:Acteur_Elias_Koteas,
+        ns:Acteur_Marton_Csokas,
+        ns:Acteur_Naomi_Watts,
+        ns:Acteur_Rachel_Weisz ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2011 ;
+    ns:titre "Dream House"^^xsd:string .
+
+ns:Film_Dumb_and_Dumber a ns:Film ;
+    ns:directedBy ns:Realisateur_Peter_Farrelly ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Jeff_Daniels,
+        ns:Acteur_Jim_Carrey,
+        ns:Acteur_Lauren_Holly,
+        ns:Acteur_Mike_Starr,
+        ns:Acteur_Teri_Garr ;
+    ns:hasGenre ns:Genre_Comedy ;
+    ns:releaseYear 1994 ;
+    ns:titre "Dumb and Dumber"^^xsd:string .
+
+ns:Film_Eastern_Promises a ns:Film ;
+    ns:directedBy ns:Realisateur_David_Cronenberg ;
+    ns:duration 100 ;
+    ns:hasActor ns:Acteur_Armin_Mueller-Stahl,
+        ns:Acteur_Naomi_Watts,
+        ns:Acteur_Sinéad_Cusack,
+        ns:Acteur_Viggo_Mortensen,
+        ns:Acteur_Vincent_Cassel ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2007 ;
+    ns:titre "Eastern Promises"^^xsd:string .
+
+ns:Film_El_Mariachi a ns:Film ;
+    ns:directedBy ns:Realisateur_Robert_Rodriguez ;
+    ns:duration 81 ;
+    ns:hasActor ns:Acteur_Carlos_Gallardo,
+        ns:Acteur_Jaime_de_Hoyos,
+        ns:Acteur_Peter_Marquardt,
+        ns:Acteur_Ramiro_Gomez,
+        ns:Acteur_Reinol_Martinez ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Crime,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1992 ;
+    ns:titre "El Mariachi"^^xsd:string .
+
+ns:Film_Eragon a ns:Film ;
+    ns:directedBy ns:Realisateur_Stefen_Fangmeier ;
+    ns:duration 104 ;
+    ns:hasActor ns:Acteur_Djimon_Hounsou,
+        ns:Acteur_Ed_Speleers,
+        ns:Acteur_Jeremy_Irons,
+        ns:Acteur_Robert_Carlyle,
+        ns:Acteur_Sienna_Guillory ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Family,
+        ns:Genre_Fantasy ;
+    ns:releaseYear 2006 ;
+    ns:titre "Eragon"^^xsd:string .
+
+ns:Film_Escape_to_Victory a ns:Film ;
+    ns:directedBy ns:Realisateur_John_Huston ;
+    ns:duration 116 ;
+    ns:hasActor ns:Acteur_Carole_Laure,
+        ns:Acteur_Max_von_Sydow,
+        ns:Acteur_Michael_Caine,
+        ns:Acteur_Pelé,
+        ns:Acteur_Sylvester_Stallone ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Drama ;
+    ns:releaseYear 1981 ;
+    ns:titre "Escape to Victory"^^xsd:string .
+
+ns:Film_Eyes_Without_a_Face a ns:Film ;
+    ns:directedBy ns:Realisateur_Georges_Franju ;
+    ns:duration 90 ;
+    ns:hasActor ns:Acteur_Alida_Valli,
+        ns:Acteur_Edith_Scob,
+        ns:Acteur_François_Guérin,
+        ns:Acteur_Juliette_Mayniel,
+        ns:Acteur_Pierre_Brasseur ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Horror,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1960 ;
+    ns:titre "Eyes Without a Face"^^xsd:string .
+
+ns:Film_Flashdance a ns:Film ;
+    ns:directedBy ns:Realisateur_Adrian_Lyne ;
+    ns:duration 95 ;
+    ns:hasActor ns:Acteur_Jennifer_Beals,
+        ns:Acteur_Kyle_T_Heffner,
+        ns:Acteur_Lilia_Skala,
+        ns:Acteur_Michael_Nouri,
+        ns:Acteur_Sunny_Johnson ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Music,
+        ns:Genre_Romance ;
+    ns:releaseYear 1983 ;
+    ns:titre "Flashdance"^^xsd:string .
+
+ns:Film_Flushed_Away a ns:Film ;
+    ns:directedBy ns:Realisateur_David_Bowers ;
+    ns:duration 85 ;
+    ns:hasActor ns:Acteur_Bill_Nighy,
+        ns:Acteur_Hugh_Jackman,
+        ns:Acteur_Ian_McKellen,
+        ns:Acteur_Jean_Reno,
+        ns:Acteur_Kate_Winslet ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Animation,
+        ns:Genre_Comedy,
+        ns:Genre_Family ;
+    ns:releaseYear 2006 ;
+    ns:titre "Flushed Away"^^xsd:string .
+
+ns:Film_Funny_People a ns:Film ;
+    ns:directedBy ns:Realisateur_Judd_Apatow ;
+    ns:duration 146 ;
+    ns:hasActor ns:Acteur_Adam_Sandler,
+        ns:Acteur_Eric_Bana,
+        ns:Acteur_Jonah_Hill,
+        ns:Acteur_Leslie_Mann,
+        ns:Acteur_Seth_Rogen ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama ;
+    ns:releaseYear 2009 ;
+    ns:titre "Funny People"^^xsd:string .
+
+ns:Film_Get_Rich_or_Die_Tryin a ns:Film ;
+    ns:directedBy ns:Realisateur_Jim_Sheridan ;
+    ns:duration 117 ;
+    ns:hasActor ns:Acteur_50_Cent,
+        ns:Acteur_Adewale_Akinnuoye-Agbaje,
+        ns:Acteur_Joy_Bryant,
+        ns:Acteur_Omar_Benson_Miller,
+        ns:Acteur_Terrence_Howard ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 2005 ;
+    ns:titre "Get Rich or Die Tryin'"^^xsd:string .
+
+ns:Film_Great_Expectations a ns:Film ;
+    ns:directedBy ns:Realisateur_Alfonso_Cuarón ;
+    ns:duration 111 ;
+    ns:hasActor ns:Acteur_Anne_Bancroft,
+        ns:Acteur_Chris_Cooper,
+        ns:Acteur_Ethan_Hawke,
+        ns:Acteur_Gwyneth_Paltrow,
+        ns:Acteur_Robert_De_Niro ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_Romance ;
+    ns:releaseYear 1998 ;
+    ns:titre "Great Expectations"^^xsd:string .
+
+ns:Film_Hamlet a ns:Film ;
+    ns:directedBy ns:Realisateur_Kenneth_Branagh ;
+    ns:duration 242 ;
+    ns:hasActor ns:Acteur_Derek_Jacobi,
+        ns:Acteur_Julie_Christie,
+        ns:Acteur_Kate_Winslet,
+        ns:Acteur_Kenneth_Branagh,
+        ns:Acteur_Richard_Briers ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 1996 ;
+    ns:titre "Hamlet"^^xsd:string .
+
+ns:Film_Hero a ns:Film ;
+    ns:directedBy ns:Realisateur_Zhang_Yimou ;
+    ns:duration 99 ;
+    ns:hasActor ns:Acteur_Donnie_Yen,
+        ns:Acteur_Jet_Li,
+        ns:Acteur_Maggie_Cheung,
+        ns:Acteur_Tony_Leung_Chiu-Wai,
+        ns:Acteur_Zhang_Ziyi ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Drama,
+        ns:Genre_History ;
+    ns:releaseYear 2002 ;
+    ns:titre "Hero"^^xsd:string .
+
+ns:Film_High_Plains_Drifter a ns:Film ;
+    ns:directedBy ns:Realisateur_Clint_Eastwood ;
+    ns:duration 105 ;
+    ns:hasActor ns:Acteur_Clint_Eastwood,
+        ns:Acteur_Jack_Ging,
+        ns:Acteur_Marianna_Hill,
+        ns:Acteur_Mitchell_Ryan,
+        ns:Acteur_Verna_Bloom ;
+    ns:hasGenre ns:Genre_Western ;
+    ns:releaseYear 1973 ;
+    ns:titre "High Plains Drifter"^^xsd:string .
+
+ns:Film_His_Girl_Friday a ns:Film ;
+    ns:directedBy ns:Realisateur_Howard_Hawks ;
+    ns:duration 92 ;
+    ns:hasActor ns:Acteur_Alma_Kruger,
+        ns:Acteur_Cary_Grant,
+        ns:Acteur_Gene_Lockhart,
+        ns:Acteur_Ralph_Bellamy,
+        ns:Acteur_Rosalind_Russell ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama ;
+    ns:releaseYear 1940 ;
+    ns:titre "His Girl Friday"^^xsd:string .
+
+ns:Film_Hollywood_Ending a ns:Film ;
+    ns:directedBy ns:Realisateur_Woody_Allen ;
+    ns:duration 112 ;
+    ns:hasActor ns:Acteur_Debra_Messing,
+        ns:Acteur_George_Hamilton,
+        ns:Acteur_Mark_Rydell,
+        ns:Acteur_Téa_Leoni,
+        ns:Acteur_Woody_Allen ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama ;
+    ns:releaseYear 2002 ;
+    ns:titre "Hollywood Ending"^^xsd:string .
+
+ns:Film_Homefront a ns:Film ;
+    ns:directedBy ns:Realisateur_Gary_Fleder ;
+    ns:duration 100 ;
+    ns:hasActor ns:Acteur_Izabela_Vidovic,
+        ns:Acteur_James_Franco,
+        ns:Acteur_Jason_Statham,
+        ns:Acteur_Rachelle_Lefevre,
+        ns:Acteur_Winona_Ryder ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2013 ;
+    ns:titre "Homefront"^^xsd:string .
+
+ns:Film_Horrible_Bosses a ns:Film ;
+    ns:directedBy ns:Realisateur_Seth_Gordon ;
+    ns:duration 98 ;
+    ns:hasActor ns:Acteur_Charlie_Day,
+        ns:Acteur_Colin_Farrell,
+        ns:Acteur_Jason_Bateman,
+        ns:Acteur_Jason_Sudeikis,
+        ns:Acteur_Jennifer_Aniston ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Crime ;
+    ns:releaseYear 2011 ;
+    ns:titre "Horrible Bosses"^^xsd:string .
+
+ns:Film_In_Bruges a ns:Film ;
+    ns:directedBy ns:Realisateur_Martin_McDonagh ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Brendan_Gleeson,
+        ns:Acteur_Clémence_Poésy,
+        ns:Acteur_Colin_Farrell,
+        ns:Acteur_Ralph_Fiennes,
+        ns:Acteur_Thekla_Reuten ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Crime,
+        ns:Genre_Drama ;
+    ns:releaseYear 2008 ;
+    ns:titre "In Bruges"^^xsd:string .
+
+ns:Film_In_Out a ns:Film ;
+    ns:directedBy ns:Realisateur_Frank_Oz ;
+    ns:duration 90 ;
+    ns:hasActor ns:Acteur_Debbie_Reynolds,
+        ns:Acteur_Joan_Cusack,
+        ns:Acteur_Kevin_Kline,
+        ns:Acteur_Matt_Dillon,
+        ns:Acteur_Tom_Selleck ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Romance ;
+    ns:releaseYear 1997 ;
+    ns:titre "In & Out"^^xsd:string .
+
+ns:Film_Jarhead a ns:Film ;
+    ns:directedBy ns:Realisateur_Sam_Mendes ;
+    ns:duration 125 ;
+    ns:hasActor ns:Acteur_Jake_Gyllenhaal,
+        ns:Acteur_Jamie_Foxx,
+        ns:Acteur_Lucas_Black,
+        ns:Acteur_Peter_Sarsgaard,
+        ns:Acteur_Scott_MacDonald ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_War ;
+    ns:releaseYear 2005 ;
+    ns:titre "Jarhead"^^xsd:string .
+
+ns:Film_Kicking_Screaming a ns:Film ;
+    ns:directedBy ns:Realisateur_Jesse_Dylan ;
+    ns:duration 95 ;
+    ns:hasActor ns:Acteur_Josh_Hutcherson,
+        ns:Acteur_Kate_Walsh,
+        ns:Acteur_Musetta_Vander,
+        ns:Acteur_Robert_Duvall,
+        ns:Acteur_Will_Ferrell ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Family,
+        ns:Genre_Romance ;
+    ns:releaseYear 2005 ;
+    ns:titre "Kicking & Screaming"^^xsd:string .
+
+ns:Film_Krull a ns:Film ;
+    ns:directedBy ns:Realisateur_Peter_Yates ;
+    ns:duration 117 ;
+    ns:hasActor ns:Acteur_Alun_Armstrong,
+        ns:Acteur_David_Battley,
+        ns:Acteur_Francesca_Annis,
+        ns:Acteur_Ken_Marshall,
+        ns:Acteur_Lysette_Anthony ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Fantasy ;
+    ns:releaseYear 1983 ;
+    ns:titre "Krull"^^xsd:string .
+
+ns:Film_Labor_Pains a ns:Film ;
+    ns:directedBy ns:Realisateur_Lara_Shapiro ;
+    ns:duration 89 ;
+    ns:hasActor ns:Acteur_Aaron_Yoo,
+        ns:Acteur_Bridgit_Mendler,
+        ns:Acteur_Chris_Parnell,
+        ns:Acteur_Lindsay_Lohan,
+        ns:Acteur_Luke_Kirby ;
+    ns:hasGenre ns:Genre_Comedy ;
+    ns:releaseYear 2009 ;
+    ns:titre "Labor Pains"^^xsd:string .
+
+ns:Film_Laura a ns:Film ;
+    ns:directedBy ns:Realisateur_Otto_Preminger ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Clifton_Webb,
+        ns:Acteur_Dana_Andrews,
+        ns:Acteur_Gene_Tierney,
+        ns:Acteur_Judith_Anderson,
+        ns:Acteur_Vincent_Price ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Mystery ;
+    ns:releaseYear 1944 ;
+    ns:titre "Laura"^^xsd:string .
+
+ns:Film_Leaves_of_Grass a ns:Film ;
+    ns:directedBy ns:Realisateur_Tim_Blake_Nelson ;
+    ns:duration 104 ;
+    ns:hasActor ns:Acteur_Edward_Norton,
+        ns:Acteur_Keri_Russell,
+        ns:Acteur_Melanie_Lynskey,
+        ns:Acteur_Richard_Dreyfuss,
+        ns:Acteur_Susan_Sarandon ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2009 ;
+    ns:titre "Leaves of Grass"^^xsd:string .
+
+ns:Film_Lorenzos_Oil a ns:Film ;
+    ns:directedBy ns:Realisateur_George_Miller ;
+    ns:duration 135 ;
+    ns:hasActor ns:Acteur_Ann_Hearn,
+        ns:Acteur_Maduka_Steady,
+        ns:Acteur_Nick_Nolte,
+        ns:Acteur_Peter_Ustinov,
+        ns:Acteur_Susan_Sarandon ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 1992 ;
+    ns:titre "Lorenzo's Oil"^^xsd:string .
+
+ns:Film_Malice a ns:Film ;
+    ns:directedBy ns:Realisateur_Harold_Becker ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Alec_Baldwin,
+        ns:Acteur_Bebe_Neuwirth,
+        ns:Acteur_Bill_Pullman,
+        ns:Acteur_George_C_Scott,
+        ns:Acteur_Nicole_Kidman ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama ;
+    ns:releaseYear 1993 ;
+    ns:titre "Malice"^^xsd:string .
+
+ns:Film_Me_Myself_Irene a ns:Film ;
+    ns:directedBy ns:Realisateur_Bobby_Farrelly ;
+    ns:duration 116 ;
+    ns:hasActor ns:Acteur_Anthony_Anderson,
+        ns:Acteur_Jim_Carrey,
+        ns:Acteur_Renée_Zellweger,
+        ns:Acteur_Richard_Jenkins,
+        ns:Acteur_Robert_Forster ;
+    ns:hasGenre ns:Genre_Comedy ;
+    ns:releaseYear 2000 ;
+    ns:titre "Me, Myself & Irene"^^xsd:string .
+
+ns:Film_Neighbors_2_Sorority_Rising a ns:Film ;
+    ns:directedBy ns:Realisateur_Nicholas_Stoller ;
+    ns:duration 91 ;
+    ns:hasActor ns:Acteur_Chloë_Grace_Moretz,
+        ns:Acteur_Kiersey_Clemons,
+        ns:Acteur_Rose_Byrne,
+        ns:Acteur_Seth_Rogen,
+        ns:Acteur_Zac_Efron ;
+    ns:hasGenre ns:Genre_Comedy ;
+    ns:releaseYear 2016 ;
+    ns:titre "Neighbors 2: Sorority Rising"^^xsd:string .
+
+ns:Film_New_Nightmare a ns:Film ;
+    ns:directedBy ns:Realisateur_Wes_Craven ;
+    ns:duration 112 ;
+    ns:hasActor ns:Acteur_David_Newsom,
+        ns:Acteur_Heather_Langenkamp,
+        ns:Acteur_Miko_Hughes,
+        ns:Acteur_Robert_Englund,
+        ns:Acteur_Wes_Craven ;
+    ns:hasGenre ns:Genre_Fantasy,
+        ns:Genre_Horror,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1994 ;
+    ns:titre "New Nightmare"^^xsd:string .
+
+ns:Film_Notting_Hill a ns:Film ;
+    ns:directedBy ns:Realisateur_Roger_Michell ;
+    ns:duration 124 ;
+    ns:hasActor ns:Acteur_Gina_McKee,
+        ns:Acteur_Hugh_Grant,
+        ns:Acteur_Julia_Roberts,
+        ns:Acteur_Rhys_Ifans,
+        ns:Acteur_Tim_McInnerny ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_Romance ;
+    ns:releaseYear 1999 ;
+    ns:titre "Notting Hill"^^xsd:string .
+
+ns:Film_Nowhere_to_Run a ns:Film ;
+    ns:directedBy ns:Realisateur_Robert_Harmon ;
+    ns:duration 94 ;
+    ns:hasActor ns:Acteur_Jean-Claude_Van_Damme,
+        ns:Acteur_Kieran_Culkin,
+        ns:Acteur_Rosanna_Arquette,
+        ns:Acteur_Ted_Levine,
+        ns:Acteur_Tiffany_Taubman ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1993 ;
+    ns:titre "Nowhere to Run"^^xsd:string .
+
+ns:Film_Original_Sin a ns:Film ;
+    ns:directedBy ns:Realisateur_Michael_Cristofer ;
+    ns:duration 118 ;
+    ns:hasActor ns:Acteur_Allison_Mackie,
+        ns:Acteur_Angelina_Jolie,
+        ns:Acteur_Antonio_Banderas,
+        ns:Acteur_Gregory_Itzin,
+        ns:Acteur_Jack_Thompson ;
+    ns:hasGenre ns:Genre_Thriller ;
+    ns:releaseYear 2001 ;
+    ns:titre "Original Sin"^^xsd:string .
+
+ns:Film_Perfect_Stranger a ns:Film ;
+    ns:directedBy ns:Realisateur_James_Foley ;
+    ns:duration 109 ;
+    ns:hasActor ns:Acteur_Bruce_Willis,
+        ns:Acteur_Gary_Dourdan,
+        ns:Acteur_Giovanni_Ribisi,
+        ns:Acteur_Halle_Berry,
+        ns:Acteur_Richard_Portnow ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2007 ;
+    ns:titre "Perfect Stranger"^^xsd:string .
+
+ns:Film_Rambo a ns:Film ;
+    ns:directedBy ns:Realisateur_Sylvester_Stallone ;
+    ns:duration 92 ;
+    ns:hasActor ns:Acteur_Jake_La_Botz,
+        ns:Acteur_Julie_Benz,
+        ns:Acteur_Matthew_Marsden,
+        ns:Acteur_Reynaldo_Gallegos,
+        ns:Acteur_Sylvester_Stallone ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2008 ;
+    ns:titre "Rambo"^^xsd:string .
+
+ns:Film_Rashomon a ns:Film ;
+    ns:directedBy ns:Realisateur_Akira_Kurosawa ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Machiko_Kyô,
+        ns:Acteur_Masayuki_Mori,
+        ns:Acteur_Minoru_Chiaki,
+        ns:Acteur_Takashi_Shimura,
+        ns:Acteur_Toshirō_Mifune ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Mystery ;
+    ns:releaseYear 1950 ;
+    ns:titre "Rashomon"^^xsd:string .
+
+ns:Film_Re-Animator a ns:Film ;
+    ns:directedBy ns:Realisateur_Stuart_Gordon ;
+    ns:duration 86 ;
+    ns:hasActor ns:Acteur_Barbara_Crampton,
+        ns:Acteur_Bruce_Abbott,
+        ns:Acteur_David_Gale,
+        ns:Acteur_Jeffrey_Combs,
+        ns:Acteur_Robert_Sampson ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Horror,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 1985 ;
+    ns:titre "Re-Animator"^^xsd:string .
+
+ns:Film_Ride_Along a ns:Film ;
+    ns:directedBy ns:Realisateur_Tim_Story ;
+    ns:duration 99 ;
+    ns:hasActor ns:Acteur_Bruce_McGill,
+        ns:Acteur_Ice_Cube,
+        ns:Acteur_John_Leguizamo,
+        ns:Acteur_Kevin_Hart,
+        ns:Acteur_Tika_Sumpter ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy ;
+    ns:releaseYear 2014 ;
+    ns:titre "Ride Along"^^xsd:string .
+
+ns:Film_Shaun_the_Sheep_Movie a ns:Film ;
+    ns:directedBy ns:Realisateur_Mark_Burton ;
+    ns:duration 85 ;
+    ns:hasActor ns:Acteur_Justin_Fletcher,
+        ns:Acteur_Kate_Harbour,
+        ns:Acteur_Omid_Djalili,
+        ns:Acteur_Richard_Webber,
+        ns:Acteur_Tim_Hands ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Animation,
+        ns:Genre_Comedy,
+        ns:Genre_Family ;
+    ns:releaseYear 2015 ;
+    ns:titre "Shaun the Sheep Movie"^^xsd:string .
+
+ns:Film_Sightseers a ns:Film ;
+    ns:directedBy ns:Realisateur_Ben_Wheatley ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Alice_Lowe,
+        ns:Acteur_Eileen_Davies,
+        ns:Acteur_Roger_Michael,
+        ns:Acteur_Steve_Oram,
+        ns:Acteur_Tony_Way ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Comedy,
+        ns:Genre_Crime ;
+    ns:releaseYear 2012 ;
+    ns:titre "Sightseers"^^xsd:string .
+
+ns:Film_Small_Fry a ns:Film ;
+    ns:directedBy ns:Realisateur_Angus_MacLane ;
+    ns:duration 7 ;
+    ns:hasActor ns:Acteur_Blake_Clark,
+        ns:Acteur_Bob_Bergen,
+        ns:Acteur_Carlos_Alazraqui,
+        ns:Acteur_Lori_Alan,
+        ns:Acteur_Tim_Allen ;
+    ns:hasGenre ns:Genre_Animation,
+        ns:Genre_Family ;
+    ns:releaseYear 2011 ;
+    ns:titre "Small Fry"^^xsd:string .
+
+ns:Film_Tangled_Ever_After a ns:Film ;
+    ns:directedBy ns:Realisateur_Byron_Howard ;
+    ns:duration 6 ;
+    ns:hasActor ns:Acteur_Alan_Dale,
+        ns:Acteur_Kari_Wahlgren,
+        ns:Acteur_Mandy_Moore,
+        ns:Acteur_Paul_F_Tompkins,
+        ns:Acteur_Zachary_Levi ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Animation,
+        ns:Genre_Comedy,
+        ns:Genre_Family ;
+    ns:releaseYear 2012 ;
+    ns:titre "Tangled Ever After"^^xsd:string .
+
+ns:Film_The_Abyss a ns:Film ;
+    ns:directedBy ns:Realisateur_James_Cameron ;
+    ns:duration 139 ;
+    ns:hasActor ns:Acteur_Ed_Harris,
+        ns:Acteur_Leo_Burmester,
+        ns:Acteur_Mary_Elizabeth_Mastrantonio,
+        ns:Acteur_Michael_Biehn,
+        ns:Acteur_Todd_Graff ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Science_Fiction,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1989 ;
+    ns:titre "The Abyss"^^xsd:string .
+
+ns:Film_The_Angriest_Man_in_Brooklyn a ns:Film ;
+    ns:directedBy ns:Realisateur_Phil_Alden_Robinson ;
+    ns:duration 84 ;
+    ns:hasActor ns:Acteur_James_Earl_Jones,
+        ns:Acteur_Melissa_Leo,
+        ns:Acteur_Mila_Kunis,
+        ns:Acteur_Peter_Dinklage,
+        ns:Acteur_Robin_Williams ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama ;
+    ns:releaseYear 2014 ;
+    ns:titre "The Angriest Man in Brooklyn"^^xsd:string .
+
+ns:Film_The_Aristocats a ns:Film ;
+    ns:directedBy ns:Realisateur_Wolfgang_Reitherman ;
+    ns:duration 78 ;
+    ns:hasActor ns:Acteur_Eva_Gabor,
+        ns:Acteur_Paul_Winchell,
+        ns:Acteur_Phil_Harris,
+        ns:Acteur_Scatman_Crothers,
+        ns:Acteur_Sterling_Holloway ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Animation,
+        ns:Genre_Comedy,
+        ns:Genre_Family ;
+    ns:releaseYear 1970 ;
+    ns:titre "The Aristocats"^^xsd:string .
+
+ns:Film_The_Aviator a ns:Film ;
+    ns:directedBy ns:Realisateur_Martin_Scorsese ;
+    ns:duration 170 ;
+    ns:hasActor ns:Acteur_Alec_Baldwin,
+        ns:Acteur_Cate_Blanchett,
+        ns:Acteur_John_C_Reilly,
+        ns:Acteur_Kate_Beckinsale,
+        ns:Acteur_Leonardo_DiCaprio ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 2004 ;
+    ns:titre "The Aviator"^^xsd:string .
+
+ns:Film_The_City_of_Lost_Children a ns:Film ;
+    ns:directedBy ns:Realisateur_Jean-Pierre_Jeunet ;
+    ns:duration 108 ;
+    ns:hasActor ns:Acteur_Daniel_Emilfork,
+        ns:Acteur_Dominique_Pinon,
+        ns:Acteur_Jean-Claude_Dreyfus,
+        ns:Acteur_Judith_Vittet,
+        ns:Acteur_Ron_Perlman ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Fantasy,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 1995 ;
+    ns:titre "The City of Lost Children"^^xsd:string .
+
+ns:Film_The_Conformist a ns:Film ;
+    ns:directedBy ns:Realisateur_Bernardo_Bertolucci ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Dominique_Sanda,
+        ns:Acteur_Enzo_Tarascio,
+        ns:Acteur_Gastone_Moschin,
+        ns:Acteur_Jean-Louis_Trintignant,
+        ns:Acteur_Stefania_Sandrelli ;
+    ns:hasGenre ns:Genre_Drama ;
+    ns:releaseYear 1970 ;
+    ns:titre "The Conformist"^^xsd:string .
+
+ns:Film_The_Devils_Candy a ns:Film ;
+    ns:directedBy ns:Realisateur_Sean_Byrne ;
+    ns:duration 90 ;
+    ns:hasActor ns:Acteur_Ethan_Embry,
+        ns:Acteur_Kiara_Glasco,
+        ns:Acteur_Oryan_West,
+        ns:Acteur_Pruitt_Taylor_Vince,
+        ns:Acteur_Shiri_Appleby ;
+    ns:hasGenre ns:Genre_Horror ;
+    ns:releaseYear 2017 ;
+    ns:titre "The Devil's Candy"^^xsd:string .
+
+ns:Film_The_Duchess a ns:Film ;
+    ns:directedBy ns:Realisateur_Saul_Dibb ;
+    ns:duration 110 ;
+    ns:hasActor ns:Acteur_Aidan_McArdle,
+        ns:Acteur_Charlotte_Rampling,
+        ns:Acteur_Keira_Knightley,
+        ns:Acteur_Ralph_Fiennes,
+        ns:Acteur_Simon_McBurney ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_History,
+        ns:Genre_Romance ;
+    ns:releaseYear 2008 ;
+    ns:titre "The Duchess"^^xsd:string .
+
+ns:Film_The_Fog a ns:Film ;
+    ns:directedBy ns:Realisateur_Rupert_Wainwright ;
+    ns:duration 100 ;
+    ns:hasActor ns:Acteur_DeRay_Davis,
+        ns:Acteur_Kenneth_Welsh,
+        ns:Acteur_Maggie_Grace,
+        ns:Acteur_Selma_Blair,
+        ns:Acteur_Tom_Welling ;
+    ns:hasGenre ns:Genre_Horror,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2005 ;
+    ns:titre "The Fog"^^xsd:string .
+
+ns:Film_The_Girl_with_the_Dragon_Tattoo a ns:Film ;
+    ns:directedBy ns:Realisateur_Niels_Arden_Oplev ;
+    ns:duration 152 ;
+    ns:hasActor ns:Acteur_Lena_Endre,
+        ns:Acteur_Michael_Nyqvist,
+        ns:Acteur_Noomi_Rapace,
+        ns:Acteur_Peter_Andersson,
+        ns:Acteur_Sven-Bertil_Taube ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Mystery,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2009 ;
+    ns:titre "The Girl with the Dragon Tattoo"^^xsd:string .
+
+ns:Film_The_House_Bunny a ns:Film ;
+    ns:directedBy ns:Realisateur_Fred_Wolf ;
+    ns:duration 97 ;
+    ns:hasActor ns:Acteur_Anna_Faris,
+        ns:Acteur_Emma_Stone,
+        ns:Acteur_Kat_Dennings,
+        ns:Acteur_Katharine_McPhee,
+        ns:Acteur_Rumer_Willis ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Romance ;
+    ns:releaseYear 2008 ;
+    ns:titre "The House Bunny"^^xsd:string .
+
+ns:Film_The_Last_Castle a ns:Film ;
+    ns:directedBy ns:Realisateur_Rod_Lurie ;
+    ns:duration 131 ;
+    ns:hasActor ns:Acteur_Delroy_Lindo,
+        ns:Acteur_James_Gandolfini,
+        ns:Acteur_Mark_Ruffalo,
+        ns:Acteur_Robert_Redford,
+        ns:Acteur_Steve_Burton ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2001 ;
+    ns:titre "The Last Castle"^^xsd:string .
+
+ns:Film_The_Last_Kiss a ns:Film ;
+    ns:directedBy ns:Realisateur_Tony_Goldwyn ;
+    ns:duration 115 ;
+    ns:hasActor ns:Acteur_Casey_Affleck,
+        ns:Acteur_Jacinda_Barrett,
+        ns:Acteur_Michael_Weston,
+        ns:Acteur_Rachel_Bilson,
+        ns:Acteur_Zach_Braff ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Drama,
+        ns:Genre_Romance ;
+    ns:releaseYear 2006 ;
+    ns:titre "The Last Kiss"^^xsd:string .
+
+ns:Film_The_Life_of_David_Gale a ns:Film ;
+    ns:directedBy ns:Realisateur_Alan_Parker ;
+    ns:duration 130 ;
+    ns:hasActor ns:Acteur_Gabriel_Mann,
+        ns:Acteur_Kate_Winslet,
+        ns:Acteur_Kevin_Spacey,
+        ns:Acteur_Laura_Linney,
+        ns:Acteur_Rhona_Mitra ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2003 ;
+    ns:titre "The Life of David Gale"^^xsd:string .
+
+ns:Film_The_Lords_of_Salem a ns:Film ;
+    ns:directedBy ns:Realisateur_Rob_Zombie ;
+    ns:duration 101 ;
+    ns:hasActor ns:Acteur_Bruce_Davison,
+        ns:Acteur_Jeff_Daniel_Phillips,
+        ns:Acteur_Judy_Geeson,
+        ns:Acteur_Meg_Foster,
+        ns:Acteur_Sheri_Moon_Zombie ;
+    ns:hasGenre ns:Genre_Horror,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2012 ;
+    ns:titre "The Lords of Salem"^^xsd:string .
+
+ns:Film_The_Mechanic a ns:Film ;
+    ns:directedBy ns:Realisateur_Simon_West ;
+    ns:duration 93 ;
+    ns:hasActor ns:Acteur_Ben_Foster,
+        ns:Acteur_Donald_Sutherland,
+        ns:Acteur_Jason_Statham,
+        ns:Acteur_Mini_Anden,
+        ns:Acteur_Tony_Goldwyn ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Crime,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2011 ;
+    ns:titre "The Mechanic"^^xsd:string .
+
+ns:Film_The_Medallion a ns:Film ;
+    ns:directedBy ns:Realisateur_Gordon_Chan ;
+    ns:duration 88 ;
+    ns:hasActor ns:Acteur_Claire_Forlani,
+        ns:Acteur_Jackie_Chan,
+        ns:Acteur_John_Rhys-Davies,
+        ns:Acteur_Julian_Sands,
+        ns:Acteur_Lee_Evans ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy,
+        ns:Genre_Fantasy,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2003 ;
+    ns:titre "The Medallion"^^xsd:string .
+
+ns:Film_The_Mexican a ns:Film ;
+    ns:directedBy ns:Realisateur_Gore_Verbinski ;
+    ns:duration 123 ;
+    ns:hasActor ns:Acteur_Brad_Pitt,
+        ns:Acteur_Gene_Hackman,
+        ns:Acteur_JK_Simmons,
+        ns:Acteur_James_Gandolfini,
+        ns:Acteur_Julia_Roberts ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy,
+        ns:Genre_Crime,
+        ns:Genre_Romance ;
+    ns:releaseYear 2001 ;
+    ns:titre "The Mexican"^^xsd:string .
+
+ns:Film_The_Next_Karate_Kid a ns:Film ;
+    ns:directedBy ns:Realisateur_Christopher_Cain ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Chris_Conrad,
+        ns:Acteur_Constance_Towers,
+        ns:Acteur_Hilary_Swank,
+        ns:Acteur_Michael_Ironside,
+        ns:Acteur_Pat_Morita ;
+    ns:hasGenre ns:Genre_Adventure ;
+    ns:releaseYear 1994 ;
+    ns:titre "The Next Karate Kid"^^xsd:string .
+
+ns:Film_The_Reaping a ns:Film ;
+    ns:directedBy ns:Realisateur_Stephen_Hopkins ;
+    ns:duration 99 ;
+    ns:hasActor ns:Acteur_AnnaSophia_Robb,
+        ns:Acteur_David_Morrissey,
+        ns:Acteur_Hilary_Swank,
+        ns:Acteur_Idris_Elba,
+        ns:Acteur_Stephen_Rea ;
+    ns:hasGenre ns:Genre_Horror,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2007 ;
+    ns:titre "The Reaping"^^xsd:string .
+
+ns:Film_The_Worlds_End a ns:Film ;
+    ns:directedBy ns:Realisateur_Edgar_Wright ;
+    ns:duration 109 ;
+    ns:hasActor ns:Acteur_Eddie_Marsan,
+        ns:Acteur_Martin_Freeman,
+        ns:Acteur_Nick_Frost,
+        ns:Acteur_Paddy_Considine,
+        ns:Acteur_Simon_Pegg ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 2013 ;
+    ns:titre "The World's End"^^xsd:string .
+
+ns:Film_The_X_Files_I_Want_to_Believe a ns:Film ;
+    ns:directedBy ns:Realisateur_Chris_Carter ;
+    ns:duration 104 ;
+    ns:hasActor ns:Acteur_Amanda_Peet,
+        ns:Acteur_Billy_Connolly,
+        ns:Acteur_David_Duchovny,
+        ns:Acteur_Gillian_Anderson,
+        ns:Acteur_Xzibit ;
+    ns:hasGenre ns:Genre_Drama,
+        ns:Genre_Mystery,
+        ns:Genre_Science_Fiction,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2008 ;
+    ns:titre "The X Files: I Want to Believe"^^xsd:string .
+
+ns:Film_Time_Bandits a ns:Film ;
+    ns:directedBy ns:Realisateur_Terry_Gilliam ;
+    ns:duration 116 ;
+    ns:hasActor ns:Acteur_Ian_Holm,
+        ns:Acteur_John_Cleese,
+        ns:Acteur_Michael_Palin,
+        ns:Acteur_Sean_Connery,
+        ns:Acteur_Shelley_Duvall ;
+    ns:hasGenre ns:Genre_Adventure,
+        ns:Genre_Comedy,
+        ns:Genre_Family,
+        ns:Genre_Fantasy,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 1981 ;
+    ns:titre "Time Bandits"^^xsd:string .
+
+ns:Film_Tremors_2_Aftershocks a ns:Film ;
+    ns:directedBy ns:Realisateur_S_S_Wilson ;
+    ns:duration 100 ;
+    ns:hasActor ns:Acteur_Chris_Gartin,
+        ns:Acteur_Fred_Ward,
+        ns:Acteur_Helen_Shaver,
+        ns:Acteur_Marcelo_Tubert,
+        ns:Acteur_Michael_Gross ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Comedy,
+        ns:Genre_Horror,
+        ns:Genre_Science_Fiction ;
+    ns:releaseYear 1996 ;
+    ns:titre "Tremors 2: Aftershocks"^^xsd:string .
+
+ns:Film_Under_Siege a ns:Film ;
+    ns:directedBy ns:Realisateur_Andrew_Davis ;
+    ns:duration 103 ;
+    ns:hasActor ns:Acteur_Gary_Busey,
+        ns:Acteur_Steven_Seagal,
+        ns:Acteur_Tommy_Lee_Jones,
+        ns:Acteur_Патрик_ОНил,
+        ns:Acteur_Эрика_Элениак ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Thriller ;
+    ns:releaseYear 1992 ;
+    ns:titre "Under Siege"^^xsd:string .
+
+ns:Film_Wall_Street_Money_Never_Sleeps a ns:Film ;
+    ns:directedBy ns:Realisateur_Oliver_Stone ;
+    ns:duration 133 ;
+    ns:hasActor ns:Acteur_Carey_Mulligan,
+        ns:Acteur_Frank_Langella,
+        ns:Acteur_Josh_Brolin,
+        ns:Acteur_Michael_Douglas,
+        ns:Acteur_Shia_LaBeouf ;
+    ns:hasGenre ns:Genre_Crime,
+        ns:Genre_Drama ;
+    ns:releaseYear 2010 ;
+    ns:titre "Wall Street: Money Never Sleeps"^^xsd:string .
+
+ns:Film_What_Women_Want a ns:Film ;
+    ns:directedBy ns:Realisateur_Nancy_Meyers ;
+    ns:duration 127 ;
+    ns:hasActor ns:Acteur_Helen_Hunt,
+        ns:Acteur_Lauren_Holly,
+        ns:Acteur_Marisa_Tomei,
+        ns:Acteur_Mark_Feuerstein,
+        ns:Acteur_Mel_Gibson ;
+    ns:hasGenre ns:Genre_Comedy,
+        ns:Genre_Romance ;
+    ns:releaseYear 2000 ;
+    ns:titre "What Women Want"^^xsd:string .
+
+ns:Film_White_House_Down a ns:Film ;
+    ns:directedBy ns:Realisateur_Roland_Emmerich ;
+    ns:duration 131 ;
+    ns:hasActor ns:Acteur_Channing_Tatum,
+        ns:Acteur_Jamie_Foxx,
+        ns:Acteur_Joey_King,
+        ns:Acteur_Maggie_Gyllenhaal,
+        ns:Acteur_Richard_Jenkins ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Drama,
+        ns:Genre_Thriller ;
+    ns:releaseYear 2013 ;
+    ns:titre "White House Down"^^xsd:string .
+
+ns:Film_Wild_Wild_West a ns:Film ;
+    ns:directedBy ns:Realisateur_Barry_Sonnenfeld ;
+    ns:duration 106 ;
+    ns:hasActor ns:Acteur_Kenneth_Branagh,
+        ns:Acteur_Kevin_Kline,
+        ns:Acteur_M_Emmet_Walsh,
+        ns:Acteur_Salma_Hayek,
+        ns:Acteur_Will_Smith ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Comedy,
+        ns:Genre_Science_Fiction,
+        ns:Genre_Western ;
+    ns:releaseYear 1999 ;
+    ns:titre "Wild Wild West"^^xsd:string .
+
+ns:Film_Willow a ns:Film ;
+    ns:directedBy ns:Realisateur_Ron_Howard ;
+    ns:duration 126 ;
+    ns:hasActor ns:Acteur_Jean_Marsh,
+        ns:Acteur_Joanne_Whalley,
+        ns:Acteur_Patricia_Hayes,
+        ns:Acteur_Val_Kilmer,
+        ns:Acteur_Warwick_Davis ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Drama ;
+    ns:releaseYear 1988 ;
+    ns:titre "Willow"^^xsd:string .
+
+ns:Film_Young_Guns a ns:Film ;
+    ns:directedBy ns:Realisateur_Christopher_Cain ;
+    ns:duration 107 ;
+    ns:hasActor ns:Acteur_Charlie_Sheen,
+        ns:Acteur_Dermot_Mulroney,
+        ns:Acteur_Emilio_Estevez,
+        ns:Acteur_Kiefer_Sutherland,
+        ns:Acteur_Lou_Diamond_Phillips ;
+    ns:hasGenre ns:Genre_Action,
+        ns:Genre_Adventure,
+        ns:Genre_Crime,
+        ns:Genre_Drama,
+        ns:Genre_Western ;
+    ns:releaseYear 1988 ;
+    ns:titre "Young Guns"^^xsd:string .
+
+ns:directedBy a owl:ObjectProperty ;
+    rdfs:label "réalisé par"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range ns:Realisateur .
+
+ns:duration a owl:DatatypeProperty ;
+    rdfs:label "durée en minutes"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range xsd:integer .
+
+ns:hasActor a owl:ObjectProperty ;
+    rdfs:label "a pour acteur"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range ns:Acteur .
+
+ns:hasGenre a owl:ObjectProperty ;
+    rdfs:label "a pour genre"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range ns:Genre .
+
+ns:nom a owl:DatatypeProperty ;
+    rdfs:label "nom"@fr ;
+    rdfs:range xsd:string .
+
+ns:releaseYear a owl:DatatypeProperty ;
+    rdfs:label "année de sortie"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range xsd:integer .
+
+ns:titre a owl:DatatypeProperty ;
+    rdfs:label "titre"@fr ;
+    rdfs:domain ns:Film ;
+    rdfs:range xsd:string .
+
+ns:Acteur_50_Cent a ns:Acteur ;
+    ns:nom "50 Cent"^^xsd:string .
+
+ns:Acteur_Aaron_Yoo a ns:Acteur ;
+    ns:nom "Aaron Yoo"^^xsd:string .
+
+ns:Acteur_Adam_Sandler a ns:Acteur ;
+    ns:nom "Adam Sandler"^^xsd:string .
+
+ns:Acteur_Adewale_Akinnuoye-Agbaje a ns:Acteur ;
+    ns:nom "Adewale Akinnuoye-Agbaje"^^xsd:string .
+
+ns:Acteur_Aidan_McArdle a ns:Acteur ;
+    ns:nom "Aidan McArdle"^^xsd:string .
+
+ns:Acteur_Alan_Dale a ns:Acteur ;
+    ns:nom "Alan Dale"^^xsd:string .
+
+ns:Acteur_Alexandru_Potocean a ns:Acteur ;
+    ns:nom "Alexandru Potocean"^^xsd:string .
+
+ns:Acteur_Alfre_Woodard a ns:Acteur ;
+    ns:nom "Alfre Woodard"^^xsd:string .
+
+ns:Acteur_Alice_Lowe a ns:Acteur ;
+    ns:nom "Alice Lowe"^^xsd:string .
+
+ns:Acteur_Alicia_Silverstone a ns:Acteur ;
+    ns:nom "Alicia Silverstone"^^xsd:string .
+
+ns:Acteur_Alida_Valli a ns:Acteur ;
+    ns:nom "Alida Valli"^^xsd:string .
+
+ns:Acteur_Allison_Mackie a ns:Acteur ;
+    ns:nom "Allison Mackie"^^xsd:string .
+
+ns:Acteur_Alma_Kruger a ns:Acteur ;
+    ns:nom "Alma Kruger"^^xsd:string .
+
+ns:Acteur_Alun_Armstrong a ns:Acteur ;
+    ns:nom "Alun Armstrong"^^xsd:string .
+
+ns:Acteur_Amanda_Peet a ns:Acteur ;
+    ns:nom "Amanda Peet"^^xsd:string .
+
+ns:Acteur_Amaury_Nolasco a ns:Acteur ;
+    ns:nom "Amaury Nolasco"^^xsd:string .
+
+ns:Acteur_Amber_Heard a ns:Acteur ;
+    ns:nom "Amber Heard"^^xsd:string .
+
+ns:Acteur_Amy_Adams a ns:Acteur ;
+    ns:nom "Amy Adams"^^xsd:string .
+
+ns:Acteur_Anamaria_Marinca a ns:Acteur ;
+    ns:nom "Anamaria Marinca"^^xsd:string .
+
+ns:Acteur_Ann_Hearn a ns:Acteur ;
+    ns:nom "Ann Hearn"^^xsd:string .
+
+ns:Acteur_AnnaSophia_Robb a ns:Acteur ;
+    ns:nom "AnnaSophia Robb"^^xsd:string .
+
+ns:Acteur_Anna_Faris a ns:Acteur ;
+    ns:nom "Anna Faris"^^xsd:string .
+
+ns:Acteur_Anne_Bancroft a ns:Acteur ;
+    ns:nom "Anne Bancroft"^^xsd:string .
+
+ns:Acteur_Annette_Bening a ns:Acteur ;
+    ns:nom "Annette Bening"^^xsd:string .
+
+ns:Acteur_Anson_Mount a ns:Acteur ;
+    ns:nom "Anson Mount"^^xsd:string .
+
+ns:Acteur_Anthony_Anderson a ns:Acteur ;
+    ns:nom "Anthony Anderson"^^xsd:string .
+
+ns:Acteur_Anthony_Hopkins a ns:Acteur ;
+    ns:nom "Anthony Hopkins"^^xsd:string .
+
+ns:Acteur_Antonio_Banderas a ns:Acteur ;
+    ns:nom "Antonio Banderas"^^xsd:string .
+
+ns:Acteur_Antonio_Cupo a ns:Acteur ;
+    ns:nom "Antonio Cupo"^^xsd:string .
+
+ns:Acteur_Armin_Mueller-Stahl a ns:Acteur ;
+    ns:nom "Armin Mueller-Stahl"^^xsd:string .
+
+ns:Acteur_Barbara_Crampton a ns:Acteur ;
+    ns:nom "Barbara Crampton"^^xsd:string .
+
+ns:Acteur_Bebe_Neuwirth a ns:Acteur ;
+    ns:nom "Bebe Neuwirth"^^xsd:string .
+
+ns:Acteur_Ben_Foster a ns:Acteur ;
+    ns:nom "Ben Foster"^^xsd:string .
+
+ns:Acteur_Bill_Nighy a ns:Acteur ;
+    ns:nom "Bill Nighy"^^xsd:string .
+
+ns:Acteur_Bill_Pullman a ns:Acteur ;
+    ns:nom "Bill Pullman"^^xsd:string .
+
+ns:Acteur_Billy_Connolly a ns:Acteur ;
+    ns:nom "Billy Connolly"^^xsd:string .
+
+ns:Acteur_Billy_Crudup a ns:Acteur ;
+    ns:nom "Billy Crudup"^^xsd:string .
+
+ns:Acteur_Billy_Crystal a ns:Acteur ;
+    ns:nom "Billy Crystal"^^xsd:string .
+
+ns:Acteur_Blake_Clark a ns:Acteur ;
+    ns:nom "Blake Clark"^^xsd:string .
+
+ns:Acteur_Bob_Bergen a ns:Acteur ;
+    ns:nom "Bob Bergen"^^xsd:string .
+
+ns:Acteur_Bob_Hoskins a ns:Acteur ;
+    ns:nom "Bob Hoskins"^^xsd:string .
+
+ns:Acteur_Brad_Pitt a ns:Acteur ;
+    ns:nom "Brad Pitt"^^xsd:string .
+
+ns:Acteur_Brendan_Gleeson a ns:Acteur ;
+    ns:nom "Brendan Gleeson"^^xsd:string .
+
+ns:Acteur_Bridgit_Mendler a ns:Acteur ;
+    ns:nom "Bridgit Mendler"^^xsd:string .
+
+ns:Acteur_Britt_Robertson a ns:Acteur ;
+    ns:nom "Britt Robertson"^^xsd:string .
+
+ns:Acteur_Brittany_Murphy a ns:Acteur ;
+    ns:nom "Brittany Murphy"^^xsd:string .
+
+ns:Acteur_Bruce_Abbott a ns:Acteur ;
+    ns:nom "Bruce Abbott"^^xsd:string .
+
+ns:Acteur_Bruce_Davison a ns:Acteur ;
+    ns:nom "Bruce Davison"^^xsd:string .
+
+ns:Acteur_Bruce_McGill a ns:Acteur ;
+    ns:nom "Bruce McGill"^^xsd:string .
+
+ns:Acteur_Bruce_Willis a ns:Acteur ;
+    ns:nom "Bruce Willis"^^xsd:string .
+
+ns:Acteur_Carey_Mulligan a ns:Acteur ;
+    ns:nom "Carey Mulligan"^^xsd:string .
+
+ns:Acteur_Carlos_Alazraqui a ns:Acteur ;
+    ns:nom "Carlos Alazraqui"^^xsd:string .
+
+ns:Acteur_Carlos_Gallardo a ns:Acteur ;
+    ns:nom "Carlos Gallardo"^^xsd:string .
+
+ns:Acteur_Carole_Laure a ns:Acteur ;
+    ns:nom "Carole Laure"^^xsd:string .
+
+ns:Acteur_Casey_Affleck a ns:Acteur ;
+    ns:nom "Casey Affleck"^^xsd:string .
+
+ns:Acteur_Cate_Blanchett a ns:Acteur ;
+    ns:nom "Cate Blanchett"^^xsd:string .
+
+ns:Acteur_Cathleen_Nesbitt a ns:Acteur ;
+    ns:nom "Cathleen Nesbitt"^^xsd:string .
+
+ns:Acteur_Cathy_Moriarty a ns:Acteur ;
+    ns:nom "Cathy Moriarty"^^xsd:string .
+
+ns:Acteur_Channing_Tatum a ns:Acteur ;
+    ns:nom "Channing Tatum"^^xsd:string .
+
+ns:Acteur_Charlie_Day a ns:Acteur ;
+    ns:nom "Charlie Day"^^xsd:string .
+
+ns:Acteur_Charlie_Sheen a ns:Acteur ;
+    ns:nom "Charlie Sheen"^^xsd:string .
+
+ns:Acteur_Charlotte_Rampling a ns:Acteur ;
+    ns:nom "Charlotte Rampling"^^xsd:string .
+
+ns:Acteur_Chloë_Grace_Moretz a ns:Acteur ;
+    ns:nom "Chloë Grace Moretz"^^xsd:string .
+
+ns:Acteur_Chris_Conrad a ns:Acteur ;
+    ns:nom "Chris Conrad"^^xsd:string .
+
+ns:Acteur_Chris_Cooper a ns:Acteur ;
+    ns:nom "Chris Cooper"^^xsd:string .
+
+ns:Acteur_Chris_Gartin a ns:Acteur ;
+    ns:nom "Chris Gartin"^^xsd:string .
+
+ns:Acteur_Chris_Parnell a ns:Acteur ;
+    ns:nom "Chris Parnell"^^xsd:string .
+
+ns:Acteur_Claire_Forlani a ns:Acteur ;
+    ns:nom "Claire Forlani"^^xsd:string .
+
+ns:Acteur_Clifton_Webb a ns:Acteur ;
+    ns:nom "Clifton Webb"^^xsd:string .
+
+ns:Acteur_Clint_Eastwood a ns:Acteur ;
+    ns:nom "Clint Eastwood"^^xsd:string .
+
+ns:Acteur_Clémence_Poésy a ns:Acteur ;
+    ns:nom "Clémence Poésy"^^xsd:string .
+
+ns:Acteur_Columbus_Short a ns:Acteur ;
+    ns:nom "Columbus Short"^^xsd:string .
+
+ns:Acteur_Constance_Towers a ns:Acteur ;
+    ns:nom "Constance Towers"^^xsd:string .
+
+ns:Acteur_Craig_Wasson a ns:Acteur ;
+    ns:nom "Craig Wasson"^^xsd:string .
+
+ns:Acteur_D_B_Sweeney a ns:Acteur ;
+    ns:nom "D. B. Sweeney"^^xsd:string .
+
+ns:Acteur_Dana_Andrews a ns:Acteur ;
+    ns:nom "Dana Andrews"^^xsd:string .
+
+ns:Acteur_Danai_Gurira a ns:Acteur ;
+    ns:nom "Danai Gurira"^^xsd:string .
+
+ns:Acteur_Daniel_Craig a ns:Acteur ;
+    ns:nom "Daniel Craig"^^xsd:string .
+
+ns:Acteur_Daniel_Emilfork a ns:Acteur ;
+    ns:nom "Daniel Emilfork"^^xsd:string .
+
+ns:Acteur_Daniel_Ryan a ns:Acteur ;
+    ns:nom "Daniel Ryan"^^xsd:string .
+
+ns:Acteur_David_Battley a ns:Acteur ;
+    ns:nom "David Battley"^^xsd:string .
+
+ns:Acteur_David_Cross a ns:Acteur ;
+    ns:nom "David Cross"^^xsd:string .
+
+ns:Acteur_David_Duchovny a ns:Acteur ;
+    ns:nom "David Duchovny"^^xsd:string .
+
+ns:Acteur_David_Gale a ns:Acteur ;
+    ns:nom "David Gale"^^xsd:string .
+
+ns:Acteur_David_Morrissey a ns:Acteur ;
+    ns:nom "David Morrissey"^^xsd:string .
+
+ns:Acteur_David_Newsom a ns:Acteur ;
+    ns:nom "David Newsom"^^xsd:string .
+
+ns:Acteur_DeRay_Davis a ns:Acteur ;
+    ns:nom "DeRay Davis"^^xsd:string .
+
+ns:Acteur_Debbie_Reynolds a ns:Acteur ;
+    ns:nom "Debbie Reynolds"^^xsd:string .
+
+ns:Acteur_Deborah_Kerr a ns:Acteur ;
+    ns:nom "Deborah Kerr"^^xsd:string .
+
+ns:Acteur_Deborah_Shelton a ns:Acteur ;
+    ns:nom "Deborah Shelton"^^xsd:string .
+
+ns:Acteur_Debra_Messing a ns:Acteur ;
+    ns:nom "Debra Messing"^^xsd:string .
+
+ns:Acteur_Delroy_Lindo a ns:Acteur ;
+    ns:nom "Delroy Lindo"^^xsd:string .
+
+ns:Acteur_Demetrius_Shipp_Jr a ns:Acteur ;
+    ns:nom "Demetrius Shipp Jr."^^xsd:string .
+
+ns:Acteur_Dennis_Quaid a ns:Acteur ;
+    ns:nom "Dennis Quaid"^^xsd:string .
+
+ns:Acteur_Derek_Jacobi a ns:Acteur ;
+    ns:nom "Derek Jacobi"^^xsd:string .
+
+ns:Acteur_Dermot_Mulroney a ns:Acteur ;
+    ns:nom "Dermot Mulroney"^^xsd:string .
+
+ns:Acteur_Djimon_Hounsou a ns:Acteur ;
+    ns:nom "Djimon Hounsou"^^xsd:string .
+
+ns:Acteur_Dominic_L_Santana a ns:Acteur ;
+    ns:nom "Dominic L. Santana"^^xsd:string .
+
+ns:Acteur_Dominique_Pinon a ns:Acteur ;
+    ns:nom "Dominique Pinon"^^xsd:string .
+
+ns:Acteur_Dominique_Sanda a ns:Acteur ;
+    ns:nom "Dominique Sanda"^^xsd:string .
+
+ns:Acteur_Donald_Faison a ns:Acteur ;
+    ns:nom "Donald Faison"^^xsd:string .
+
+ns:Acteur_Donnie_Yen a ns:Acteur ;
+    ns:nom "Donnie Yen"^^xsd:string .
+
+ns:Acteur_Ed_Harris a ns:Acteur ;
+    ns:nom "Ed Harris"^^xsd:string .
+
+ns:Acteur_Ed_Speleers a ns:Acteur ;
+    ns:nom "Ed Speleers"^^xsd:string .
+
+ns:Acteur_Eddie_Marsan a ns:Acteur ;
+    ns:nom "Eddie Marsan"^^xsd:string .
+
+ns:Acteur_Edith_Scob a ns:Acteur ;
+    ns:nom "Edith Scob"^^xsd:string .
+
+ns:Acteur_Edward_James_Olmos a ns:Acteur ;
+    ns:nom "Edward James Olmos"^^xsd:string .
+
+ns:Acteur_Edward_Norton a ns:Acteur ;
+    ns:nom "Edward Norton"^^xsd:string .
+
+ns:Acteur_Edwin_Hodge a ns:Acteur ;
+    ns:nom "Edwin Hodge"^^xsd:string .
+
+ns:Acteur_Eileen_Davies a ns:Acteur ;
+    ns:nom "Eileen Davies"^^xsd:string .
+
+ns:Acteur_Elias_Koteas a ns:Acteur ;
+    ns:nom "Elias Koteas"^^xsd:string .
+
+ns:Acteur_Elle_Fanning a ns:Acteur ;
+    ns:nom "Elle Fanning"^^xsd:string .
+
+ns:Acteur_Emilio_Estevez a ns:Acteur ;
+    ns:nom "Emilio Estevez"^^xsd:string .
+
+ns:Acteur_Emma_Stone a ns:Acteur ;
+    ns:nom "Emma Stone"^^xsd:string .
+
+ns:Acteur_Enzo_Tarascio a ns:Acteur ;
+    ns:nom "Enzo Tarascio"^^xsd:string .
+
+ns:Acteur_Eric_Bana a ns:Acteur ;
+    ns:nom "Eric Bana"^^xsd:string .
+
+ns:Acteur_Erland_Josephson a ns:Acteur ;
+    ns:nom "Erland Josephson"^^xsd:string .
+
+ns:Acteur_Ethan_Embry a ns:Acteur ;
+    ns:nom "Ethan Embry"^^xsd:string .
+
+ns:Acteur_Ethan_Hawke a ns:Acteur ;
+    ns:nom "Ethan Hawke"^^xsd:string .
+
+ns:Acteur_Eva_Gabor a ns:Acteur ;
+    ns:nom "Eva Gabor"^^xsd:string .
+
+ns:Acteur_Flaminia_Cinque a ns:Acteur ;
+    ns:nom "Flaminia Cinque"^^xsd:string .
+
+ns:Acteur_Francesca_Annis a ns:Acteur ;
+    ns:nom "Francesca Annis"^^xsd:string .
+
+ns:Acteur_Frank_Langella a ns:Acteur ;
+    ns:nom "Frank Langella"^^xsd:string .
+
+ns:Acteur_François_Guérin a ns:Acteur ;
+    ns:nom "François Guérin"^^xsd:string .
+
+ns:Acteur_Fred_Ward a ns:Acteur ;
+    ns:nom "Fred Ward"^^xsd:string .
+
+ns:Acteur_Gabriel_Mann a ns:Acteur ;
+    ns:nom "Gabriel Mann"^^xsd:string .
+
+ns:Acteur_Gary_Busey a ns:Acteur ;
+    ns:nom "Gary Busey"^^xsd:string .
+
+ns:Acteur_Gary_Dourdan a ns:Acteur ;
+    ns:nom "Gary Dourdan"^^xsd:string .
+
+ns:Acteur_Gastone_Moschin a ns:Acteur ;
+    ns:nom "Gastone Moschin"^^xsd:string .
+
+ns:Acteur_Gene_Hackman a ns:Acteur ;
+    ns:nom "Gene Hackman"^^xsd:string .
+
+ns:Acteur_Gene_Lockhart a ns:Acteur ;
+    ns:nom "Gene Lockhart"^^xsd:string .
+
+ns:Acteur_Gene_Tierney a ns:Acteur ;
+    ns:nom "Gene Tierney"^^xsd:string .
+
+ns:Acteur_George_C_Scott a ns:Acteur ;
+    ns:nom "George C. Scott"^^xsd:string .
+
+ns:Acteur_George_Hamilton a ns:Acteur ;
+    ns:nom "George Hamilton"^^xsd:string .
+
+ns:Acteur_Gillian_Anderson a ns:Acteur ;
+    ns:nom "Gillian Anderson"^^xsd:string .
+
+ns:Acteur_Gina_McKee a ns:Acteur ;
+    ns:nom "Gina McKee"^^xsd:string .
+
+ns:Acteur_Giovanni_Ribisi a ns:Acteur ;
+    ns:nom "Giovanni Ribisi"^^xsd:string .
+
+ns:Acteur_Gregg_Henry a ns:Acteur ;
+    ns:nom "Gregg Henry"^^xsd:string .
+
+ns:Acteur_Gregory_Itzin a ns:Acteur ;
+    ns:nom "Gregory Itzin"^^xsd:string .
+
+ns:Acteur_Greta_Gerwig a ns:Acteur ;
+    ns:nom "Greta Gerwig"^^xsd:string .
+
+ns:Acteur_Guy_Boyd a ns:Acteur ;
+    ns:nom "Guy Boyd"^^xsd:string .
+
+ns:Acteur_Gwyneth_Paltrow a ns:Acteur ;
+    ns:nom "Gwyneth Paltrow"^^xsd:string .
+
+ns:Acteur_Halle_Berry a ns:Acteur ;
+    ns:nom "Halle Berry"^^xsd:string .
+
+ns:Acteur_Harrison_Ford a ns:Acteur ;
+    ns:nom "Harrison Ford"^^xsd:string .
+
+ns:Acteur_Hayden_Panettiere a ns:Acteur ;
+    ns:nom "Hayden Panettiere"^^xsd:string .
+
+ns:Acteur_Heather_Langenkamp a ns:Acteur ;
+    ns:nom "Heather Langenkamp"^^xsd:string .
+
+ns:Acteur_Helen_Hunt a ns:Acteur ;
+    ns:nom "Helen Hunt"^^xsd:string .
+
+ns:Acteur_Helen_Shaver a ns:Acteur ;
+    ns:nom "Helen Shaver"^^xsd:string .
+
+ns:Acteur_Hugh_Grant a ns:Acteur ;
+    ns:nom "Hugh Grant"^^xsd:string .
+
+ns:Acteur_Hugh_Jackman a ns:Acteur ;
+    ns:nom "Hugh Jackman"^^xsd:string .
+
+ns:Acteur_Ian_McKellen a ns:Acteur ;
+    ns:nom "Ian McKellen"^^xsd:string .
+
+ns:Acteur_Ice_Cube a ns:Acteur ;
+    ns:nom "Ice Cube"^^xsd:string .
+
+ns:Acteur_Idris_Elba a ns:Acteur ;
+    ns:nom "Idris Elba"^^xsd:string .
+
+ns:Acteur_Ingrid_Thulin a ns:Acteur ;
+    ns:nom "Ingrid Thulin"^^xsd:string .
+
+ns:Acteur_Izabela_Vidovic a ns:Acteur ;
+    ns:nom "Izabela Vidovic"^^xsd:string .
+
+ns:Acteur_JK_Simmons a ns:Acteur ;
+    ns:nom "J.K. Simmons"^^xsd:string .
+
+ns:Acteur_Jacinda_Barrett a ns:Acteur ;
+    ns:nom "Jacinda Barrett"^^xsd:string .
+
+ns:Acteur_Jack_Ging a ns:Acteur ;
+    ns:nom "Jack Ging"^^xsd:string .
+
+ns:Acteur_Jack_Thompson a ns:Acteur ;
+    ns:nom "Jack Thompson"^^xsd:string .
+
+ns:Acteur_Jackie_Chan a ns:Acteur ;
+    ns:nom "Jackie Chan"^^xsd:string .
+
+ns:Acteur_Jaime_de_Hoyos a ns:Acteur ;
+    ns:nom "Jaime de Hoyos"^^xsd:string .
+
+ns:Acteur_Jake_Gyllenhaal a ns:Acteur ;
+    ns:nom "Jake Gyllenhaal"^^xsd:string .
+
+ns:Acteur_Jake_La_Botz a ns:Acteur ;
+    ns:nom "Jake La Botz"^^xsd:string .
+
+ns:Acteur_Jamal_Woolard a ns:Acteur ;
+    ns:nom "Jamal Woolard"^^xsd:string .
+
+ns:Acteur_James_Earl_Jones a ns:Acteur ;
+    ns:nom "James Earl Jones"^^xsd:string .
+
+ns:Acteur_James_Franco a ns:Acteur ;
+    ns:nom "James Franco"^^xsd:string .
+
+ns:Acteur_Janine_Turner a ns:Acteur ;
+    ns:nom "Janine Turner"^^xsd:string .
+
+ns:Acteur_Jason_Bateman a ns:Acteur ;
+    ns:nom "Jason Bateman"^^xsd:string .
+
+ns:Acteur_Jason_Lee a ns:Acteur ;
+    ns:nom "Jason Lee"^^xsd:string .
+
+ns:Acteur_Jason_Sudeikis a ns:Acteur ;
+    ns:nom "Jason Sudeikis"^^xsd:string .
+
+ns:Acteur_Jean-Claude_Dreyfus a ns:Acteur ;
+    ns:nom "Jean-Claude Dreyfus"^^xsd:string .
+
+ns:Acteur_Jean-Claude_Van_Damme a ns:Acteur ;
+    ns:nom "Jean-Claude Van Damme"^^xsd:string .
+
+ns:Acteur_Jean-Louis_Trintignant a ns:Acteur ;
+    ns:nom "Jean-Louis Trintignant"^^xsd:string .
+
+ns:Acteur_Jean-Marc_Barr a ns:Acteur ;
+    ns:nom "Jean-Marc Barr"^^xsd:string .
+
+ns:Acteur_Jean_Marsh a ns:Acteur ;
+    ns:nom "Jean Marsh"^^xsd:string .
+
+ns:Acteur_Jean_Reno a ns:Acteur ;
+    ns:nom "Jean Reno"^^xsd:string .
+
+ns:Acteur_Jeff_Daniel_Phillips a ns:Acteur ;
+    ns:nom "Jeff Daniel Phillips"^^xsd:string .
+
+ns:Acteur_Jeff_Daniels a ns:Acteur ;
+    ns:nom "Jeff Daniels"^^xsd:string .
+
+ns:Acteur_Jeffrey_Combs a ns:Acteur ;
+    ns:nom "Jeffrey Combs"^^xsd:string .
+
+ns:Acteur_Jennifer_Aniston a ns:Acteur ;
+    ns:nom "Jennifer Aniston"^^xsd:string .
+
+ns:Acteur_Jennifer_Beals a ns:Acteur ;
+    ns:nom "Jennifer Beals"^^xsd:string .
+
+ns:Acteur_Jennifer_Jason_Leigh a ns:Acteur ;
+    ns:nom "Jennifer Jason Leigh"^^xsd:string .
+
+ns:Acteur_Jeremy_Irons a ns:Acteur ;
+    ns:nom "Jeremy Irons"^^xsd:string .
+
+ns:Acteur_Jet_Li a ns:Acteur ;
+    ns:nom "Jet Li"^^xsd:string .
+
+ns:Acteur_Joan_Cusack a ns:Acteur ;
+    ns:nom "Joan Cusack"^^xsd:string .
+
+ns:Acteur_Joanne_Whalley a ns:Acteur ;
+    ns:nom "Joanne Whalley"^^xsd:string .
+
+ns:Acteur_Joe_Viterelli a ns:Acteur ;
+    ns:nom "Joe Viterelli"^^xsd:string .
+
+ns:Acteur_Joey_King a ns:Acteur ;
+    ns:nom "Joey King"^^xsd:string .
+
+ns:Acteur_John_Boyega a ns:Acteur ;
+    ns:nom "John Boyega"^^xsd:string .
+
+ns:Acteur_John_C_Reilly a ns:Acteur ;
+    ns:nom "John C. Reilly"^^xsd:string .
+
+ns:Acteur_John_Cleese a ns:Acteur ;
+    ns:nom "John Cleese"^^xsd:string .
+
+ns:Acteur_John_Leguizamo a ns:Acteur ;
+    ns:nom "John Leguizamo"^^xsd:string .
+
+ns:Acteur_John_Lithgow a ns:Acteur ;
+    ns:nom "John Lithgow"^^xsd:string .
+
+ns:Acteur_John_Malkovich a ns:Acteur ;
+    ns:nom "John Malkovich"^^xsd:string .
+
+ns:Acteur_John_Rhys-Davies a ns:Acteur ;
+    ns:nom "John Rhys-Davies"^^xsd:string .
+
+ns:Acteur_Jonah_Hill a ns:Acteur ;
+    ns:nom "Jonah Hill"^^xsd:string .
+
+ns:Acteur_Jonathan_Pryce a ns:Acteur ;
+    ns:nom "Jonathan Pryce"^^xsd:string .
+
+ns:Acteur_Josh_Brolin a ns:Acteur ;
+    ns:nom "Josh Brolin"^^xsd:string .
+
+ns:Acteur_Josh_Gad a ns:Acteur ;
+    ns:nom "Josh Gad"^^xsd:string .
+
+ns:Acteur_Josh_Hutcherson a ns:Acteur ;
+    ns:nom "Josh Hutcherson"^^xsd:string .
+
+ns:Acteur_Joy_Bryant a ns:Acteur ;
+    ns:nom "Joy Bryant"^^xsd:string .
+
+ns:Acteur_Jude_Law a ns:Acteur ;
+    ns:nom "Jude Law"^^xsd:string .
+
+ns:Acteur_Judith_Anderson a ns:Acteur ;
+    ns:nom "Judith Anderson"^^xsd:string .
+
+ns:Acteur_Judith_Vittet a ns:Acteur ;
+    ns:nom "Judith Vittet"^^xsd:string .
+
+ns:Acteur_Judy_Geeson a ns:Acteur ;
+    ns:nom "Judy Geeson"^^xsd:string .
+
+ns:Acteur_Julia_Maxwell a ns:Acteur ;
+    ns:nom "Julia Maxwell"^^xsd:string .
+
+ns:Acteur_Julian_Sands a ns:Acteur ;
+    ns:nom "Julian Sands"^^xsd:string .
+
+ns:Acteur_Julie_Benz a ns:Acteur ;
+    ns:nom "Julie Benz"^^xsd:string .
+
+ns:Acteur_Julie_Christie a ns:Acteur ;
+    ns:nom "Julie Christie"^^xsd:string .
+
+ns:Acteur_Juliet_Rylance a ns:Acteur ;
+    ns:nom "Juliet Rylance"^^xsd:string .
+
+ns:Acteur_Juliette_Mayniel a ns:Acteur ;
+    ns:nom "Juliette Mayniel"^^xsd:string .
+
+ns:Acteur_Justin_Fletcher a ns:Acteur ;
+    ns:nom "Justin Fletcher"^^xsd:string .
+
+ns:Acteur_Justin_Long a ns:Acteur ;
+    ns:nom "Justin Long"^^xsd:string .
+
+ns:Acteur_KJ_Apa a ns:Acteur ;
+    ns:nom "K.J. Apa"^^xsd:string .
+
+ns:Acteur_Kari_Sylwan a ns:Acteur ;
+    ns:nom "Kari Sylwan"^^xsd:string .
+
+ns:Acteur_Kari_Wahlgren a ns:Acteur ;
+    ns:nom "Kari Wahlgren"^^xsd:string .
+
+ns:Acteur_Karl_Davies a ns:Acteur ;
+    ns:nom "Karl Davies"^^xsd:string .
+
+ns:Acteur_Kat_Dennings a ns:Acteur ;
+    ns:nom "Kat Dennings"^^xsd:string .
+
+ns:Acteur_Kat_Graham a ns:Acteur ;
+    ns:nom "Kat Graham"^^xsd:string .
+
+ns:Acteur_Kate_Beckinsale a ns:Acteur ;
+    ns:nom "Kate Beckinsale"^^xsd:string .
+
+ns:Acteur_Kate_Harbour a ns:Acteur ;
+    ns:nom "Kate Harbour"^^xsd:string .
+
+ns:Acteur_Kate_Walsh a ns:Acteur ;
+    ns:nom "Kate Walsh"^^xsd:string .
+
+ns:Acteur_Katharine_Isabelle a ns:Acteur ;
+    ns:nom "Katharine Isabelle"^^xsd:string .
+
+ns:Acteur_Katharine_McPhee a ns:Acteur ;
+    ns:nom "Katharine McPhee"^^xsd:string .
+
+ns:Acteur_Katherine_Helmond a ns:Acteur ;
+    ns:nom "Katherine Helmond"^^xsd:string .
+
+ns:Acteur_Ken_Marshall a ns:Acteur ;
+    ns:nom "Ken Marshall"^^xsd:string .
+
+ns:Acteur_Kenneth_Welsh a ns:Acteur ;
+    ns:nom "Kenneth Welsh"^^xsd:string .
+
+ns:Acteur_Keri_Russell a ns:Acteur ;
+    ns:nom "Keri Russell"^^xsd:string .
+
+ns:Acteur_Kevin_Hart a ns:Acteur ;
+    ns:nom "Kevin Hart"^^xsd:string .
+
+ns:Acteur_Kevin_Spacey a ns:Acteur ;
+    ns:nom "Kevin Spacey"^^xsd:string .
+
+ns:Acteur_Kiara_Glasco a ns:Acteur ;
+    ns:nom "Kiara Glasco"^^xsd:string .
+
+ns:Acteur_Kiefer_Sutherland a ns:Acteur ;
+    ns:nom "Kiefer Sutherland"^^xsd:string .
+
+ns:Acteur_Kieran_Culkin a ns:Acteur ;
+    ns:nom "Kieran Culkin"^^xsd:string .
+
+ns:Acteur_Kiersey_Clemons a ns:Acteur ;
+    ns:nom "Kiersey Clemons"^^xsd:string .
+
+ns:Acteur_Kurt_Russell a ns:Acteur ;
+    ns:nom "Kurt Russell"^^xsd:string .
+
+ns:Acteur_Kyle_T_Heffner a ns:Acteur ;
+    ns:nom "Kyle T. Heffner"^^xsd:string .
+
+ns:Acteur_Laura_Linney a ns:Acteur ;
+    ns:nom "Laura Linney"^^xsd:string .
+
+ns:Acteur_Laura_Vasiliu a ns:Acteur ;
+    ns:nom "Laura Vasiliu"^^xsd:string .
+
+ns:Acteur_Lauren_Bacall a ns:Acteur ;
+    ns:nom "Lauren Bacall"^^xsd:string .
+
+ns:Acteur_Laurence_Fishburne a ns:Acteur ;
+    ns:nom "Laurence Fishburne"^^xsd:string .
+
+ns:Acteur_Lee_Evans a ns:Acteur ;
+    ns:nom "Lee Evans"^^xsd:string .
+
+ns:Acteur_Lena_Endre a ns:Acteur ;
+    ns:nom "Lena Endre"^^xsd:string .
+
+ns:Acteur_Leo_Burmester a ns:Acteur ;
+    ns:nom "Leo Burmester"^^xsd:string .
+
+ns:Acteur_Leonardo_DiCaprio a ns:Acteur ;
+    ns:nom "Leonardo DiCaprio"^^xsd:string .
+
+ns:Acteur_Leslie_Mann a ns:Acteur ;
+    ns:nom "Leslie Mann"^^xsd:string .
+
+ns:Acteur_Lilia_Skala a ns:Acteur ;
+    ns:nom "Lilia Skala"^^xsd:string .
+
+ns:Acteur_Lindsay_Lohan a ns:Acteur ;
+    ns:nom "Lindsay Lohan"^^xsd:string .
+
+ns:Acteur_Lisa_Kudrow a ns:Acteur ;
+    ns:nom "Lisa Kudrow"^^xsd:string .
+
+ns:Acteur_Liv_Ullmann a ns:Acteur ;
+    ns:nom "Liv Ullmann"^^xsd:string .
+
+ns:Acteur_Lori_Alan a ns:Acteur ;
+    ns:nom "Lori Alan"^^xsd:string .
+
+ns:Acteur_Lou_Diamond_Phillips a ns:Acteur ;
+    ns:nom "Lou Diamond Phillips"^^xsd:string .
+
+ns:Acteur_Lucas_Black a ns:Acteur ;
+    ns:nom "Lucas Black"^^xsd:string .
+
+ns:Acteur_Lucas_Jade_Zumann a ns:Acteur ;
+    ns:nom "Lucas Jade Zumann"^^xsd:string .
+
+ns:Acteur_Luke_Kirby a ns:Acteur ;
+    ns:nom "Luke Kirby"^^xsd:string .
+
+ns:Acteur_Luke_Treadaway a ns:Acteur ;
+    ns:nom "Luke Treadaway"^^xsd:string .
+
+ns:Acteur_Luminița_Gheorghiu a ns:Acteur ;
+    ns:nom "Luminița Gheorghiu"^^xsd:string .
+
+ns:Acteur_Lysette_Anthony a ns:Acteur ;
+    ns:nom "Lysette Anthony"^^xsd:string .
+
+ns:Acteur_Machiko_Kyô a ns:Acteur ;
+    ns:nom "Machiko Kyô"^^xsd:string .
+
+ns:Acteur_Maduka_Steady a ns:Acteur ;
+    ns:nom "Maduka Steady"^^xsd:string .
+
+ns:Acteur_Maggie_Cheung a ns:Acteur ;
+    ns:nom "Maggie Cheung"^^xsd:string .
+
+ns:Acteur_Maggie_Grace a ns:Acteur ;
+    ns:nom "Maggie Grace"^^xsd:string .
+
+ns:Acteur_Maggie_Gyllenhaal a ns:Acteur ;
+    ns:nom "Maggie Gyllenhaal"^^xsd:string .
+
+ns:Acteur_Mandy_Moore a ns:Acteur ;
+    ns:nom "Mandy Moore"^^xsd:string .
+
+ns:Acteur_Marcelo_Tubert a ns:Acteur ;
+    ns:nom "Marcelo Tubert"^^xsd:string .
+
+ns:Acteur_Marianna_Hill a ns:Acteur ;
+    ns:nom "Marianna Hill"^^xsd:string .
+
+ns:Acteur_Marisa_Tomei a ns:Acteur ;
+    ns:nom "Marisa Tomei"^^xsd:string .
+
+ns:Acteur_Mark_Feuerstein a ns:Acteur ;
+    ns:nom "Mark Feuerstein"^^xsd:string .
+
+ns:Acteur_Mark_Ruffalo a ns:Acteur ;
+    ns:nom "Mark Ruffalo"^^xsd:string .
+
+ns:Acteur_Mark_Rydell a ns:Acteur ;
+    ns:nom "Mark Rydell"^^xsd:string .
+
+ns:Acteur_Martin_Freeman a ns:Acteur ;
+    ns:nom "Martin Freeman"^^xsd:string .
+
+ns:Acteur_Marton_Csokas a ns:Acteur ;
+    ns:nom "Marton Csokas"^^xsd:string .
+
+ns:Acteur_Mary_Elizabeth_Mastrantonio a ns:Acteur ;
+    ns:nom "Mary Elizabeth Mastrantonio"^^xsd:string .
+
+ns:Acteur_Masayuki_Mori a ns:Acteur ;
+    ns:nom "Masayuki Mori"^^xsd:string .
+
+ns:Acteur_Matthew_Gray_Gubler a ns:Acteur ;
+    ns:nom "Matthew Gray Gubler"^^xsd:string .
+
+ns:Acteur_Matthew_Marsden a ns:Acteur ;
+    ns:nom "Matthew Marsden"^^xsd:string .
+
+ns:Acteur_Max_Casella a ns:Acteur ;
+    ns:nom "Max Casella"^^xsd:string .
+
+ns:Acteur_Max_von_Sydow a ns:Acteur ;
+    ns:nom "Max von Sydow"^^xsd:string .
+
+ns:Acteur_Meg_Foster a ns:Acteur ;
+    ns:nom "Meg Foster"^^xsd:string .
+
+ns:Acteur_Mel_Gibson a ns:Acteur ;
+    ns:nom "Mel Gibson"^^xsd:string .
+
+ns:Acteur_Melanie_Griffith a ns:Acteur ;
+    ns:nom "Melanie Griffith"^^xsd:string .
+
+ns:Acteur_Melanie_Lynskey a ns:Acteur ;
+    ns:nom "Melanie Lynskey"^^xsd:string .
+
+ns:Acteur_Melissa_Leo a ns:Acteur ;
+    ns:nom "Melissa Leo"^^xsd:string .
+
+ns:Acteur_Michael_Biehn a ns:Acteur ;
+    ns:nom "Michael Biehn"^^xsd:string .
+
+ns:Acteur_Michael_Caine a ns:Acteur ;
+    ns:nom "Michael Caine"^^xsd:string .
+
+ns:Acteur_Michael_Douglas a ns:Acteur ;
+    ns:nom "Michael Douglas"^^xsd:string .
+
+ns:Acteur_Michael_Fassbender a ns:Acteur ;
+    ns:nom "Michael Fassbender"^^xsd:string .
+
+ns:Acteur_Michael_Gross a ns:Acteur ;
+    ns:nom "Michael Gross"^^xsd:string .
+
+ns:Acteur_Michael_Ironside a ns:Acteur ;
+    ns:nom "Michael Ironside"^^xsd:string .
+
+ns:Acteur_Michael_Nouri a ns:Acteur ;
+    ns:nom "Michael Nouri"^^xsd:string .
+
+ns:Acteur_Michael_Nyqvist a ns:Acteur ;
+    ns:nom "Michael Nyqvist"^^xsd:string .
+
+ns:Acteur_Michael_Palin a ns:Acteur ;
+    ns:nom "Michael Palin"^^xsd:string .
+
+ns:Acteur_Michael_Rooker a ns:Acteur ;
+    ns:nom "Michael Rooker"^^xsd:string .
+
+ns:Acteur_Michael_Welch a ns:Acteur ;
+    ns:nom "Michael Welch"^^xsd:string .
+
+ns:Acteur_Michael_Weston a ns:Acteur ;
+    ns:nom "Michael Weston"^^xsd:string .
+
+ns:Acteur_Mike_Starr a ns:Acteur ;
+    ns:nom "Mike Starr"^^xsd:string .
+
+ns:Acteur_Miko_Hughes a ns:Acteur ;
+    ns:nom "Miko Hughes"^^xsd:string .
+
+ns:Acteur_Mila_Kunis a ns:Acteur ;
+    ns:nom "Mila Kunis"^^xsd:string .
+
+ns:Acteur_Mini_Anden a ns:Acteur ;
+    ns:nom "Mini Anden"^^xsd:string .
+
+ns:Acteur_Minoru_Chiaki a ns:Acteur ;
+    ns:nom "Minoru Chiaki"^^xsd:string .
+
+ns:Acteur_Mitchell_Ryan a ns:Acteur ;
+    ns:nom "Mitchell Ryan"^^xsd:string .
+
+ns:Acteur_Musetta_Vander a ns:Acteur ;
+    ns:nom "Musetta Vander"^^xsd:string .
+
+ns:Acteur_Neva_Patterson a ns:Acteur ;
+    ns:nom "Neva Patterson"^^xsd:string .
+
+ns:Acteur_Nick_Nolte a ns:Acteur ;
+    ns:nom "Nick Nolte"^^xsd:string .
+
+ns:Acteur_Noomi_Rapace a ns:Acteur ;
+    ns:nom "Noomi Rapace"^^xsd:string .
+
+ns:Acteur_Om_Puri a ns:Acteur ;
+    ns:nom "Om Puri"^^xsd:string .
+
+ns:Acteur_Omar_Benson_Miller a ns:Acteur ;
+    ns:nom "Omar Benson Miller"^^xsd:string .
+
+ns:Acteur_Omid_Djalili a ns:Acteur ;
+    ns:nom "Omid Djalili"^^xsd:string .
+
+ns:Acteur_Oryan_West a ns:Acteur ;
+    ns:nom "Oryan West"^^xsd:string .
+
+ns:Acteur_Ossie_Davis a ns:Acteur ;
+    ns:nom "Ossie Davis"^^xsd:string .
+
+ns:Acteur_Paddy_Considine a ns:Acteur ;
+    ns:nom "Paddy Considine"^^xsd:string .
+
+ns:Acteur_Pat_Morita a ns:Acteur ;
+    ns:nom "Pat Morita"^^xsd:string .
+
+ns:Acteur_Patricia_Hayes a ns:Acteur ;
+    ns:nom "Patricia Hayes"^^xsd:string .
+
+ns:Acteur_Paul_Bettany a ns:Acteur ;
+    ns:nom "Paul Bettany"^^xsd:string .
+
+ns:Acteur_Paul_F_Tompkins a ns:Acteur ;
+    ns:nom "Paul F. Tompkins"^^xsd:string .
+
+ns:Acteur_Paul_Rudd a ns:Acteur ;
+    ns:nom "Paul Rudd"^^xsd:string .
+
+ns:Acteur_Paul_Winchell a ns:Acteur ;
+    ns:nom "Paul Winchell"^^xsd:string .
+
+ns:Acteur_Paula_Lindberg a ns:Acteur ;
+    ns:nom "Paula Lindberg"^^xsd:string .
+
+ns:Acteur_Pelé a ns:Acteur ;
+    ns:nom "Pelé"^^xsd:string .
+
+ns:Acteur_Peter_Andersson a ns:Acteur ;
+    ns:nom "Peter Andersson"^^xsd:string .
+
+ns:Acteur_Peter_Dinklage a ns:Acteur ;
+    ns:nom "Peter Dinklage"^^xsd:string .
+
+ns:Acteur_Peter_Marquardt a ns:Acteur ;
+    ns:nom "Peter Marquardt"^^xsd:string .
+
+ns:Acteur_Peter_Sarsgaard a ns:Acteur ;
+    ns:nom "Peter Sarsgaard"^^xsd:string .
+
+ns:Acteur_Peter_Ustinov a ns:Acteur ;
+    ns:nom "Peter Ustinov"^^xsd:string .
+
+ns:Acteur_Phil_Harris a ns:Acteur ;
+    ns:nom "Phil Harris"^^xsd:string .
+
+ns:Acteur_Philip_Seymour_Hoffman a ns:Acteur ;
+    ns:nom "Philip Seymour Hoffman"^^xsd:string .
+
+ns:Acteur_Pierre_Brasseur a ns:Acteur ;
+    ns:nom "Pierre Brasseur"^^xsd:string .
+
+ns:Acteur_Pruitt_Taylor_Vince a ns:Acteur ;
+    ns:nom "Pruitt Taylor Vince"^^xsd:string .
+
+ns:Acteur_Rachel_Bilson a ns:Acteur ;
+    ns:nom "Rachel Bilson"^^xsd:string .
+
+ns:Acteur_Rachel_Weisz a ns:Acteur ;
+    ns:nom "Rachel Weisz"^^xsd:string .
+
+ns:Acteur_Rachelle_Lefevre a ns:Acteur ;
+    ns:nom "Rachelle Lefevre"^^xsd:string .
+
+ns:Acteur_Ralph_Bellamy a ns:Acteur ;
+    ns:nom "Ralph Bellamy"^^xsd:string .
+
+ns:Acteur_Ramiro_Gomez a ns:Acteur ;
+    ns:nom "Ramiro Gomez"^^xsd:string .
+
+ns:Acteur_Ray_Winstone a ns:Acteur ;
+    ns:nom "Ray Winstone"^^xsd:string .
+
+ns:Acteur_Reinol_Martinez a ns:Acteur ;
+    ns:nom "Reinol Martinez"^^xsd:string .
+
+ns:Acteur_Renée_Zellweger a ns:Acteur ;
+    ns:nom "Renée Zellweger"^^xsd:string .
+
+ns:Acteur_Rex_Linn a ns:Acteur ;
+    ns:nom "Rex Linn"^^xsd:string .
+
+ns:Acteur_Reynaldo_Gallegos a ns:Acteur ;
+    ns:nom "Reynaldo Gallegos"^^xsd:string .
+
+ns:Acteur_Rhona_Mitra a ns:Acteur ;
+    ns:nom "Rhona Mitra"^^xsd:string .
+
+ns:Acteur_Rhys_Ifans a ns:Acteur ;
+    ns:nom "Rhys Ifans"^^xsd:string .
+
+ns:Acteur_Richard_Briers a ns:Acteur ;
+    ns:nom "Richard Briers"^^xsd:string .
+
+ns:Acteur_Richard_Denning a ns:Acteur ;
+    ns:nom "Richard Denning"^^xsd:string .
+
+ns:Acteur_Richard_Dreyfuss a ns:Acteur ;
+    ns:nom "Richard Dreyfuss"^^xsd:string .
+
+ns:Acteur_Richard_Portnow a ns:Acteur ;
+    ns:nom "Richard Portnow"^^xsd:string .
+
+ns:Acteur_Richard_Webber a ns:Acteur ;
+    ns:nom "Richard Webber"^^xsd:string .
+
+ns:Acteur_Robert_Carlyle a ns:Acteur ;
+    ns:nom "Robert Carlyle"^^xsd:string .
+
+ns:Acteur_Robert_Duvall a ns:Acteur ;
+    ns:nom "Robert Duvall"^^xsd:string .
+
+ns:Acteur_Robert_Englund a ns:Acteur ;
+    ns:nom "Robert Englund"^^xsd:string .
+
+ns:Acteur_Robert_Forster a ns:Acteur ;
+    ns:nom "Robert Forster"^^xsd:string .
+
+ns:Acteur_Robert_Redford a ns:Acteur ;
+    ns:nom "Robert Redford"^^xsd:string .
+
+ns:Acteur_Robert_Sampson a ns:Acteur ;
+    ns:nom "Robert Sampson"^^xsd:string .
+
+ns:Acteur_Robin_Williams a ns:Acteur ;
+    ns:nom "Robin Williams"^^xsd:string .
+
+ns:Acteur_Robin_Wright a ns:Acteur ;
+    ns:nom "Robin Wright"^^xsd:string .
+
+ns:Acteur_Roger_Michael a ns:Acteur ;
+    ns:nom "Roger Michael"^^xsd:string .
+
+ns:Acteur_Ron_Perlman a ns:Acteur ;
+    ns:nom "Ron Perlman"^^xsd:string .
+
+ns:Acteur_Rosalind_Russell a ns:Acteur ;
+    ns:nom "Rosalind Russell"^^xsd:string .
+
+ns:Acteur_Rosanna_Arquette a ns:Acteur ;
+    ns:nom "Rosanna Arquette"^^xsd:string .
+
+ns:Acteur_Rose_Byrne a ns:Acteur ;
+    ns:nom "Rose Byrne"^^xsd:string .
+
+ns:Acteur_Rumer_Willis a ns:Acteur ;
+    ns:nom "Rumer Willis"^^xsd:string .
+
+ns:Acteur_Rutger_Hauer a ns:Acteur ;
+    ns:nom "Rutger Hauer"^^xsd:string .
+
+ns:Acteur_Salma_Hayek a ns:Acteur ;
+    ns:nom "Salma Hayek"^^xsd:string .
+
+ns:Acteur_Sarah_Gadon a ns:Acteur ;
+    ns:nom "Sarah Gadon"^^xsd:string .
+
+ns:Acteur_Scatman_Crothers a ns:Acteur ;
+    ns:nom "Scatman Crothers"^^xsd:string .
+
+ns:Acteur_Scoot_McNairy a ns:Acteur ;
+    ns:nom "Scoot McNairy"^^xsd:string .
+
+ns:Acteur_Scott_MacDonald a ns:Acteur ;
+    ns:nom "Scott MacDonald"^^xsd:string .
+
+ns:Acteur_Sean_Connery a ns:Acteur ;
+    ns:nom "Sean Connery"^^xsd:string .
+
+ns:Acteur_Sean_Young a ns:Acteur ;
+    ns:nom "Sean Young"^^xsd:string .
+
+ns:Acteur_Selma_Blair a ns:Acteur ;
+    ns:nom "Selma Blair"^^xsd:string .
+
+ns:Acteur_Shelley_Duvall a ns:Acteur ;
+    ns:nom "Shelley Duvall"^^xsd:string .
+
+ns:Acteur_Sheri_Moon_Zombie a ns:Acteur ;
+    ns:nom "Sheri Moon Zombie"^^xsd:string .
+
+ns:Acteur_Shia_LaBeouf a ns:Acteur ;
+    ns:nom "Shia LaBeouf"^^xsd:string .
+
+ns:Acteur_Shiri_Appleby a ns:Acteur ;
+    ns:nom "Shiri Appleby"^^xsd:string .
+
+ns:Acteur_Sienna_Guillory a ns:Acteur ;
+    ns:nom "Sienna Guillory"^^xsd:string .
+
+ns:Acteur_Simon_McBurney a ns:Acteur ;
+    ns:nom "Simon McBurney"^^xsd:string .
+
+ns:Acteur_Simon_Pegg a ns:Acteur ;
+    ns:nom "Simon Pegg"^^xsd:string .
+
+ns:Acteur_Sinéad_Cusack a ns:Acteur ;
+    ns:nom "Sinéad Cusack"^^xsd:string .
+
+ns:Acteur_Skeet_Ulrich a ns:Acteur ;
+    ns:nom "Skeet Ulrich"^^xsd:string .
+
+ns:Acteur_Stacey_Dash a ns:Acteur ;
+    ns:nom "Stacey Dash"^^xsd:string .
+
+ns:Acteur_Stefania_Sandrelli a ns:Acteur ;
+    ns:nom "Stefania Sandrelli"^^xsd:string .
+
+ns:Acteur_Stephen_Rea a ns:Acteur ;
+    ns:nom "Stephen Rea"^^xsd:string .
+
+ns:Acteur_Sterling_Holloway a ns:Acteur ;
+    ns:nom "Sterling Holloway"^^xsd:string .
+
+ns:Acteur_Steve_Burton a ns:Acteur ;
+    ns:nom "Steve Burton"^^xsd:string .
+
+ns:Acteur_Steve_Oram a ns:Acteur ;
+    ns:nom "Steve Oram"^^xsd:string .
+
+ns:Acteur_Steven_Seagal a ns:Acteur ;
+    ns:nom "Steven Seagal"^^xsd:string .
+
+ns:Acteur_Sunny_Johnson a ns:Acteur ;
+    ns:nom "Sunny Johnson"^^xsd:string .
+
+ns:Acteur_Sven-Bertil_Taube a ns:Acteur ;
+    ns:nom "Sven-Bertil Taube"^^xsd:string .
+
+ns:Acteur_Takashi_Shimura a ns:Acteur ;
+    ns:nom "Takashi Shimura"^^xsd:string .
+
+ns:Acteur_Ted_Levine a ns:Acteur ;
+    ns:nom "Ted Levine"^^xsd:string .
+
+ns:Acteur_Teri_Garr a ns:Acteur ;
+    ns:nom "Teri Garr"^^xsd:string .
+
+ns:Acteur_Terrence_Howard a ns:Acteur ;
+    ns:nom "Terrence Howard"^^xsd:string .
+
+ns:Acteur_Thekla_Reuten a ns:Acteur ;
+    ns:nom "Thekla Reuten"^^xsd:string .
+
+ns:Acteur_Tiffany_Taubman a ns:Acteur ;
+    ns:nom "Tiffany Taubman"^^xsd:string .
+
+ns:Acteur_Tika_Sumpter a ns:Acteur ;
+    ns:nom "Tika Sumpter"^^xsd:string .
+
+ns:Acteur_Tim_Allen a ns:Acteur ;
+    ns:nom "Tim Allen"^^xsd:string .
+
+ns:Acteur_Tim_Hands a ns:Acteur ;
+    ns:nom "Tim Hands"^^xsd:string .
+
+ns:Acteur_Tim_McInnerny a ns:Acteur ;
+    ns:nom "Tim McInnerny"^^xsd:string .
+
+ns:Acteur_Todd_Graff a ns:Acteur ;
+    ns:nom "Todd Graff"^^xsd:string .
+
+ns:Acteur_Tom_Hanks a ns:Acteur ;
+    ns:nom "Tom Hanks"^^xsd:string .
+
+ns:Acteur_Tom_Selleck a ns:Acteur ;
+    ns:nom "Tom Selleck"^^xsd:string .
+
+ns:Acteur_Tom_Welling a ns:Acteur ;
+    ns:nom "Tom Welling"^^xsd:string .
+
+ns:Acteur_Tommy_Lee_Jones a ns:Acteur ;
+    ns:nom "Tommy Lee Jones"^^xsd:string .
+
+ns:Acteur_Tony_Goldwyn a ns:Acteur ;
+    ns:nom "Tony Goldwyn"^^xsd:string .
+
+ns:Acteur_Tony_Leung_Chiu-Wai a ns:Acteur ;
+    ns:nom "Tony Leung Chiu-Wai"^^xsd:string .
+
+ns:Acteur_Tony_Way a ns:Acteur ;
+    ns:nom "Tony Way"^^xsd:string .
+
+ns:Acteur_Toshirō_Mifune a ns:Acteur ;
+    ns:nom "Toshirō Mifune"^^xsd:string .
+
+ns:Acteur_Tristan_Risk a ns:Acteur ;
+    ns:nom "Tristan Risk"^^xsd:string .
+
+ns:Acteur_Téa_Leoni a ns:Acteur ;
+    ns:nom "Téa Leoni"^^xsd:string .
+
+ns:Acteur_Val_Kilmer a ns:Acteur ;
+    ns:nom "Val Kilmer"^^xsd:string .
+
+ns:Acteur_Verna_Bloom a ns:Acteur ;
+    ns:nom "Verna Bloom"^^xsd:string .
+
+ns:Acteur_Vincent_Price a ns:Acteur ;
+    ns:nom "Vincent Price"^^xsd:string .
+
+ns:Acteur_Vlad_Ivanov a ns:Acteur ;
+    ns:nom "Vlad Ivanov"^^xsd:string .
+
+ns:Acteur_Warwick_Davis a ns:Acteur ;
+    ns:nom "Warwick Davis"^^xsd:string .
+
+ns:Acteur_Wes_Craven a ns:Acteur ;
+    ns:nom "Wes Craven"^^xsd:string .
+
+ns:Acteur_Whitney_Able a ns:Acteur ;
+    ns:nom "Whitney Able"^^xsd:string .
+
+ns:Acteur_Will_Ferrell a ns:Acteur ;
+    ns:nom "Will Ferrell"^^xsd:string .
+
+ns:Acteur_Will_Smith a ns:Acteur ;
+    ns:nom "Will Smith"^^xsd:string .
+
+ns:Acteur_William_Baldwin a ns:Acteur ;
+    ns:nom "William Baldwin"^^xsd:string .
+
+ns:Acteur_Winona_Ryder a ns:Acteur ;
+    ns:nom "Winona Ryder"^^xsd:string .
+
+ns:Acteur_Woody_Allen a ns:Acteur ;
+    ns:nom "Woody Allen"^^xsd:string .
+
+ns:Acteur_Xzibit a ns:Acteur ;
+    ns:nom "Xzibit"^^xsd:string .
+
+ns:Acteur_Zac_Efron a ns:Acteur ;
+    ns:nom "Zac Efron"^^xsd:string .
+
+ns:Acteur_Zach_Braff a ns:Acteur ;
+    ns:nom "Zach Braff"^^xsd:string .
+
+ns:Acteur_Zhang_Ziyi a ns:Acteur ;
+    ns:nom "Zhang Ziyi"^^xsd:string .
+
+ns:Acteur_Патрик_ОНил a ns:Acteur ;
+    ns:nom "Патрик О’Нил"^^xsd:string .
+
+ns:Acteur_Эрика_Элениак a ns:Acteur ;
+    ns:nom "Эрика Элениак"^^xsd:string .
+
+ns:Genre_War a ns:Genre ;
+    ns:nom "War"^^xsd:string .
+
+ns:Realisateur_Adrian_Lyne a ns:Realisateur ;
+    ns:nom "Adrian Lyne"^^xsd:string .
+
+ns:Realisateur_Akira_Kurosawa a ns:Realisateur ;
+    ns:nom "Akira Kurosawa"^^xsd:string .
+
+ns:Realisateur_Alan_Parker a ns:Realisateur ;
+    ns:nom "Alan Parker"^^xsd:string .
+
+ns:Realisateur_Alfonso_Cuarón a ns:Realisateur ;
+    ns:nom "Alfonso Cuarón"^^xsd:string .
+
+ns:Realisateur_Amy_Heckerling a ns:Realisateur ;
+    ns:nom "Amy Heckerling"^^xsd:string .
+
+ns:Realisateur_Andrew_Davis a ns:Realisateur ;
+    ns:nom "Andrew Davis"^^xsd:string .
+
+ns:Realisateur_Angus_MacLane a ns:Realisateur ;
+    ns:nom "Angus MacLane"^^xsd:string .
+
+ns:Realisateur_Barry_Sonnenfeld a ns:Realisateur ;
+    ns:nom "Barry Sonnenfeld"^^xsd:string .
+
+ns:Realisateur_Ben_Wheatley a ns:Realisateur ;
+    ns:nom "Ben Wheatley"^^xsd:string .
+
+ns:Realisateur_Benny_Boom a ns:Realisateur ;
+    ns:nom "Benny Boom"^^xsd:string .
+
+ns:Realisateur_Bernardo_Bertolucci a ns:Realisateur ;
+    ns:nom "Bernardo Bertolucci"^^xsd:string .
+
+ns:Realisateur_Betty_Thomas a ns:Realisateur ;
+    ns:nom "Betty Thomas"^^xsd:string .
+
+ns:Realisateur_Bobby_Farrelly a ns:Realisateur ;
+    ns:nom "Bobby Farrelly"^^xsd:string .
+
+ns:Realisateur_Brian_De_Palma a ns:Realisateur ;
+    ns:nom "Brian De Palma"^^xsd:string .
+
+ns:Realisateur_Byron_Howard a ns:Realisateur ;
+    ns:nom "Byron Howard"^^xsd:string .
+
+ns:Realisateur_Chris_Carter a ns:Realisateur ;
+    ns:nom "Chris Carter"^^xsd:string .
+
+ns:Realisateur_Clint_Eastwood a ns:Realisateur ;
+    ns:nom "Clint Eastwood"^^xsd:string .
+
+ns:Realisateur_Cristian_Mungiu a ns:Realisateur ;
+    ns:nom "Cristian Mungiu"^^xsd:string .
+
+ns:Realisateur_David_Bowers a ns:Realisateur ;
+    ns:nom "David Bowers"^^xsd:string .
+
+ns:Realisateur_Edgar_Wright a ns:Realisateur ;
+    ns:nom "Edgar Wright"^^xsd:string .
+
+ns:Realisateur_Frank_Oz a ns:Realisateur ;
+    ns:nom "Frank Oz"^^xsd:string .
+
+ns:Realisateur_Fred_Wolf a ns:Realisateur ;
+    ns:nom "Fred Wolf"^^xsd:string .
+
+ns:Realisateur_Gary_Fleder a ns:Realisateur ;
+    ns:nom "Gary Fleder"^^xsd:string .
+
+ns:Realisateur_George_Miller a ns:Realisateur ;
+    ns:nom "George Miller"^^xsd:string .
+
+ns:Realisateur_Georges_Franju a ns:Realisateur ;
+    ns:nom "Georges Franju"^^xsd:string .
+
+ns:Realisateur_Gordon_Chan a ns:Realisateur ;
+    ns:nom "Gordon Chan"^^xsd:string .
+
+ns:Realisateur_Gore_Verbinski a ns:Realisateur ;
+    ns:nom "Gore Verbinski"^^xsd:string .
+
+ns:Realisateur_Harold_Becker a ns:Realisateur ;
+    ns:nom "Harold Becker"^^xsd:string .
+
+ns:Realisateur_Harold_Ramis a ns:Realisateur ;
+    ns:nom "Harold Ramis"^^xsd:string .
+
+ns:Realisateur_Howard_Hawks a ns:Realisateur ;
+    ns:nom "Howard Hawks"^^xsd:string .
+
+ns:Realisateur_Ingmar_Bergman a ns:Realisateur ;
+    ns:nom "Ingmar Bergman"^^xsd:string .
+
+ns:Realisateur_James_Cameron a ns:Realisateur ;
+    ns:nom "James Cameron"^^xsd:string .
+
+ns:Realisateur_James_Foley a ns:Realisateur ;
+    ns:nom "James Foley"^^xsd:string .
+
+ns:Realisateur_Jean-Pierre_Jeunet a ns:Realisateur ;
+    ns:nom "Jean-Pierre Jeunet"^^xsd:string .
+
+ns:Realisateur_Jen_Soska a ns:Realisateur ;
+    ns:nom "Jen Soska"^^xsd:string .
+
+ns:Realisateur_Jesse_Dylan a ns:Realisateur ;
+    ns:nom "Jesse Dylan"^^xsd:string .
+
+ns:Realisateur_Joe_Cornish a ns:Realisateur ;
+    ns:nom "Joe Cornish"^^xsd:string .
+
+ns:Realisateur_John_Huston a ns:Realisateur ;
+    ns:nom "John Huston"^^xsd:string .
+
+ns:Realisateur_Jonathan_Levine a ns:Realisateur ;
+    ns:nom "Jonathan Levine"^^xsd:string .
+
+ns:Realisateur_Judd_Apatow a ns:Realisateur ;
+    ns:nom "Judd Apatow"^^xsd:string .
+
+ns:Realisateur_Kenneth_Branagh a ns:Realisateur ;
+    ns:nom "Kenneth Branagh"^^xsd:string .
+
+ns:Realisateur_Kevin_Macdonald a ns:Realisateur ;
+    ns:nom "Kevin Macdonald"^^xsd:string .
+
+ns:Realisateur_Lara_Shapiro a ns:Realisateur ;
+    ns:nom "Lara Shapiro"^^xsd:string .
+
+ns:Realisateur_Lars_von_Trier a ns:Realisateur ;
+    ns:nom "Lars von Trier"^^xsd:string .
+
+ns:Realisateur_Lasse_Hallström a ns:Realisateur ;
+    ns:nom "Lasse Hallström"^^xsd:string .
+
+ns:Realisateur_Leo_McCarey a ns:Realisateur ;
+    ns:nom "Leo McCarey"^^xsd:string .
+
+ns:Realisateur_Mark_Burton a ns:Realisateur ;
+    ns:nom "Mark Burton"^^xsd:string .
+
+ns:Realisateur_Martin_McDonagh a ns:Realisateur ;
+    ns:nom "Martin McDonagh"^^xsd:string .
+
+ns:Realisateur_Martin_Scorsese a ns:Realisateur ;
+    ns:nom "Martin Scorsese"^^xsd:string .
+
+ns:Realisateur_Michael_Cristofer a ns:Realisateur ;
+    ns:nom "Michael Cristofer"^^xsd:string .
+
+ns:Realisateur_Mike_Mills a ns:Realisateur ;
+    ns:nom "Mike Mills"^^xsd:string .
+
+ns:Realisateur_Mike_Nichols a ns:Realisateur ;
+    ns:nom "Mike Nichols"^^xsd:string .
+
+ns:Realisateur_Nancy_Meyers a ns:Realisateur ;
+    ns:nom "Nancy Meyers"^^xsd:string .
+
+ns:Realisateur_Nicholas_Stoller a ns:Realisateur ;
+    ns:nom "Nicholas Stoller"^^xsd:string .
+
+ns:Realisateur_Niels_Arden_Oplev a ns:Realisateur ;
+    ns:nom "Niels Arden Oplev"^^xsd:string .
+
+ns:Realisateur_Nimród_Antal a ns:Realisateur ;
+    ns:nom "Nimród Antal"^^xsd:string .
+
+ns:Realisateur_Oliver_Stone a ns:Realisateur ;
+    ns:nom "Oliver Stone"^^xsd:string .
+
+ns:Realisateur_Otto_Preminger a ns:Realisateur ;
+    ns:nom "Otto Preminger"^^xsd:string .
+
+ns:Realisateur_Peter_Farrelly a ns:Realisateur ;
+    ns:nom "Peter Farrelly"^^xsd:string .
+
+ns:Realisateur_Peter_Yates a ns:Realisateur ;
+    ns:nom "Peter Yates"^^xsd:string .
+
+ns:Realisateur_Phil_Alden_Robinson a ns:Realisateur ;
+    ns:nom "Phil Alden Robinson"^^xsd:string .
+
+ns:Realisateur_Ralph_Zondag a ns:Realisateur ;
+    ns:nom "Ralph Zondag"^^xsd:string .
+
+ns:Realisateur_Renny_Harlin a ns:Realisateur ;
+    ns:nom "Renny Harlin"^^xsd:string .
+
+ns:Realisateur_Ridley_Scott a ns:Realisateur ;
+    ns:nom "Ridley Scott"^^xsd:string .
+
+ns:Realisateur_Rob_Zombie a ns:Realisateur ;
+    ns:nom "Rob Zombie"^^xsd:string .
+
+ns:Realisateur_Robert_Harmon a ns:Realisateur ;
+    ns:nom "Robert Harmon"^^xsd:string .
+
+ns:Realisateur_Robert_Rodriguez a ns:Realisateur ;
+    ns:nom "Robert Rodriguez"^^xsd:string .
+
+ns:Realisateur_Robert_Zemeckis a ns:Realisateur ;
+    ns:nom "Robert Zemeckis"^^xsd:string .
+
+ns:Realisateur_Rod_Lurie a ns:Realisateur ;
+    ns:nom "Rod Lurie"^^xsd:string .
+
+ns:Realisateur_Roger_Michell a ns:Realisateur ;
+    ns:nom "Roger Michell"^^xsd:string .
+
+ns:Realisateur_Roland_Emmerich a ns:Realisateur ;
+    ns:nom "Roland Emmerich"^^xsd:string .
+
+ns:Realisateur_Rupert_Wainwright a ns:Realisateur ;
+    ns:nom "Rupert Wainwright"^^xsd:string .
+
+ns:Realisateur_S_S_Wilson a ns:Realisateur ;
+    ns:nom "S. S. Wilson"^^xsd:string .
+
+ns:Realisateur_Sam_Mendes a ns:Realisateur ;
+    ns:nom "Sam Mendes"^^xsd:string .
+
+ns:Realisateur_Saul_Dibb a ns:Realisateur ;
+    ns:nom "Saul Dibb"^^xsd:string .
+
+ns:Realisateur_Sean_Byrne a ns:Realisateur ;
+    ns:nom "Sean Byrne"^^xsd:string .
+
+ns:Realisateur_Seth_Gordon a ns:Realisateur ;
+    ns:nom "Seth Gordon"^^xsd:string .
+
+ns:Realisateur_Simon_West a ns:Realisateur ;
+    ns:nom "Simon West"^^xsd:string .
+
+ns:Realisateur_Stefen_Fangmeier a ns:Realisateur ;
+    ns:nom "Stefen Fangmeier"^^xsd:string .
+
+ns:Realisateur_Stephen_Hopkins a ns:Realisateur ;
+    ns:nom "Stephen Hopkins"^^xsd:string .
+
+ns:Realisateur_Stuart_Gordon a ns:Realisateur ;
+    ns:nom "Stuart Gordon"^^xsd:string .
+
+ns:Realisateur_Sylvester_Stallone a ns:Realisateur ;
+    ns:nom "Sylvester Stallone"^^xsd:string .
+
+ns:Realisateur_Tim_Blake_Nelson a ns:Realisateur ;
+    ns:nom "Tim Blake Nelson"^^xsd:string .
+
+ns:Realisateur_Tim_Story a ns:Realisateur ;
+    ns:nom "Tim Story"^^xsd:string .
+
+ns:Realisateur_Tony_Goldwyn a ns:Realisateur ;
+    ns:nom "Tony Goldwyn"^^xsd:string .
+
+ns:Realisateur_Wes_Craven a ns:Realisateur ;
+    ns:nom "Wes Craven"^^xsd:string .
+
+ns:Realisateur_Wolfgang_Reitherman a ns:Realisateur ;
+    ns:nom "Wolfgang Reitherman"^^xsd:string .
+
+ns:Realisateur_Woody_Allen a ns:Realisateur ;
+    ns:nom "Woody Allen"^^xsd:string .
+
+ns:Realisateur_Zhang_Yimou a ns:Realisateur ;
+    ns:nom "Zhang Yimou"^^xsd:string .
+
+ns:Acteur_Alec_Baldwin a ns:Acteur ;
+    ns:nom "Alec Baldwin"^^xsd:string .
+
+ns:Acteur_Angelina_Jolie a ns:Acteur ;
+    ns:nom "Angelina Jolie"^^xsd:string .
+
+ns:Acteur_Cary_Grant a ns:Acteur ;
+    ns:nom "Cary Grant"^^xsd:string .
+
+ns:Acteur_Colin_Farrell a ns:Acteur ;
+    ns:nom "Colin Farrell"^^xsd:string .
+
+ns:Acteur_Donald_Sutherland a ns:Acteur ;
+    ns:nom "Donald Sutherland"^^xsd:string .
+
+ns:Acteur_Harriet_Andersson a ns:Acteur ;
+    ns:nom "Harriet Andersson"^^xsd:string .
+
+ns:Acteur_Hilary_Swank a ns:Acteur ;
+    ns:nom "Hilary Swank"^^xsd:string .
+
+ns:Acteur_Ian_Holm a ns:Acteur ;
+    ns:nom "Ian Holm"^^xsd:string .
+
+ns:Acteur_James_Gandolfini a ns:Acteur ;
+    ns:nom "James Gandolfini"^^xsd:string .
+
+ns:Acteur_Jamie_Foxx a ns:Acteur ;
+    ns:nom "Jamie Foxx"^^xsd:string .
+
+ns:Acteur_Jason_Statham a ns:Acteur ;
+    ns:nom "Jason Statham"^^xsd:string .
+
+ns:Acteur_Jim_Carrey a ns:Acteur ;
+    ns:nom "Jim Carrey"^^xsd:string .
+
+ns:Acteur_Jodie_Whittaker a ns:Acteur ;
+    ns:nom "Jodie Whittaker"^^xsd:string .
+
+ns:Acteur_Keira_Knightley a ns:Acteur ;
+    ns:nom "Keira Knightley"^^xsd:string .
+
+ns:Acteur_Kenneth_Branagh a ns:Acteur ;
+    ns:nom "Kenneth Branagh"^^xsd:string .
+
+ns:Acteur_Kevin_Kline a ns:Acteur ;
+    ns:nom "Kevin Kline"^^xsd:string .
+
+ns:Acteur_Lauren_Holly a ns:Acteur ;
+    ns:nom "Lauren Holly"^^xsd:string .
+
+ns:Acteur_M_Emmet_Walsh a ns:Acteur ;
+    ns:nom "M. Emmet Walsh"^^xsd:string .
+
+ns:Acteur_Matt_Dillon a ns:Acteur ;
+    ns:nom "Matt Dillon"^^xsd:string .
+
+ns:Acteur_Naomi_Watts a ns:Acteur ;
+    ns:nom "Naomi Watts"^^xsd:string .
+
+ns:Acteur_Nick_Frost a ns:Acteur ;
+    ns:nom "Nick Frost"^^xsd:string .
+
+ns:Acteur_Nicole_Kidman a ns:Acteur ;
+    ns:nom "Nicole Kidman"^^xsd:string .
+
+ns:Acteur_Ralph_Fiennes a ns:Acteur ;
+    ns:nom "Ralph Fiennes"^^xsd:string .
+
+ns:Acteur_Richard_Jenkins a ns:Acteur ;
+    ns:nom "Richard Jenkins"^^xsd:string .
+
+ns:Acteur_Seth_Rogen a ns:Acteur ;
+    ns:nom "Seth Rogen"^^xsd:string .
+
+ns:Acteur_Susan_Sarandon a ns:Acteur ;
+    ns:nom "Susan Sarandon"^^xsd:string .
+
+ns:Acteur_Viggo_Mortensen a ns:Acteur ;
+    ns:nom "Viggo Mortensen"^^xsd:string .
+
+ns:Acteur_Vincent_Cassel a ns:Acteur ;
+    ns:nom "Vincent Cassel"^^xsd:string .
+
+ns:Acteur_Zachary_Levi a ns:Acteur ;
+    ns:nom "Zachary Levi"^^xsd:string .
+
+ns:Realisateur_Christopher_Cain a ns:Realisateur ;
+    ns:nom "Christopher Cain"^^xsd:string .
+
+ns:Realisateur_David_Cronenberg a ns:Realisateur ;
+    ns:nom "David Cronenberg"^^xsd:string .
+
+ns:Realisateur_Jim_Sheridan a ns:Realisateur ;
+    ns:nom "Jim Sheridan"^^xsd:string .
+
+ns:Realisateur_Ron_Howard a ns:Realisateur ;
+    ns:nom "Ron Howard"^^xsd:string .
+
+ns:Realisateur_Terry_Gilliam a ns:Realisateur ;
+    ns:nom "Terry Gilliam"^^xsd:string .
+
+ns:Acteur_Julia_Roberts a ns:Acteur ;
+    ns:nom "Julia Roberts"^^xsd:string .
+
+ns:Acteur_Kate_Winslet a ns:Acteur ;
+    ns:nom "Kate Winslet"^^xsd:string .
+
+ns:Acteur_Sylvester_Stallone a ns:Acteur ;
+    ns:nom "Sylvester Stallone"^^xsd:string .
+
+ns:Genre_History a ns:Genre ;
+    ns:nom "History"^^xsd:string .
+
+ns:Genre_Music a ns:Genre ;
+    ns:nom "Music"^^xsd:string .
+
+ns:Genre_Western a ns:Genre ;
+    ns:nom "Western"^^xsd:string .
+
+ns:Acteur_Robert_De_Niro a ns:Acteur ;
+    ns:nom "Robert De Niro"^^xsd:string .
+
+ns:Genre_Animation a ns:Genre ;
+    ns:nom "Animation"^^xsd:string .
+
+ns:Genre_Fantasy a ns:Genre ;
+    ns:nom "Fantasy"^^xsd:string .
+
+ns:Genre_Family a ns:Genre ;
+    ns:nom "Family"^^xsd:string .
+
+ns:Genre_Horror a ns:Genre ;
+    ns:nom "Horror"^^xsd:string .
+
+ns:Genre_Mystery a ns:Genre ;
+    ns:nom "Mystery"^^xsd:string .
+
+ns:Genre_Science_Fiction a ns:Genre ;
+    ns:nom "Science Fiction"^^xsd:string .
+
+ns:Genre_Romance a ns:Genre ;
+    ns:nom "Romance"^^xsd:string .
+
+ns:Genre a owl:Class ;
+    rdfs:label "Genre"@fr ;
+    rdfs:comment "Le genre cinématographique d'un film"@fr .
+
+ns:Genre_Adventure a ns:Genre ;
+    ns:nom "Adventure"^^xsd:string .
+
+ns:Genre_Crime a ns:Genre ;
+    ns:nom "Crime"^^xsd:string .
+
+ns:Genre_Action a ns:Genre ;
+    ns:nom "Action"^^xsd:string .
+
+ns:Genre_Thriller a ns:Genre ;
+    ns:nom "Thriller"^^xsd:string .
+
+ns:Genre_Comedy a ns:Genre ;
+    ns:nom "Comedy"^^xsd:string .
+
+ns:Genre_Drama a ns:Genre ;
+    ns:nom "Drama"^^xsd:string .
+
+ns:Realisateur a owl:Class ;
+    rdfs:label "Réalisateur"@fr ;
+    rdfs:comment "La personne qui réalise un film"@fr .
+
+ns:Film a owl:Class ;
+    rdfs:label "Film"@fr ;
+    rdfs:comment "Un film cinématographique"@fr .
+
+ns:Acteur a owl:Class ;
+    rdfs:label "Acteur"@fr ;
+    rdfs:comment "Une personne jouant dans un film"@fr .
+
