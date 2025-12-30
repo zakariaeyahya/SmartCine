@@ -1,0 +1,65 @@
+SCRIPT DE PRESENTATION - DEMO INTERFACE WEB SMARTCINE (2 MINUTES)
+==================================================================
+
+[0:00 - 0:15] INTRODUCTION
+---------------------------
+"Bonjour, je suis Zakaria. Je vais vous montrer l'interface web de SmartCine, notre systeme de recommandation de films base sur le Web semantique."
+
+
+[0:15 - 0:45] MONTRER LA PAGE D'ACCUEIL
+----------------------------------------
+(Montrer l'ecran avec la liste des films et leurs affiches)
+
+"Voici notre catalogue de films avec les vraies affiches recuperees via l'API OMDB. Chaque carte affiche le titre, l'annee, le genre et le realisateur."
+
+"Ces donnees viennent de notre Knowledge Graph stocke dans Fuseki. Quand la page charge, une requete SPARQL recupere tous les films de notre ontologie."
+
+"L'interface est developpee en React et communique avec Fuseki via des requetes SPARQL."
+
+
+[0:45 - 1:25] MONTRER LA RECOMMANDATION
+----------------------------------------
+(Cliquer sur un film, par exemple Blade Runner ou Inception)
+
+"Je clique sur ce film... et voila les recommandations qui s'affichent automatiquement."
+
+"Vous voyez 3 types de recommandations :
+   - Films avec les memes ACTEURS
+   - Films du meme GENRE
+   - Films du meme REALISATEUR"
+
+"Chaque recommandation correspond a une requete SPARQL differente. C'est le Knowledge Graph qui trouve les relations entre les films."
+
+
+[1:25 - 1:50] MONTRER LA RECHERCHE
+-----------------------------------
+(Taper "Action" ou "Brad Pitt" dans la barre de recherche)
+
+"Je peux aussi rechercher par titre, genre, acteur ou realisateur."
+
+"Par exemple, si je tape 'Action'... voila tous les films d'action."
+
+"Ou si je cherche 'Brad Pitt'... je trouve tous ses films."
+
+
+[1:50 - 2:00] CONCLUSION
+-------------------------
+"Le point cle : aucune logique de recommandation n'est codee en dur. C'est SPARQL qui fait tout le travail grace aux relations semantiques de notre ontologie. Merci !"
+
+
+==================================================================
+POINTS FORTS A MENTIONNER
+==================================================================
+- Les vraies affiches des films (API OMDB)
+- Requetes SPARQL = moteur de recommandation
+- 3 types de recommandations (acteur, genre, realisateur)
+- Recherche multi-criteres (titre, genre, acteur, realisateur)
+- Architecture : React + Fuseki + Knowledge Graph
+
+==================================================================
+FILMS RECOMMANDES POUR LA DEMO
+==================================================================
+- Blade Runner (Harrison Ford, Science Fiction)
+- The Mexican (Brad Pitt, Julia Roberts)
+- Heat (Al Pacino, Robert De Niro)
+- Inception (si disponible)

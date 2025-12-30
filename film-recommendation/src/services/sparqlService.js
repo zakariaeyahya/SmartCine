@@ -29,11 +29,12 @@ export const getAllFilms = async () => {
     PREFIX ns: <http://example.org/film#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-    SELECT ?uri ?titre ?annee ?duree ?genre ?realisateur WHERE {
+    SELECT ?uri ?titre ?annee ?duree ?genre ?realisateur ?poster WHERE {
       ?uri rdf:type ns:Film .
       ?uri ns:titre ?titre .
       OPTIONAL { ?uri ns:releaseYear ?annee }
       OPTIONAL { ?uri ns:duration ?duree }
+      OPTIONAL { ?uri ns:posterPath ?poster }
       OPTIONAL {
         ?uri ns:hasGenre ?genreUri .
         ?genreUri ns:nom ?genre .
@@ -79,11 +80,12 @@ export const getRecommendationsByActor = async (filmUri) => {
   const query = `
     PREFIX ns: <http://example.org/film#>
 
-    SELECT DISTINCT ?uri ?titre ?annee ?genre WHERE {
+    SELECT DISTINCT ?uri ?titre ?annee ?genre ?poster WHERE {
       <${filmUri}> ns:hasActor ?actor .
       ?uri ns:hasActor ?actor .
       ?uri ns:titre ?titre .
       OPTIONAL { ?uri ns:releaseYear ?annee }
+      OPTIONAL { ?uri ns:posterPath ?poster }
       OPTIONAL {
         ?uri ns:hasGenre ?genreUri .
         ?genreUri ns:nom ?genre .
@@ -99,11 +101,12 @@ export const getRecommendationsByGenre = async (filmUri) => {
   const query = `
     PREFIX ns: <http://example.org/film#>
 
-    SELECT DISTINCT ?uri ?titre ?annee WHERE {
+    SELECT DISTINCT ?uri ?titre ?annee ?poster WHERE {
       <${filmUri}> ns:hasGenre ?genre .
       ?uri ns:hasGenre ?genre .
       ?uri ns:titre ?titre .
       OPTIONAL { ?uri ns:releaseYear ?annee }
+      OPTIONAL { ?uri ns:posterPath ?poster }
       FILTER(?uri != <${filmUri}>)
     }
   `;
@@ -115,27 +118,29 @@ export const getRecommendationsByDirector = async (filmUri) => {
   const query = `
     PREFIX ns: <http://example.org/film#>
 
-    SELECT DISTINCT ?uri ?titre ?annee WHERE {
+    SELECT DISTINCT ?uri ?titre ?annee ?poster WHERE {
       <${filmUri}> ns:directedBy ?director .
       ?uri ns:directedBy ?director .
       ?uri ns:titre ?titre .
       OPTIONAL { ?uri ns:releaseYear ?annee }
+      OPTIONAL { ?uri ns:posterPath ?poster }
       FILTER(?uri != <${filmUri}>)
     }
   `;
   return await executeSparql(query);
 };
 
-// Rechercher des films par titre
+// Rechercher des films par titre, genre, realisateur ou acteur
 export const searchFilms = async (searchTerm) => {
   const query = `
     PREFIX ns: <http://example.org/film#>
     PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 
-    SELECT ?uri ?titre ?annee ?genre ?realisateur WHERE {
+    SELECT DISTINCT ?uri ?titre ?annee ?genre ?realisateur ?poster WHERE {
       ?uri rdf:type ns:Film .
       ?uri ns:titre ?titre .
       OPTIONAL { ?uri ns:releaseYear ?annee }
+      OPTIONAL { ?uri ns:posterPath ?poster }
       OPTIONAL {
         ?uri ns:hasGenre ?genreUri .
         ?genreUri ns:nom ?genre .
@@ -144,7 +149,16 @@ export const searchFilms = async (searchTerm) => {
         ?uri ns:directedBy ?dirUri .
         ?dirUri ns:nom ?realisateur .
       }
-      FILTER(CONTAINS(LCASE(?titre), LCASE("${searchTerm}")))
+      OPTIONAL {
+        ?uri ns:hasActor ?actorUri .
+        ?actorUri ns:nom ?acteur .
+      }
+      FILTER(
+        CONTAINS(LCASE(?titre), LCASE("${searchTerm}")) ||
+        CONTAINS(LCASE(?genre), LCASE("${searchTerm}")) ||
+        CONTAINS(LCASE(?realisateur), LCASE("${searchTerm}")) ||
+        CONTAINS(LCASE(?acteur), LCASE("${searchTerm}"))
+      )
     }
     ORDER BY ?titre
   `;

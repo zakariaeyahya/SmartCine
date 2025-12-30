@@ -119,10 +119,16 @@ def create_ontology():
     g.add((NS.duration, RDFS.domain, NS.Film))
     g.add((NS.duration, RDFS.range, XSD.integer))
 
+    # posterPath
+    g.add((NS.posterPath, RDF.type, OWL.DatatypeProperty))
+    g.add((NS.posterPath, RDFS.label, Literal("URL du poster", lang="fr")))
+    g.add((NS.posterPath, RDFS.domain, NS.Film))
+    g.add((NS.posterPath, RDFS.range, XSD.string))
+
     logger.info("Structure de l'ontologie créée")
     logger.info("   - Classes: Film, Acteur, Realisateur, Genre")
     logger.info("   - Propriétés objet: hasActor, directedBy, hasGenre")
-    logger.info("   - Propriétés de données: titre, nom, releaseYear, duration")
+    logger.info("   - Propriétés de données: titre, nom, releaseYear, duration, posterPath")
 
     return g
 
@@ -168,6 +174,10 @@ def populate_ontology(g, csv_file='films_clean.csv'):
         # Durée
         if pd.notna(row['Duree']) and row['Duree'] > 0:
             g.add((film_uri, NS.duration, Literal(int(row['Duree']), datatype=XSD.integer)))
+
+        # Poster
+        if 'Poster' in row and pd.notna(row['Poster']) and row['Poster']:
+            g.add((film_uri, NS.posterPath, Literal(row['Poster'], datatype=XSD.string)))
 
         # ============================================
         # CRÉATION DU RÉALISATEUR

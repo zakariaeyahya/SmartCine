@@ -94,7 +94,7 @@ const FilmList = () => {
         <div className="film-grid">
           {films.map((film, index) => (
             <div
-              key={film.uri?.value || index}
+              key={`${film.uri?.value}-${index}`}
               className="film-grid-item"
               style={{ animationDelay: `${index * 0.05}s` }}
             >

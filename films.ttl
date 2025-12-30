@@ -12,6 +12,7 @@ ns:Film_20th_Century_Women a ns:Film ;
         ns:Acteur_Greta_Gerwig,
         ns:Acteur_Lucas_Jade_Zumann ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/9vavp7kXnLwPGfOfThJwpW0Mk4v.jpg"^^xsd:string ;
     ns:releaseYear 2016 ;
     ns:titre "20th Century Women"^^xsd:string .
 
@@ -24,6 +25,7 @@ ns:Film_4_Months_3_Weeks_and_2_Days a ns:Film ;
         ns:Acteur_Luminița_Gheorghiu,
         ns:Acteur_Vlad_Ivanov ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wVRKGg1lDcS43vyq5ejKtGE5UZA.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "4 Months, 3 Weeks and 2 Days"^^xsd:string .
 
@@ -37,6 +39,7 @@ ns:Film_A_Dangerous_Method a ns:Film ;
         ns:Acteur_Vincent_Cassel ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/vKoP2wiyP71abIGxZ2oCmgnWG6K.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "A Dangerous Method"^^xsd:string .
 
@@ -52,6 +55,7 @@ ns:Film_A_Dogs_Purpose a ns:Film ;
         ns:Genre_Drama,
         ns:Genre_Family,
         ns:Genre_Fantasy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/3jcNvhtVQe5Neoffdic39fRactM.jpg"^^xsd:string ;
     ns:releaseYear 2017 ;
     ns:titre "A Dog's Purpose"^^xsd:string .
 
@@ -65,6 +69,7 @@ ns:Film_All_Eyez_on_Me a ns:Film ;
         ns:Acteur_Kat_Graham ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Music ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/zmgsaKFWbmZ1Grz4SO0PLNxilv3.jpg"^^xsd:string ;
     ns:releaseYear 2017 ;
     ns:titre "All Eyez on Me"^^xsd:string .
 
@@ -79,6 +84,7 @@ ns:Film_All_the_Boys_Love_Mandy_Lane a ns:Film ;
     ns:hasGenre ns:Genre_Horror,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/2ENAfp2NhaeXSPNB4makF0In4YY.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "All the Boys Love Mandy Lane"^^xsd:string .
 
@@ -95,6 +101,7 @@ ns:Film_Alvin_and_the_Chipmunks_The_Squeakquel a ns:Film ;
         ns:Genre_Family,
         ns:Genre_Fantasy,
         ns:Genre_Music ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/1vfj6gsWDXYmIgjA9FphmvRKnJj.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "Alvin and the Chipmunks: The Squeakquel"^^xsd:string .
 
@@ -108,6 +115,7 @@ ns:Film_American_Mary a ns:Film ;
         ns:Acteur_Tristan_Risk ;
     ns:hasGenre ns:Genre_Horror,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/vLy2Ldg3vGlpXwF8ZeUL40iDtLK.jpg"^^xsd:string ;
     ns:releaseYear 2012 ;
     ns:titre "American Mary"^^xsd:string .
 
@@ -121,6 +129,7 @@ ns:Film_An_Affair_to_Remember a ns:Film ;
         ns:Acteur_Richard_Denning ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/6pTbj6YujsjcGZaDbEanAKCE1Zs.jpg"^^xsd:string ;
     ns:releaseYear 1957 ;
     ns:titre "An Affair to Remember"^^xsd:string .
 
@@ -134,6 +143,7 @@ ns:Film_Analyze_That a ns:Film ;
         ns:Acteur_Robert_De_Niro ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Crime ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/qq12vSFojs306GpQh2hf5oILMsc.jpg"^^xsd:string ;
     ns:releaseYear 2002 ;
     ns:titre "Analyze That"^^xsd:string .
 
@@ -149,6 +159,7 @@ ns:Film_Armored a ns:Film ;
         ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/zdj2p7apgVCqWoaIldzYsdLHZ1J.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "Armored"^^xsd:string .
 
@@ -163,6 +174,7 @@ ns:Film_Attack_the_Block a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Comedy,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/n2qLb5UPj0sKUnlzkthp30wM0g2.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "Attack the Block"^^xsd:string .
 
@@ -179,6 +191,7 @@ ns:Film_Backdraft a ns:Film ;
         ns:Genre_Drama,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/3E2puQrspfkGC6XuxGdB9ghXPtY.jpg"^^xsd:string ;
     ns:releaseYear 1991 ;
     ns:titre "Backdraft"^^xsd:string .
 
@@ -193,6 +206,7 @@ ns:Film_Beowulf a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Adventure,
         ns:Genre_Animation ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/j90lLkvlcPNL6VVoLGQ0yzPUfJV.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "Beowulf"^^xsd:string .
 
@@ -205,6 +219,7 @@ ns:Film_Black_Sea a ns:Film ;
         ns:Acteur_Karl_Davies,
         ns:Acteur_Scoot_McNairy ;
     ns:hasGenre ns:Genre_Adventure ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/ghac5aKzS0tsmBhXXAWURcEEVk0.jpg"^^xsd:string ;
     ns:releaseYear 2014 ;
     ns:titre "Black Sea"^^xsd:string .
 
@@ -219,6 +234,7 @@ ns:Film_Blade_Runner a ns:Film ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Science_Fiction,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg"^^xsd:string ;
     ns:releaseYear 1982 ;
     ns:titre "Blade Runner"^^xsd:string .
 
@@ -234,6 +250,7 @@ ns:Film_Body_Double a ns:Film ;
         ns:Genre_Horror,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/9bXkxtLrUiMrNOBfuYBqxRItDT9.jpg"^^xsd:string ;
     ns:releaseYear 1984 ;
     ns:titre "Body Double"^^xsd:string .
 
@@ -247,6 +264,7 @@ ns:Film_Brazil a ns:Film ;
         ns:Acteur_Robert_De_Niro ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/55Vfc1beLn3pJF4Lw83TRKHenK6.jpg"^^xsd:string ;
     ns:releaseYear 1985 ;
     ns:titre "Brazil"^^xsd:string .
 
@@ -261,6 +279,7 @@ ns:Film_Charlie_Wilsons_War a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama,
         ns:Genre_History ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/uN9tN0ZDyol7VsTlugDZhGc11xQ.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "Charlie Wilson's War"^^xsd:string .
 
@@ -275,6 +294,7 @@ ns:Film_Cliffhanger a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Adventure,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/8XefYka77ypAnPJvaVlfUGBBs4a.jpg"^^xsd:string ;
     ns:releaseYear 1993 ;
     ns:titre "Cliffhanger"^^xsd:string .
 
@@ -289,6 +309,7 @@ ns:Film_Clueless a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/i8gEHh2sszB6YWLC0jl559sxAeN.jpg"^^xsd:string ;
     ns:releaseYear 1995 ;
     ns:titre "Clueless"^^xsd:string .
 
@@ -301,6 +322,7 @@ ns:Film_Cries_and_Whispers a ns:Film ;
         ns:Acteur_Kari_Sylwan,
         ns:Acteur_Liv_Ullmann ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/5DCVJb4cdueFevqEjdmOoHHgPh6.jpg"^^xsd:string ;
     ns:releaseYear 1972 ;
     ns:titre "Cries and Whispers"^^xsd:string .
 
@@ -314,6 +336,7 @@ ns:Film_Dinosaur a ns:Film ;
         ns:Acteur_Ossie_Davis ;
     ns:hasGenre ns:Genre_Animation,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/jZDp3C5howi40aCeqXDJliodXk9.jpg"^^xsd:string ;
     ns:releaseYear 2000 ;
     ns:titre "Dinosaur"^^xsd:string .
 
@@ -328,6 +351,7 @@ ns:Film_Dogville a ns:Film ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/g1xLrof2RVgtHBB4fLvR5Xr8l5x.jpg"^^xsd:string ;
     ns:releaseYear 2003 ;
     ns:titre "Dogville"^^xsd:string .
 
@@ -342,6 +366,7 @@ ns:Film_Dream_House a ns:Film ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/8MDE7wXp7gxf61yRDptSLowU2e6.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "Dream House"^^xsd:string .
 
@@ -354,6 +379,7 @@ ns:Film_Dumb_and_Dumber a ns:Film ;
         ns:Acteur_Mike_Starr,
         ns:Acteur_Teri_Garr ;
     ns:hasGenre ns:Genre_Comedy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/3PEAkZHa8ehfUkuKbzmQNRTTAAs.jpg"^^xsd:string ;
     ns:releaseYear 1994 ;
     ns:titre "Dumb and Dumber"^^xsd:string .
 
@@ -368,6 +394,7 @@ ns:Film_Eastern_Promises a ns:Film ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/uQduBOXqpC4XG8qK2pMcqz1OnQY.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "Eastern Promises"^^xsd:string .
 
@@ -382,6 +409,7 @@ ns:Film_El_Mariachi a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Crime,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/4S47gyKZI5aLiawwc45e4gnPlPx.jpg"^^xsd:string ;
     ns:releaseYear 1992 ;
     ns:titre "El Mariachi"^^xsd:string .
 
@@ -397,6 +425,7 @@ ns:Film_Eragon a ns:Film ;
         ns:Genre_Adventure,
         ns:Genre_Family,
         ns:Genre_Fantasy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/5YOPiILsHw2Onsqyev9IYhSZ4Vy.jpg"^^xsd:string ;
     ns:releaseYear 2006 ;
     ns:titre "Eragon"^^xsd:string .
 
@@ -410,6 +439,7 @@ ns:Film_Escape_to_Victory a ns:Film ;
         ns:Acteur_Sylvester_Stallone ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wHbwsEtXRWxncYvH7LCYuQ19MOo.jpg"^^xsd:string ;
     ns:releaseYear 1981 ;
     ns:titre "Escape to Victory"^^xsd:string .
 
@@ -424,6 +454,7 @@ ns:Film_Eyes_Without_a_Face a ns:Film ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Horror,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/orqJcha6R8vxIzL2ggCQm0LjRBa.jpg"^^xsd:string ;
     ns:releaseYear 1960 ;
     ns:titre "Eyes Without a Face"^^xsd:string .
 
@@ -438,6 +469,7 @@ ns:Film_Flashdance a ns:Film ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Music,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/pW8tRnHJbZfobnEX16CjkOg8bAH.jpg"^^xsd:string ;
     ns:releaseYear 1983 ;
     ns:titre "Flashdance"^^xsd:string .
 
@@ -453,6 +485,7 @@ ns:Film_Flushed_Away a ns:Film ;
         ns:Genre_Animation,
         ns:Genre_Comedy,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/oCdPDusnJvIZN6OpaF2Yj7211w.jpg"^^xsd:string ;
     ns:releaseYear 2006 ;
     ns:titre "Flushed Away"^^xsd:string .
 
@@ -466,6 +499,7 @@ ns:Film_Funny_People a ns:Film ;
         ns:Acteur_Seth_Rogen ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/uWgcmAIfYURUHJGhY4Rq1IXcJIg.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "Funny People"^^xsd:string .
 
@@ -478,6 +512,7 @@ ns:Film_Get_Rich_or_Die_Tryin a ns:Film ;
         ns:Acteur_Omar_Benson_Miller,
         ns:Acteur_Terrence_Howard ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wKeSnhQfdwrycHorc9OPQ5KxVxJ.jpg"^^xsd:string ;
     ns:releaseYear 2005 ;
     ns:titre "Get Rich or Die Tryin'"^^xsd:string .
 
@@ -492,6 +527,7 @@ ns:Film_Great_Expectations a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/9T1YxwFZcUjy60xWiZFsb0z0z1H.jpg"^^xsd:string ;
     ns:releaseYear 1998 ;
     ns:titre "Great Expectations"^^xsd:string .
 
@@ -504,6 +540,7 @@ ns:Film_Hamlet a ns:Film ;
         ns:Acteur_Kenneth_Branagh,
         ns:Acteur_Richard_Briers ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/gApBWTMD5N8UVClI7rcqwf6dIrB.jpg"^^xsd:string ;
     ns:releaseYear 1996 ;
     ns:titre "Hamlet"^^xsd:string .
 
@@ -519,6 +556,7 @@ ns:Film_Hero a ns:Film ;
         ns:Genre_Adventure,
         ns:Genre_Drama,
         ns:Genre_History ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/xkJnow23eDxwQXB0iIWAWkBF47y.jpg"^^xsd:string ;
     ns:releaseYear 2002 ;
     ns:titre "Hero"^^xsd:string .
 
@@ -531,6 +569,7 @@ ns:Film_High_Plains_Drifter a ns:Film ;
         ns:Acteur_Mitchell_Ryan,
         ns:Acteur_Verna_Bloom ;
     ns:hasGenre ns:Genre_Western ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/557vwDdOIQ07Q1QvTwHVmxHJpXU.jpg"^^xsd:string ;
     ns:releaseYear 1973 ;
     ns:titre "High Plains Drifter"^^xsd:string .
 
@@ -544,6 +583,7 @@ ns:Film_His_Girl_Friday a ns:Film ;
         ns:Acteur_Rosalind_Russell ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/vYaWP1Pt8n9npX5eaynZHP7MIRV.jpg"^^xsd:string ;
     ns:releaseYear 1940 ;
     ns:titre "His Girl Friday"^^xsd:string .
 
@@ -557,6 +597,7 @@ ns:Film_Hollywood_Ending a ns:Film ;
         ns:Acteur_Woody_Allen ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/v6vqKjR3VJ9eNY0C0ckGyxT3fCX.jpg"^^xsd:string ;
     ns:releaseYear 2002 ;
     ns:titre "Hollywood Ending"^^xsd:string .
 
@@ -570,6 +611,7 @@ ns:Film_Homefront a ns:Film ;
         ns:Acteur_Winona_Ryder ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/6ymSuhG28tF2lnDxVTNibzlYzn0.jpg"^^xsd:string ;
     ns:releaseYear 2013 ;
     ns:titre "Homefront"^^xsd:string .
 
@@ -583,6 +625,7 @@ ns:Film_Horrible_Bosses a ns:Film ;
         ns:Acteur_Jennifer_Aniston ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Crime ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/17rVRW7ond0PR2KJHY0xY00isTB.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "Horrible Bosses"^^xsd:string .
 
@@ -597,6 +640,7 @@ ns:Film_In_Bruges a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Crime,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/kBABboeLU2HsKWSG7DwiF9saHl5.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "In Bruges"^^xsd:string .
 
@@ -610,6 +654,7 @@ ns:Film_In_Out a ns:Film ;
         ns:Acteur_Tom_Selleck ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/8c3JSfYkEAvwMam8GKfdAtjMeA1.jpg"^^xsd:string ;
     ns:releaseYear 1997 ;
     ns:titre "In & Out"^^xsd:string .
 
@@ -623,6 +668,7 @@ ns:Film_Jarhead a ns:Film ;
         ns:Acteur_Scott_MacDonald ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_War ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/kmbyO0XUHRHcMyxVSZAWDdrpxIu.jpg"^^xsd:string ;
     ns:releaseYear 2005 ;
     ns:titre "Jarhead"^^xsd:string .
 
@@ -637,6 +683,7 @@ ns:Film_Kicking_Screaming a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Family,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/dUuB69V9QTbvRFCasweftCQwiV.jpg"^^xsd:string ;
     ns:releaseYear 2005 ;
     ns:titre "Kicking & Screaming"^^xsd:string .
 
@@ -651,6 +698,7 @@ ns:Film_Krull a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Adventure,
         ns:Genre_Fantasy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/xini4pJHApNdYO1go39BmIvBdLT.jpg"^^xsd:string ;
     ns:releaseYear 1983 ;
     ns:titre "Krull"^^xsd:string .
 
@@ -663,6 +711,7 @@ ns:Film_Labor_Pains a ns:Film ;
         ns:Acteur_Lindsay_Lohan,
         ns:Acteur_Luke_Kirby ;
     ns:hasGenre ns:Genre_Comedy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wbv9iqbjVrSYJ5PaPpVSrOGEosu.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "Labor Pains"^^xsd:string .
 
@@ -676,6 +725,7 @@ ns:Film_Laura a ns:Film ;
         ns:Acteur_Vincent_Price ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_Mystery ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/fqFY81twXBjTAmDGw1fUooAvXf9.jpg"^^xsd:string ;
     ns:releaseYear 1944 ;
     ns:titre "Laura"^^xsd:string .
 
@@ -691,6 +741,7 @@ ns:Film_Leaves_of_Grass a ns:Film ;
         ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/o3lLLvBolWkE4EfK9XdyWuCkAx.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "Leaves of Grass"^^xsd:string .
 
@@ -703,6 +754,7 @@ ns:Film_Lorenzos_Oil a ns:Film ;
         ns:Acteur_Peter_Ustinov,
         ns:Acteur_Susan_Sarandon ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/d4Yq4Y4ieKLD8JzxSv1g8dZzcLN.jpg"^^xsd:string ;
     ns:releaseYear 1992 ;
     ns:titre "Lorenzo's Oil"^^xsd:string .
 
@@ -716,6 +768,7 @@ ns:Film_Malice a ns:Film ;
         ns:Acteur_Nicole_Kidman ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/dlTWhgLHdEgSmCa8nEFgN7Hfu05.jpg"^^xsd:string ;
     ns:releaseYear 1993 ;
     ns:titre "Malice"^^xsd:string .
 
@@ -728,6 +781,7 @@ ns:Film_Me_Myself_Irene a ns:Film ;
         ns:Acteur_Richard_Jenkins,
         ns:Acteur_Robert_Forster ;
     ns:hasGenre ns:Genre_Comedy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/y7OG1Y2UvnaEoQEQIonnykJvdwt.jpg"^^xsd:string ;
     ns:releaseYear 2000 ;
     ns:titre "Me, Myself & Irene"^^xsd:string .
 
@@ -740,6 +794,7 @@ ns:Film_Neighbors_2_Sorority_Rising a ns:Film ;
         ns:Acteur_Seth_Rogen,
         ns:Acteur_Zac_Efron ;
     ns:hasGenre ns:Genre_Comedy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/bWUeJHbKIyT306WtJFRHoSzX9nk.jpg"^^xsd:string ;
     ns:releaseYear 2016 ;
     ns:titre "Neighbors 2: Sorority Rising"^^xsd:string .
 
@@ -755,6 +810,7 @@ ns:Film_New_Nightmare a ns:Film ;
         ns:Genre_Horror,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/oLEZibnraixTE68rTaYv4FEmvYd.jpg"^^xsd:string ;
     ns:releaseYear 1994 ;
     ns:titre "New Nightmare"^^xsd:string .
 
@@ -769,6 +825,7 @@ ns:Film_Notting_Hill a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/f1gMw3PVicfdq9thlvUIjJ5UdvS.jpg"^^xsd:string ;
     ns:releaseYear 1999 ;
     ns:titre "Notting Hill"^^xsd:string .
 
@@ -784,6 +841,7 @@ ns:Film_Nowhere_to_Run a ns:Film ;
         ns:Genre_Adventure,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/mpEJ955gAHB5pGHbFGd7J4hW3lk.jpg"^^xsd:string ;
     ns:releaseYear 1993 ;
     ns:titre "Nowhere to Run"^^xsd:string .
 
@@ -796,6 +854,7 @@ ns:Film_Original_Sin a ns:Film ;
         ns:Acteur_Gregory_Itzin,
         ns:Acteur_Jack_Thompson ;
     ns:hasGenre ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/i8FEQy5IWAqOzXm4uDHy2r3Swym.jpg"^^xsd:string ;
     ns:releaseYear 2001 ;
     ns:titre "Original Sin"^^xsd:string .
 
@@ -811,6 +870,7 @@ ns:Film_Perfect_Stranger a ns:Film ;
         ns:Genre_Drama,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/fKkabVcVNKTTgsR4ElklI5bXDU1.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "Perfect Stranger"^^xsd:string .
 
@@ -824,6 +884,7 @@ ns:Film_Rambo a ns:Film ;
         ns:Acteur_Sylvester_Stallone ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/ec1m7YgBYb4os06OSNW3QBaNYqZ.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "Rambo"^^xsd:string .
 
@@ -838,6 +899,7 @@ ns:Film_Rashomon a ns:Film ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Mystery ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/mwWJuktWk8z5OY4og0z48Jg4u3n.jpg"^^xsd:string ;
     ns:releaseYear 1950 ;
     ns:titre "Rashomon"^^xsd:string .
 
@@ -852,6 +914,7 @@ ns:Film_Re-Animator a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Horror,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/hJnP2O0uTuh8HsR094WLTi3sQwc.jpg"^^xsd:string ;
     ns:releaseYear 1985 ;
     ns:titre "Re-Animator"^^xsd:string .
 
@@ -865,6 +928,7 @@ ns:Film_Ride_Along a ns:Film ;
         ns:Acteur_Tika_Sumpter ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Comedy ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/fLXPcxZ1fJjxqUg94FFb8wwM9YN.jpg"^^xsd:string ;
     ns:releaseYear 2014 ;
     ns:titre "Ride Along"^^xsd:string .
 
@@ -880,6 +944,7 @@ ns:Film_Shaun_the_Sheep_Movie a ns:Film ;
         ns:Genre_Animation,
         ns:Genre_Comedy,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/aOHsNN1p2nuiF9WaMaCNXy0T80J.jpg"^^xsd:string ;
     ns:releaseYear 2015 ;
     ns:titre "Shaun the Sheep Movie"^^xsd:string .
 
@@ -894,6 +959,7 @@ ns:Film_Sightseers a ns:Film ;
     ns:hasGenre ns:Genre_Adventure,
         ns:Genre_Comedy,
         ns:Genre_Crime ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/yWFTSZBYWz2kpohNdrSFmMngMlu.jpg"^^xsd:string ;
     ns:releaseYear 2012 ;
     ns:titre "Sightseers"^^xsd:string .
 
@@ -907,6 +973,7 @@ ns:Film_Small_Fry a ns:Film ;
         ns:Acteur_Tim_Allen ;
     ns:hasGenre ns:Genre_Animation,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/4deuIpnrXuzMAggQk19Jk81CST.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "Small Fry"^^xsd:string .
 
@@ -922,6 +989,7 @@ ns:Film_Tangled_Ever_After a ns:Film ;
         ns:Genre_Animation,
         ns:Genre_Comedy,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/p9PMuQw7FlVF5O2q2GbNpt5vt7z.jpg"^^xsd:string ;
     ns:releaseYear 2012 ;
     ns:titre "Tangled Ever After"^^xsd:string .
 
@@ -937,6 +1005,7 @@ ns:Film_The_Abyss a ns:Film ;
         ns:Genre_Adventure,
         ns:Genre_Science_Fiction,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/kRP5dGXDhKt7bDpXX4YBa4dRwlL.jpg"^^xsd:string ;
     ns:releaseYear 1989 ;
     ns:titre "The Abyss"^^xsd:string .
 
@@ -950,6 +1019,7 @@ ns:Film_The_Angriest_Man_in_Brooklyn a ns:Film ;
         ns:Acteur_Robin_Williams ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/aX1VbLmzVZsBlVIv6H8LsDsTOud.jpg"^^xsd:string ;
     ns:releaseYear 2014 ;
     ns:titre "The Angriest Man in Brooklyn"^^xsd:string .
 
@@ -965,6 +1035,7 @@ ns:Film_The_Aristocats a ns:Film ;
         ns:Genre_Animation,
         ns:Genre_Comedy,
         ns:Genre_Family ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/3LudCahifOrueMklYBxAXY2wpBg.jpg"^^xsd:string ;
     ns:releaseYear 1970 ;
     ns:titre "The Aristocats"^^xsd:string .
 
@@ -977,6 +1048,7 @@ ns:Film_The_Aviator a ns:Film ;
         ns:Acteur_Kate_Beckinsale,
         ns:Acteur_Leonardo_DiCaprio ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/3MKBQgIHI5DPVNvryiTesskS5mf.jpg"^^xsd:string ;
     ns:releaseYear 2004 ;
     ns:titre "The Aviator"^^xsd:string .
 
@@ -991,6 +1063,7 @@ ns:Film_The_City_of_Lost_Children a ns:Film ;
     ns:hasGenre ns:Genre_Adventure,
         ns:Genre_Fantasy,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/eVo6ewq4akfyJYy3GXkMsLNzEJc.jpg"^^xsd:string ;
     ns:releaseYear 1995 ;
     ns:titre "The City of Lost Children"^^xsd:string .
 
@@ -1003,6 +1076,7 @@ ns:Film_The_Conformist a ns:Film ;
         ns:Acteur_Jean-Louis_Trintignant,
         ns:Acteur_Stefania_Sandrelli ;
     ns:hasGenre ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/hIjOdQW7vRHjK3VBEYC3fRTfi52.jpg"^^xsd:string ;
     ns:releaseYear 1970 ;
     ns:titre "The Conformist"^^xsd:string .
 
@@ -1015,6 +1089,7 @@ ns:Film_The_Devils_Candy a ns:Film ;
         ns:Acteur_Pruitt_Taylor_Vince,
         ns:Acteur_Shiri_Appleby ;
     ns:hasGenre ns:Genre_Horror ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/xLw8nDNLuffMdvjYXQLwL6UCXcs.jpg"^^xsd:string ;
     ns:releaseYear 2017 ;
     ns:titre "The Devil's Candy"^^xsd:string .
 
@@ -1029,6 +1104,7 @@ ns:Film_The_Duchess a ns:Film ;
     ns:hasGenre ns:Genre_Drama,
         ns:Genre_History,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/tOv8ftJIER6Jrwshv1GQ8FhmGUN.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "The Duchess"^^xsd:string .
 
@@ -1042,6 +1118,7 @@ ns:Film_The_Fog a ns:Film ;
         ns:Acteur_Tom_Welling ;
     ns:hasGenre ns:Genre_Horror,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/qZ3Prt6jBvCWI08MsS9cPMM5lMi.jpg"^^xsd:string ;
     ns:releaseYear 2005 ;
     ns:titre "The Fog"^^xsd:string .
 
@@ -1057,6 +1134,7 @@ ns:Film_The_Girl_with_the_Dragon_Tattoo a ns:Film ;
         ns:Genre_Drama,
         ns:Genre_Mystery,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/9pRod9YBfBwC0tPfMijhYSdSlwU.jpg"^^xsd:string ;
     ns:releaseYear 2009 ;
     ns:titre "The Girl with the Dragon Tattoo"^^xsd:string .
 
@@ -1070,6 +1148,7 @@ ns:Film_The_House_Bunny a ns:Film ;
         ns:Acteur_Rumer_Willis ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/r4QlWdvduWGJdiGlYiwIsDC1kPu.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "The House Bunny"^^xsd:string .
 
@@ -1084,6 +1163,7 @@ ns:Film_The_Last_Castle a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/tfbZvbK3mVNcgsYwC0Npj96GRux.jpg"^^xsd:string ;
     ns:releaseYear 2001 ;
     ns:titre "The Last Castle"^^xsd:string .
 
@@ -1098,6 +1178,7 @@ ns:Film_The_Last_Kiss a ns:Film ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Drama,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wm5JKD6pXjsgXpXGmViYHAB5In8.jpg"^^xsd:string ;
     ns:releaseYear 2006 ;
     ns:titre "The Last Kiss"^^xsd:string .
 
@@ -1112,6 +1193,7 @@ ns:Film_The_Life_of_David_Gale a ns:Film ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/pwwDzbmTErcUFUPCV2fGSlHm4WP.jpg"^^xsd:string ;
     ns:releaseYear 2003 ;
     ns:titre "The Life of David Gale"^^xsd:string .
 
@@ -1125,6 +1207,7 @@ ns:Film_The_Lords_of_Salem a ns:Film ;
         ns:Acteur_Sheri_Moon_Zombie ;
     ns:hasGenre ns:Genre_Horror,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/1McyfXZO1F0zfrpbqqz3DvvlZ73.jpg"^^xsd:string ;
     ns:releaseYear 2012 ;
     ns:titre "The Lords of Salem"^^xsd:string .
 
@@ -1139,6 +1222,7 @@ ns:Film_The_Mechanic a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Crime,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/eScKoGnjaUvGD2OkK3DImyzfVkt.jpg"^^xsd:string ;
     ns:releaseYear 2011 ;
     ns:titre "The Mechanic"^^xsd:string .
 
@@ -1154,6 +1238,7 @@ ns:Film_The_Medallion a ns:Film ;
         ns:Genre_Comedy,
         ns:Genre_Fantasy,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/9iJrg37ceCBeQkQHnIy97VekINb.jpg"^^xsd:string ;
     ns:releaseYear 2003 ;
     ns:titre "The Medallion"^^xsd:string .
 
@@ -1169,6 +1254,7 @@ ns:Film_The_Mexican a ns:Film ;
         ns:Genre_Comedy,
         ns:Genre_Crime,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/a7PuqWv0ENFg8dt9k51AID6P1kh.jpg"^^xsd:string ;
     ns:releaseYear 2001 ;
     ns:titre "The Mexican"^^xsd:string .
 
@@ -1181,6 +1267,7 @@ ns:Film_The_Next_Karate_Kid a ns:Film ;
         ns:Acteur_Michael_Ironside,
         ns:Acteur_Pat_Morita ;
     ns:hasGenre ns:Genre_Adventure ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/gu5SOBWsoxDy6mWKAkOt20zTXOb.jpg"^^xsd:string ;
     ns:releaseYear 1994 ;
     ns:titre "The Next Karate Kid"^^xsd:string .
 
@@ -1194,6 +1281,7 @@ ns:Film_The_Reaping a ns:Film ;
         ns:Acteur_Stephen_Rea ;
     ns:hasGenre ns:Genre_Horror,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wwpI649fFYWaOhit5O1WLsFuHOI.jpg"^^xsd:string ;
     ns:releaseYear 2007 ;
     ns:titre "The Reaping"^^xsd:string .
 
@@ -1208,6 +1296,7 @@ ns:Film_The_Worlds_End a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Comedy,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/7xZUJMqGBLvhPJqn23UM3yUC5k5.jpg"^^xsd:string ;
     ns:releaseYear 2013 ;
     ns:titre "The World's End"^^xsd:string .
 
@@ -1223,6 +1312,7 @@ ns:Film_The_X_Files_I_Want_to_Believe a ns:Film ;
         ns:Genre_Mystery,
         ns:Genre_Science_Fiction,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/6IHiWSCS1tAqfxrwEXTJ9A1LD7R.jpg"^^xsd:string ;
     ns:releaseYear 2008 ;
     ns:titre "The X Files: I Want to Believe"^^xsd:string .
 
@@ -1239,6 +1329,7 @@ ns:Film_Time_Bandits a ns:Film ;
         ns:Genre_Family,
         ns:Genre_Fantasy,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/4VZtpwdhHQSa4LUkvujyGAHb1hG.jpg"^^xsd:string ;
     ns:releaseYear 1981 ;
     ns:titre "Time Bandits"^^xsd:string .
 
@@ -1254,6 +1345,7 @@ ns:Film_Tremors_2_Aftershocks a ns:Film ;
         ns:Genre_Comedy,
         ns:Genre_Horror,
         ns:Genre_Science_Fiction ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/paM021FyQsgsErxRa7ywRz7EQCv.jpg"^^xsd:string ;
     ns:releaseYear 1996 ;
     ns:titre "Tremors 2: Aftershocks"^^xsd:string .
 
@@ -1267,6 +1359,7 @@ ns:Film_Under_Siege a ns:Film ;
         ns:Acteur_Эрика_Элениак ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/duxM3HJ55Fpc4A3krziKn1FR22K.jpg"^^xsd:string ;
     ns:releaseYear 1992 ;
     ns:titre "Under Siege"^^xsd:string .
 
@@ -1280,6 +1373,7 @@ ns:Film_Wall_Street_Money_Never_Sleeps a ns:Film ;
         ns:Acteur_Shia_LaBeouf ;
     ns:hasGenre ns:Genre_Crime,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/fRejmA7n1SIKQaYp4YC0jhONWCs.jpg"^^xsd:string ;
     ns:releaseYear 2010 ;
     ns:titre "Wall Street: Money Never Sleeps"^^xsd:string .
 
@@ -1293,6 +1387,7 @@ ns:Film_What_Women_Want a ns:Film ;
         ns:Acteur_Mel_Gibson ;
     ns:hasGenre ns:Genre_Comedy,
         ns:Genre_Romance ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/xiL4PMdL2b5RRdsfEkGmaol2ScW.jpg"^^xsd:string ;
     ns:releaseYear 2000 ;
     ns:titre "What Women Want"^^xsd:string .
 
@@ -1307,6 +1402,7 @@ ns:Film_White_House_Down a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Drama,
         ns:Genre_Thriller ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/niYdnzkrtBduR5lKtfeLXKXNaTT.jpg"^^xsd:string ;
     ns:releaseYear 2013 ;
     ns:titre "White House Down"^^xsd:string .
 
@@ -1323,6 +1419,7 @@ ns:Film_Wild_Wild_West a ns:Film ;
         ns:Genre_Comedy,
         ns:Genre_Science_Fiction,
         ns:Genre_Western ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/ouhNr6KsjOBSPxXzqRZFh0fLkjZ.jpg"^^xsd:string ;
     ns:releaseYear 1999 ;
     ns:titre "Wild Wild West"^^xsd:string .
 
@@ -1337,6 +1434,7 @@ ns:Film_Willow a ns:Film ;
     ns:hasGenre ns:Genre_Action,
         ns:Genre_Adventure,
         ns:Genre_Drama ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/uxB76XmAMEFeeaRqsPAVumn6rTE.jpg"^^xsd:string ;
     ns:releaseYear 1988 ;
     ns:titre "Willow"^^xsd:string .
 
@@ -1353,6 +1451,7 @@ ns:Film_Young_Guns a ns:Film ;
         ns:Genre_Crime,
         ns:Genre_Drama,
         ns:Genre_Western ;
+    ns:posterPath "https://image.tmdb.org/t/p/w500/wkGbwWHIM23BkmMBm7GQHaCZan8.jpg"^^xsd:string ;
     ns:releaseYear 1988 ;
     ns:titre "Young Guns"^^xsd:string .
 
@@ -1378,6 +1477,11 @@ ns:hasGenre a owl:ObjectProperty ;
 
 ns:nom a owl:DatatypeProperty ;
     rdfs:label "nom"@fr ;
+    rdfs:range xsd:string .
+
+ns:posterPath a owl:DatatypeProperty ;
+    rdfs:label "URL du poster"@fr ;
+    rdfs:domain ns:Film ;
     rdfs:range xsd:string .
 
 ns:releaseYear a owl:DatatypeProperty ;

@@ -1,10 +1,17 @@
-# SmartCine - Système Sémantique de Recommandation de Films
+# SmartCine - Systeme Semantique de Recommandation de Films
 
-Système de recommandation de films basé sur le Web sémantique utilisant RDF, OWL et SPARQL.
+Systeme de recommandation de films base sur le Web semantique utilisant RDF, OWL et SPARQL.
 
-**Status : ✅ Projet Terminé**
+**Status : Projet Termine**
 
-## Démonstration
+## Fonctionnalites
+
+- Affichage des films avec leurs vraies affiches (API OMDB)
+- Recommandations intelligentes par acteur, genre et realisateur
+- Recherche multi-criteres (titre, genre, acteur, realisateur)
+- Interface moderne et responsive
+
+## Demonstration
 
 - **Frontend React** : http://localhost:3000
 - **Fuseki SPARQL** : http://localhost:3030
@@ -12,70 +19,71 @@ Système de recommandation de films basé sur le Web sémantique utilisant RDF, 
 ## Architecture
 
 ```
-CSV (données brutes)
-     ↓
+CSV (donnees brutes)
+     |
 Ontologie (Python + RDFLib)
-     ↓
+     |
 Knowledge Graph (OWL/TTL)
-     ↓
+     |
 Fuseki (SPARQL Server)
-     ↓
-Interface Web (React)
+     |
+Interface Web (React + OMDB API)
 ```
 
 ## Structure du projet
 
 ```
 projet/
-├── data/                    # Données sources
-│   ├── movies_metadata.csv  # Métadonnées des films (TMDB)
-│   └── credits.csv          # Acteurs et équipe technique
+├── data/                    # Donnees sources
+│   ├── movies_metadata.csv  # Metadonnees des films (TMDB)
+│   └── credits.csv          # Acteurs et equipe technique
 ├── logs/                    # Fichiers de logs
 ├── film-recommendation/     # Application React
 │   ├── src/
 │   │   ├── components/      # Composants React
 │   │   ├── context/         # Context API
 │   │   ├── hooks/           # Custom hooks
-│   │   └── services/        # Service SPARQL
+│   │   └── services/        # Services SPARQL + OMDB
 │   └── package.json
-├── clean_data.py            # Script de nettoyage des données
-├── create_ontology.py       # Script de création de l'ontologie
-├── films_clean.csv          # Données nettoyées
+├── clean_data.py            # Script de nettoyage des donnees
+├── create_ontology.py       # Script de creation de l'ontologie
+├── films_clean.csv          # Donnees nettoyees
 ├── films.ttl                # Ontologie (format Turtle)
 ├── films.owl                # Ontologie (format RDF/XML)
-├── requirements.txt         # Dépendances Python
+├── requirements.txt         # Dependances Python
 └── README.md
 ```
 
-## Prérequis
+## Prerequis
 
 - Python 3.8+
 - Node.js 18+
 - Java 17+ (pour Fuseki)
 - Apache Jena Fuseki
+- Cle API OMDB (gratuite sur http://www.omdbapi.com/apikey.aspx)
 
 ## Installation
 
-### 1. Dépendances Python
+### 1. Dependances Python
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 2. Télécharger les données (optionnel)
+### 2. Telecharger les donnees (optionnel)
 
 ```python
 import kagglehub
 path = kagglehub.dataset_download("rounakbanik/the-movies-dataset")
 ```
 
-### 3. Nettoyer les données
+### 3. Nettoyer les donnees
 
 ```bash
 python clean_data.py
 ```
 
-### 4. Créer l'ontologie
+### 4. Creer l'ontologie
 
 ```bash
 python create_ontology.py
@@ -83,16 +91,22 @@ python create_ontology.py
 
 ### 5. Lancer Fuseki
 
-Fuseki est installé dans `C:\Users\HP\apache-jena-fuseki-5.6.0`
-
 ```powershell
 cd C:\Users\HP\apache-jena-fuseki-5.6.0
 .\fuseki-server.bat --update --file="D:\bureau\BD_AI1\ci3\semantique\projet\films.ttl" /films
 ```
 
-Accéder à http://localhost:3030
+Acceder a http://localhost:3030
 
-### 6. Lancer le frontend React
+### 6. Configurer la cle API OMDB
+
+Modifier `film-recommendation/src/services/omdbService.js` :
+
+```javascript
+const OMDB_API_KEY = 'votre_cle_api';
+```
+
+### 7. Lancer le frontend React
 
 ```bash
 cd film-recommendation
@@ -100,7 +114,7 @@ npm install
 npm start
 ```
 
-Accéder à http://localhost:3000
+Acceder a http://localhost:3000
 
 ## Ontologie
 
@@ -108,39 +122,41 @@ Accéder à http://localhost:3000
 
 | Classe | Description |
 |--------|-------------|
-| `Film` | Un film cinématographique |
+| `Film` | Un film cinematographique |
 | `Acteur` | Une personne jouant dans un film |
-| `Realisateur` | La personne qui réalise un film |
-| `Genre` | Le genre cinématographique |
+| `Realisateur` | La personne qui realise un film |
+| `Genre` | Le genre cinematographique |
 
-### Propriétés objet
+### Proprietes objet
 
-| Propriété | Domaine | Range | Description |
+| Propriete | Domaine | Range | Description |
 |-----------|---------|-------|-------------|
-| `hasActor` | Film | Acteur | Lie un film à ses acteurs |
-| `directedBy` | Film | Realisateur | Lie un film à son réalisateur |
-| `hasGenre` | Film | Genre | Lie un film à ses genres |
+| `hasActor` | Film | Acteur | Lie un film a ses acteurs |
+| `directedBy` | Film | Realisateur | Lie un film a son realisateur |
+| `hasGenre` | Film | Genre | Lie un film a ses genres |
 
-### Propriétés de données
+### Proprietes de donnees
 
-| Propriété | Domaine | Type | Description |
+| Propriete | Domaine | Type | Description |
 |-----------|---------|------|-------------|
 | `titre` | Film | string | Titre du film |
-| `nom` | * | string | Nom (acteur, réalisateur, genre) |
-| `releaseYear` | Film | integer | Année de sortie |
-| `duration` | Film | integer | Durée en minutes |
+| `nom` | * | string | Nom (acteur, realisateur, genre) |
+| `releaseYear` | Film | integer | Annee de sortie |
+| `duration` | Film | integer | Duree en minutes |
+| `posterPath` | Film | string | URL du poster |
 
-## Requêtes SPARQL
+## Requetes SPARQL
 
 ### Tous les films
 
 ```sparql
 PREFIX ns: <http://example.org/film#>
 
-SELECT ?titre ?annee WHERE {
+SELECT ?titre ?annee ?poster WHERE {
   ?film a ns:Film .
   ?film ns:titre ?titre .
   OPTIONAL { ?film ns:releaseYear ?annee }
+  OPTIONAL { ?film ns:posterPath ?poster }
 }
 ORDER BY ?titre
 ```
@@ -158,54 +174,49 @@ SELECT DISTINCT ?titre WHERE {
 }
 ```
 
-### Recommandations par genre
+### Recherche multi-criteres
 
 ```sparql
 PREFIX ns: <http://example.org/film#>
 
 SELECT DISTINCT ?titre WHERE {
-  <http://example.org/film#Film_Inception> ns:hasGenre ?genre .
-  ?film ns:hasGenre ?genre .
-  ?film ns:titre ?titre .
-  FILTER(?film != <http://example.org/film#Film_Inception>)
+  ?uri a ns:Film .
+  ?uri ns:titre ?titre .
+  OPTIONAL { ?uri ns:hasGenre ?genreUri . ?genreUri ns:nom ?genre . }
+  OPTIONAL { ?uri ns:directedBy ?dirUri . ?dirUri ns:nom ?realisateur . }
+  OPTIONAL { ?uri ns:hasActor ?actorUri . ?actorUri ns:nom ?acteur . }
+  FILTER(
+    CONTAINS(LCASE(?titre), LCASE("searchTerm")) ||
+    CONTAINS(LCASE(?genre), LCASE("searchTerm")) ||
+    CONTAINS(LCASE(?realisateur), LCASE("searchTerm")) ||
+    CONTAINS(LCASE(?acteur), LCASE("searchTerm"))
+  )
 }
 ```
 
-### Recommandations par réalisateur
+## Equipe
 
-```sparql
-PREFIX ns: <http://example.org/film#>
-
-SELECT DISTINCT ?titre WHERE {
-  <http://example.org/film#Film_Inception> ns:directedBy ?director .
-  ?film ns:directedBy ?director .
-  ?film ns:titre ?titre .
-  FILTER(?film != <http://example.org/film#Film_Inception>)
-}
-```
-
-## Équipe
-
-| Membre | Responsabilité |
+| Membre | Responsabilite |
 |--------|----------------|
-| Salah | Préparation des données |
-| Imane/Aya | Modélisation de l'ontologie |
+| Salah | Preparation des donnees |
+| Imane/Aya | Modelisation de l'ontologie |
 | Nora | Knowledge Graph & Fuseki |
 | Zakaria | Interface Web React |
 
 ## Technologies
 
 - **Python** : pandas, rdflib
-- **Web sémantique** : RDF, OWL, SPARQL
+- **Web semantique** : RDF, OWL, SPARQL
 - **Triplestore** : Apache Jena Fuseki
 - **Frontend** : React 18, Axios, Context API
+- **API externe** : OMDB API (affiches de films)
 
 ## Logs
 
-Les logs sont générés dans le dossier `logs/` :
-- `clean_data.log` : Logs du nettoyage des données
-- `create_ontology.log` : Logs de la création de l'ontologie
+Les logs sont generes dans le dossier `logs/` :
+- `clean_data.log` : Logs du nettoyage des donnees
+- `create_ontology.log` : Logs de la creation de l'ontologie
 
 ## Licence
 
-Projet académique - CI3 Sémantique
+Projet academique - CI3 Semantique

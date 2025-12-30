@@ -130,13 +130,18 @@ def main():
         year = extract_year(row['release_date'])
 
         if actors and director and genres:  # Garder seulement les films complets
+            # Construire l'URL du poster TMDB
+            poster_path = row.get('poster_path', '')
+            poster_url = f"https://image.tmdb.org/t/p/w500{poster_path}" if pd.notna(poster_path) and poster_path else ''
+
             clean_data.append({
                 'Film': row['title'],
                 'Acteurs': actors,
                 'Realisateur': director,
                 'Genre': genres,
                 'Annee': year,
-                'Duree': int(row['runtime']) if pd.notna(row['runtime']) else 0
+                'Duree': int(row['runtime']) if pd.notna(row['runtime']) else 0,
+                'Poster': poster_url
             })
 
     # Créer le DataFrame final

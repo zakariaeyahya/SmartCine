@@ -54,3 +54,4 @@ Thumbs.db
 *.temp
 frontend_react_architecture.md
 .claude/settings.local.json
+film-recommendation/node_modules

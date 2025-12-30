@@ -1,7 +1,39 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+import { getMoviePoster, OMDB_API_KEY_CONFIGURED } from '../../services/omdbService';
 import './FilmCard.css';
 
 const FilmCard = ({ film, onSelect, isSelected, isRecommendation }) => {
+  const [posterUrl, setPosterUrl] = useState(null);
+  const [posterLoading, setPosterLoading] = useState(true);
+
+  // Générer une couleur basée sur le titre du film
+  const getColorFromTitle = (title) => {
+    const colors = ['#e50914', '#f5c518', '#00d4aa', '#ff6b35', '#6b5b95', '#45b7d1', '#96ceb4', '#a855f7', '#ff4d6d', '#7209b7'];
+    const hash = (title || 'Film').split('').reduce((acc, char) => acc + char.charCodeAt(0), 0);
+    return colors[hash % colors.length];
+  };
+
+  // Récupérer le poster via OMDB
+  useEffect(() => {
+    const fetchPoster = async () => {
+      if (!OMDB_API_KEY_CONFIGURED) {
+        setPosterLoading(false);
+        return;
+      }
+
+      const title = film.titre?.value;
+      const year = film.annee?.value;
+
+      if (title) {
+        const poster = await getMoviePoster(title, year);
+        setPosterUrl(poster);
+      }
+      setPosterLoading(false);
+    };
+
+    fetchPoster();
+  }, [film.titre?.value, film.annee?.value]);
+
   const handleClick = () => {
     if (onSelect) {
       onSelect(film);
@@ -40,13 +72,24 @@ const FilmCard = ({ film, onSelect, isSelected, isRecommendation }) => {
       className={`film-card ${isSelected ? 'selected' : ''} ${isRecommendation ? 'recommendation' : ''}`}
       onClick={handleClick}
     >
-      <div className="card-poster">
+      <div className="card-poster" style={{ background: posterUrl ? '#1a1a2e' : `linear-gradient(135deg, ${getColorFromTitle(film.titre?.value)} 0%, #1a1a2e 100%)` }}>
         <div className="poster-gradient"></div>
-        <div className="poster-content">
-          <span className="poster-initial">
-            {(film.titre?.value || 'F')[0].toUpperCase()}
-          </span>
-        </div>
+        {posterUrl ? (
+          <img
+            src={posterUrl}
+            alt={film.titre?.value || 'Film'}
+            className="poster-image"
+            onError={(e) => {
+              e.target.style.display = 'none';
+            }}
+          />
+        ) : (
+          <div className="poster-content">
+            <span className="poster-initial">
+              {(film.titre?.value || 'F')[0].toUpperCase()}
+            </span>
+          </div>
+        )}
         {randomRating && (
           <div className="card-rating">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor">
